@@ -2715,7 +2715,7 @@
 				)
 			)
 		)
-		(symbol "Isolator:LTV-817"
+		(symbol "Isolator:LTV-817S"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2723,45 +2723,40 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -5.08 5.08 0)
+				(at -3.81 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "LTV-817"
-				(at 0 5.08 0)
+			(property "Value" "LTV-817S"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-				(at -5.08 -5.08 0)
+			(property "Footprint" "Package_DIP:SMDIP-4_W9.53mm"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-				(at 0 -2.54 0)
+				(at -8.89 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, DIP-4"
+			(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2779,7 +2774,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
+			(property "ki_fp_filters" "SMDIP*W9.53mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2788,7 +2783,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LTV-817_0_1"
+			(symbol "LTV-817S_1_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -2944,8 +2939,6 @@
 						(type outline)
 					)
 				)
-			)
-			(symbol "LTV-817_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -3102,7 +3095,7 @@
 				)
 			)
 		)
-		(symbol "Reference_Voltage:TL431LP"
+		(symbol "Reference_Voltage:TL431DBZ"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -3116,7 +3109,7 @@
 					)
 				)
 			)
-			(property "Value" "TL431LP"
+			(property "Value" "TL431DBZ"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -3124,7 +3117,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -3144,7 +3137,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Shunt Regulator, TO-92"
+			(property "Description" "Shunt Regulator, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3153,7 +3146,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode device regulator shunt"
+			(property "ki_keywords" "diode device shunt regulator"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3162,7 +3155,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO*92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3171,7 +3164,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TL431LP_0_1"
+			(symbol "TL431DBZ_0_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 0 0) (xy 1.27 0)
@@ -3209,11 +3202,11 @@
 					)
 				)
 			)
-			(symbol "TL431LP_1_1"
+			(symbol "TL431DBZ_1_1"
 				(pin passive line
-					(at 0 2.54 270)
+					(at 2.54 0 180)
 					(length 2.54)
-					(name "REF"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3229,9 +3222,9 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 0 0)
+					(at 0 2.54 270)
 					(length 2.54)
-					(name "A"
+					(name "REF"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3247,9 +3240,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
+					(at -2.54 0 0)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3579,16 +3572,13 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
+		(symbol "Transistor_FET:AO3401A"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3596,8 +3586,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "AO3401A"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3605,25 +3595,28 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3632,34 +3625,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+			(property "ki_keywords" "P-Channel MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3668,7 +3634,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "PMOS_0_1"
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3401A_0_1"
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -3835,11 +3810,11 @@
 					)
 				)
 			)
-			(symbol "PMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "AO3401A_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3854,10 +3829,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3873,9 +3848,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4908,6 +4883,16 @@
 			(type default)
 		)
 		(uuid "2757899e-44fe-4bfd-831a-e6952fd260a7")
+	)
+	(wire
+		(pts
+			(xy 368.3 106.68) (xy 365.76 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cab25b0-60b8-49c3-96ef-1b7d7200c083")
 	)
 	(wire
 		(pts
@@ -6544,86 +6529,9 @@
 			)
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-817")
-		(at 186.69 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07c1cc4c-0f2b-4845-9f79-5690e6d6d4c6")
-		(property "Reference" "U2"
-			(at 186.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-817"
-			(at 186.69 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
-			(at 181.61 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 186.69 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, DIP-4"
-			(at 186.69 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "792e42c2-f696-4bd6-bdac-af596ebaeafb")
-		)
-		(pin "4"
-			(uuid "b148d241-7059-41a7-9a0f-2e7596b3d6ab")
-		)
-		(pin "3"
-			(uuid "467fc044-d7f5-4b1d-9ae1-fbc1cb61a82f")
-		)
-		(pin "2"
-			(uuid "eaae1ee6-8557-419f-9707-26c73deb75b8")
-		)
-		(instances
-			(project "tsal_g_2025"
-				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6687,7 +6595,7 @@
 			(uuid "ef13c2fc-03af-43e2-a584-f80dd43ade25")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR018")
 					(unit 1)
@@ -6753,7 +6661,7 @@
 			(uuid "06a0350a-8c0a-45d9-8e06-d6e06dcde497")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR037")
 					(unit 1)
@@ -6819,7 +6727,7 @@
 			(uuid "23b0562a-9b30-44eb-90ee-98ffaac7fb47")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR015")
 					(unit 1)
@@ -6885,7 +6793,7 @@
 			(uuid "0ff5b87b-e440-4ab6-af91-fc3c1a9def96")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR020")
 					(unit 1)
@@ -6953,7 +6861,7 @@
 			(uuid "074176d9-5de7-47ae-9532-74537d0ae67b")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "J2")
 					(unit 1)
@@ -7019,7 +6927,7 @@
 			(uuid "ba30414c-d4fe-49ba-bd77-912e1f379740")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR027")
 					(unit 1)
@@ -7085,7 +6993,7 @@
 			(uuid "1684e39c-fd84-4803-bf50-cbcd18c33804")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR022")
 					(unit 1)
@@ -7153,7 +7061,7 @@
 			(uuid "e48e7298-267a-46d1-8795-f78f555a5663")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "R1")
 					(unit 1)
@@ -7219,7 +7127,7 @@
 			(uuid "6e8861cb-2c8f-496e-b199-e82464514408")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR031")
 					(unit 1)
@@ -7289,7 +7197,7 @@
 			(uuid "a9f792de-22e6-4e9b-a48a-5743d169c2a1")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "D2")
 					(unit 1)
@@ -7355,7 +7263,7 @@
 			(uuid "e52e3470-beb9-4e12-892a-bef527991fc3")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR030")
 					(unit 1)
@@ -7390,7 +7298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 162.052 107.95 90)
 			(effects
 				(font
@@ -7424,7 +7332,7 @@
 			(uuid "fd262a39-09e9-46f1-b87f-ef414cf1aa92")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "R13")
 					(unit 1)
@@ -7490,7 +7398,7 @@
 			(uuid "88dc5dc9-18e1-400d-b7e4-a047db4ff5b5")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR013")
 					(unit 1)
@@ -7556,7 +7464,7 @@
 			(uuid "5084dbb7-e19e-406e-99fe-ef11e3c24122")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR02")
 					(unit 1)
@@ -7624,7 +7532,7 @@
 			(uuid "7b6db422-30a9-4a15-acc9-79d7429284f8")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "C6")
 					(unit 1)
@@ -7690,7 +7598,7 @@
 			(uuid "a54e0aa4-8b6c-481f-b41b-d4b131ad7994")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR012")
 					(unit 1)
@@ -7756,7 +7664,7 @@
 			(uuid "b313d4b7-8a19-49d9-bd74-52c91da2fd7c")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR023")
 					(unit 1)
@@ -7825,7 +7733,7 @@
 			(uuid "3b420665-29aa-4cb8-b863-049db0801571")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "C3")
 					(unit 1)
@@ -7891,81 +7799,9 @@
 			(uuid "5fff9065-937e-49c8-888b-38e088f693da")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Reference_Voltage:TL431LP")
-		(at 67.31 184.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "303b4885-acd4-4f3a-92de-4fcefaa4b4c6")
-		(property "Reference" "U1"
-			(at 71.12 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL431LP"
-			(at 73.66 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 71.12 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 67.31 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Shunt Regulator, TO-92"
-			(at 67.31 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "72a6146b-505b-418a-a2ba-e273cb8944ba")
-		)
-		(pin "3"
-			(uuid "47eb6886-7366-4563-8c32-816656f99424")
-		)
-		(pin "1"
-			(uuid "5ce22e3e-f8de-4e6d-afb8-1b6f982730c7")
-		)
-		(instances
-			(project "tsal_g_2025"
-				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8031,7 +7867,7 @@
 			(uuid "cb36a173-82a2-4b21-857b-f8fbbe25e84b")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "J1")
 					(unit 1)
@@ -8108,7 +7944,7 @@
 			(uuid "d6ba6950-f7c9-4b4e-ba37-39c1df12c5c9")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "U6")
 					(unit 1)
@@ -8195,7 +8031,7 @@
 			(uuid "528f5873-fe6f-490f-9eaa-99e926ad2dfb")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "LM1")
 					(unit 1)
@@ -8264,7 +8100,7 @@
 			(uuid "b8bb5291-8056-44cf-8fbc-50772c097194")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "D1")
 					(unit 1)
@@ -8330,7 +8166,7 @@
 			(uuid "1de09519-dbe2-4d17-b5e7-7d690ea281e5")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR039")
 					(unit 1)
@@ -8400,7 +8236,7 @@
 			(uuid "cae05e3c-e009-4614-8000-59b5de5ff140")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "R17")
 					(unit 1)
@@ -8436,7 +8272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 319.532 82.55 90)
 			(effects
 				(font
@@ -8470,7 +8306,7 @@
 			(uuid "3cff2d16-ae68-49b3-be9d-200882c8708a")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "R16")
 					(unit 1)
@@ -8535,7 +8371,7 @@
 			(uuid "40bec824-1bc2-46c6-b61a-6dd783e1145d")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR05")
 					(unit 1)
@@ -8635,7 +8471,7 @@
 			(uuid "baeb6caa-8454-4dc2-aef3-4892a9749c6b")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "Q2")
 					(unit 1)
@@ -8700,7 +8536,7 @@
 			(uuid "c5e2b6b4-db9a-4eac-8351-1528577453e2")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR03")
 					(unit 1)
@@ -8766,7 +8602,7 @@
 			(uuid "60acfb7e-b281-478d-ab3a-cca2988b9af1")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR017")
 					(unit 1)
@@ -8801,7 +8637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 84.582 109.22 90)
 			(effects
 				(font
@@ -8835,7 +8671,7 @@
 			(uuid "5b8b8c8f-8eed-4c61-a486-71fc87ec3a58")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "R7")
 					(unit 1)
@@ -8901,7 +8737,7 @@
 			(uuid "90740164-604e-453f-850f-be194b29caac")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR028")
 					(unit 1)
@@ -8978,7 +8814,7 @@
 			(uuid "4656a58e-9019-4179-a09a-6c8887fe5fe3")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "U8")
 					(unit 1)
@@ -9048,7 +8884,7 @@
 			(uuid "e7877f07-e80d-4653-8bf8-dd4156f3b97c")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "C1")
 					(unit 1)
@@ -9116,7 +8952,7 @@
 			(uuid "1434dc4d-d570-4b3f-9152-4fc136d9b623")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "C9")
 					(unit 1)
@@ -9193,7 +9029,7 @@
 			(uuid "92d2e38a-b4ff-42f0-bfb9-0deb41f86a19")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "U7")
 					(unit 1)
@@ -9259,7 +9095,7 @@
 			(uuid "a3470b5b-0f05-4799-b740-579455799d17")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR01")
 					(unit 1)
@@ -9329,7 +9165,7 @@
 			(uuid "87c04687-5855-4179-8c3c-eebe56bdf050")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "C7")
 					(unit 1)
@@ -9364,7 +9200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 63.5 98.298 90)
 			(effects
 				(font
@@ -9398,7 +9234,7 @@
 			(uuid "51d7876a-56d7-47f9-afae-5b87a1d39ed5")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "R3")
 					(unit 1)
@@ -9434,7 +9270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 65.532 163.83 90)
 			(effects
 				(font
@@ -9468,7 +9304,7 @@
 			(uuid "db3efdb4-d363-452b-9469-f834177b1ee7")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "R4")
 					(unit 1)
@@ -9534,7 +9370,7 @@
 			(uuid "62e6ff32-77e8-4fb9-8df8-8713846c5f01")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR033")
 					(unit 1)
@@ -9600,7 +9436,7 @@
 			(uuid "7374a472-c2bc-4e4c-bd51-02210423e075")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR014")
 					(unit 1)
@@ -9665,7 +9501,7 @@
 			(uuid "0e957f40-a2b5-403c-a97f-2422c5c4e94c")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR08")
 					(unit 1)
@@ -9731,7 +9567,7 @@
 			(uuid "864487d4-28f6-4444-945c-3e6b8f638764")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR034")
 					(unit 1)
@@ -9766,7 +9602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 126.492 90)
 			(effects
 				(font
@@ -9800,7 +9636,7 @@
 			(uuid "171f4321-e35c-4762-96fc-f75cada898aa")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "R10")
 					(unit 1)
@@ -9866,7 +9702,7 @@
 			(uuid "5e737ebf-08c5-44ef-a236-f5761dc41bc4")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR016")
 					(unit 1)
@@ -9901,7 +9737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 148.59 118.618 90)
 			(effects
 				(font
@@ -9935,7 +9771,7 @@
 			(uuid "946db1b0-b459-4659-9935-c08ae61320f9")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "R12")
 					(unit 1)
@@ -9945,7 +9781,7 @@
 	)
 	(symbol
 		(lib_id "power-symbol-library:GLV-")
-		(at 373.38 106.68 180)
+		(at 375.92 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9954,7 +9790,7 @@
 		(fields_autoplaced yes)
 		(uuid "68528c02-c3b8-4ad3-9a07-eb7bee8406d1")
 		(property "Reference" "#PWR038"
-			(at 373.38 102.87 0)
+			(at 375.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9963,7 +9799,7 @@
 			)
 		)
 		(property "Value" "GLV-"
-			(at 373.38 111.76 0)
+			(at 375.92 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9971,7 +9807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 373.38 106.68 0)
+			(at 375.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9980,7 +9816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 373.38 106.68 0)
+			(at 375.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9989,7 +9825,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 373.38 106.68 0)
+			(at 375.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10001,7 +9837,7 @@
 			(uuid "c1419b81-c68c-4069-8119-a5200cc34116")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR038")
 					(unit 1)
@@ -10083,7 +9919,7 @@
 			(uuid "23ba6f1b-6d4e-42f8-ba51-9442a6644c99")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "J4")
 					(unit 1)
@@ -10118,7 +9954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 196.342 121.92 90)
 			(effects
 				(font
@@ -10152,7 +9988,7 @@
 			(uuid "40383170-990c-499f-913e-55e6647c342e")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "R14")
 					(unit 1)
@@ -10222,7 +10058,7 @@
 			(uuid "a2bdc8f0-4818-4231-b25d-790356388c81")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "C4")
 					(unit 1)
@@ -10257,7 +10093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 74.93 98.298 90)
 			(effects
 				(font
@@ -10291,7 +10127,7 @@
 			(uuid "f4ab91cc-98dc-43a7-983b-0039de29371c")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "R5")
 					(unit 1)
@@ -10326,7 +10162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 84.582 130.81 90)
 			(effects
 				(font
@@ -10360,7 +10196,7 @@
 			(uuid "87a9fa74-c41d-41ea-adb7-c034a98d2d23")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "R9")
 					(unit 1)
@@ -10428,9 +10264,85 @@
 			(uuid "cd62fded-27a2-458d-a2ef-a2b0ffbfe2f4")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 377.19 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8221de26-1916-4fa7-8c4e-0a0a7b13a9e7")
+		(property "Reference" "Q4"
+			(at 383.54 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 383.54 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+			(at 382.27 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 382.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 377.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b07c5f1-0053-438f-9076-d211925dff99")
+		)
+		(pin "3"
+			(uuid "436d751c-cd87-4e5a-8ad5-3b2235a489de")
+		)
+		(pin "1"
+			(uuid "20b30628-7ecc-42f2-b556-3bfea2dde513")
+		)
+		(instances
+			(project "tsal_g_v3"
+				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -10494,7 +10406,7 @@
 			(uuid "d2be3113-9b49-42a8-bce4-d50d520a5e89")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR025")
 					(unit 1)
@@ -10529,7 +10441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 210.312 100.33 90)
 			(effects
 				(font
@@ -10563,7 +10475,7 @@
 			(uuid "5be21f0e-8e65-4c24-9a0e-44b2c389346c")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "R15")
 					(unit 1)
@@ -10630,7 +10542,7 @@
 			(uuid "629762d2-3a36-4aeb-9c52-2264b56a93af")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR024")
 					(unit 1)
@@ -10640,7 +10552,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 369.57 106.68 270)
+		(at 372.11 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10649,7 +10561,7 @@
 		(fields_autoplaced yes)
 		(uuid "96da52b5-d5ba-4776-84a7-7f1857ab45a4")
 		(property "Reference" "C12"
-			(at 369.57 99.06 90)
+			(at 372.11 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10657,7 +10569,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 369.57 101.6 90)
+			(at 372.11 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10665,7 +10577,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 365.76 107.6452 0)
+			(at 368.3 107.6452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10674,7 +10586,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 369.57 106.68 0)
+			(at 372.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10683,7 +10595,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 369.57 106.68 0)
+			(at 372.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10698,7 +10610,7 @@
 			(uuid "01635658-bfe5-43fb-870b-9dc389551ee6")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "C12")
 					(unit 1)
@@ -10764,7 +10676,7 @@
 			(uuid "4577a89c-dc62-408c-b800-4ab3f22f002f")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR021")
 					(unit 1)
@@ -10830,7 +10742,7 @@
 			(uuid "17ba3e57-8fe6-4322-acd5-0622fe6f22c1")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR010")
 					(unit 1)
@@ -10839,100 +10751,75 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 377.19 88.9 0)
+		(lib_id "Reference_Voltage:TL431DBZ")
+		(at 67.31 184.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a341e207-f06c-45d0-b022-8234271bf1f5")
-		(property "Reference" "Q3"
-			(at 383.54 87.6299 0)
+		(uuid "a0273537-f5cd-43bb-b0ba-f026343cbf23")
+		(property "Reference" "U10"
+			(at 69.85 182.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "MCT06P10-TP"
-			(at 383.54 90.1699 0)
+		(property "Value" "TL431DBZ"
+			(at 69.85 185.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 382.27 86.36 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+			(at 71.12 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
+			(at 67.31 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shunt Regulator, SOT-23"
+			(at 67.31 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 377.19 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 377.19 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 377.19 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 377.19 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 377.19 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06b0da52-c10c-42ab-a75c-cd4c6bf7641d")
-		)
-		(pin "2"
-			(uuid "3b22f93d-f8bd-4489-bf2a-f2a8627a70af")
 		)
 		(pin "3"
-			(uuid "e6179d02-06fa-4db8-8c5f-96fe521baf8f")
+			(uuid "45af7248-3626-419c-9e55-a8ea8a8ef329")
+		)
+		(pin "2"
+			(uuid "a6390630-a8ea-4a8c-83cc-fded8a324714")
+		)
+		(pin "1"
+			(uuid "4f521d14-68e7-424a-b959-275b1f2301bd")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
-					(reference "Q3")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -10995,7 +10882,7 @@
 			(uuid "6c91eeca-ad42-47b5-895e-dad334790767")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR011")
 					(unit 1)
@@ -11069,7 +10956,7 @@
 			(uuid "5ec77738-1480-4757-824c-7a6d9af46d3b")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "U4")
 					(unit 1)
@@ -11133,7 +11020,7 @@
 			)
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "H4")
 					(unit 1)
@@ -11169,7 +11056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1210_3225Metric"
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 56.642 104.14 90)
 			(effects
 				(font
@@ -11203,7 +11090,7 @@
 			(uuid "cbd5dd0a-7561-4d46-81f4-931c340cbb3e")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "F1")
 					(unit 1)
@@ -11267,7 +11154,7 @@
 			)
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "H3")
 					(unit 1)
@@ -11332,7 +11219,7 @@
 			(uuid "dfaea2f0-e978-4304-b45a-c57db9d39878")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR07")
 					(unit 1)
@@ -11367,7 +11254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 88.138 100.33 90)
 			(effects
 				(font
@@ -11401,7 +11288,7 @@
 			(uuid "c6b0cac3-015d-444c-a3a3-b528fa80e473")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "R6")
 					(unit 1)
@@ -11469,7 +11356,7 @@
 			(uuid "8025df17-c8d6-4ff6-beb6-ea5e95daee46")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "C11")
 					(unit 1)
@@ -11545,7 +11432,7 @@
 			(uuid "1442bd19-1032-44e0-8656-a82327759f30")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "U5")
 					(unit 1)
@@ -11616,7 +11503,7 @@
 			(uuid "b1412705-9dd9-4339-8275-9ceb452aefa1")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "J3")
 					(unit 1)
@@ -11651,7 +11538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 134.112 90)
 			(effects
 				(font
@@ -11685,7 +11572,7 @@
 			(uuid "dfa0f6a6-a429-4aa1-a3b9-8c9bddda2397")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "R11")
 					(unit 1)
@@ -11751,7 +11638,7 @@
 			(uuid "7d4d6357-b7ab-460a-b713-a22c17b7660a")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR029")
 					(unit 1)
@@ -11820,7 +11707,7 @@
 			(uuid "e45b3da5-9d84-43c4-b078-dd1b8db1ad95")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "C2")
 					(unit 1)
@@ -11890,7 +11777,7 @@
 			(uuid "7ee27ca6-cc7b-45c4-a709-0c75d7355fdb")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "C5")
 					(unit 1)
@@ -11955,7 +11842,7 @@
 			(uuid "5d8be63f-7d39-44be-a642-b0bb70c0a2f4")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR026")
 					(unit 1)
@@ -12021,7 +11908,7 @@
 			(uuid "3e393049-00e7-4acd-b761-111e0956cbce")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR09")
 					(unit 1)
@@ -12087,7 +11974,7 @@
 			(uuid "962d97c1-c3a9-48e4-bf01-c71ccf10dd88")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR032")
 					(unit 1)
@@ -12153,9 +12040,83 @@
 			(uuid "02ea1792-adc0-4c9e-bc7b-cb09e3b649f7")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:LTV-817S")
+		(at 186.69 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e505ccc7-69bb-431b-9f3b-84fc05f8826d")
+		(property "Reference" "U1"
+			(at 186.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-817S"
+			(at 186.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:SMDIP-4_W9.53mm"
+			(at 186.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+			(at 177.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4"
+			(at 186.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f7b5cb08-f0ef-4cb8-a7b4-b8fd3206ea2a")
+		)
+		(pin "4"
+			(uuid "c0afbcf3-4abf-4be0-a5e4-3cbbddb3e858")
+		)
+		(pin "1"
+			(uuid "36165d7e-206f-451a-908d-3d8f7a889cce")
+		)
+		(pin "2"
+			(uuid "813702b4-0c7b-4155-b5f2-a6dc73f8d2e6")
+		)
+		(instances
+			(project "tsal_g_v3"
+				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -12187,7 +12148,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 312.42 89.8652 0)
 			(effects
 				(font
@@ -12221,7 +12182,7 @@
 			(uuid "bc8fff81-fe36-4af9-854f-9fecdc9080b5")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "C10")
 					(unit 1)
@@ -12321,7 +12282,7 @@
 			(uuid "b2b9cb26-169a-46af-b5d3-bca3bdfbd347")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "Q1")
 					(unit 1)
@@ -12398,7 +12359,7 @@
 			(uuid "f791c9b6-aceb-4cea-be0b-6d87aebbc5fd")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "U9")
 					(unit 1)
@@ -12464,7 +12425,7 @@
 			(uuid "0dcb48d6-f48a-473b-9366-836fd9a15bdb")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR035")
 					(unit 1)
@@ -12528,7 +12489,7 @@
 			)
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "H2")
 					(unit 1)
@@ -12593,7 +12554,7 @@
 			(uuid "a34f0eee-f40b-4995-87d1-e4c55a7d41a2")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR04")
 					(unit 1)
@@ -12660,7 +12621,7 @@
 			(uuid "064f6e00-7d2d-4468-87e5-3189a14331ca")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "C8")
 					(unit 1)
@@ -12695,7 +12656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 88.138 121.92 90)
 			(effects
 				(font
@@ -12729,7 +12690,7 @@
 			(uuid "25429968-6e20-40e1-a088-140935c7b832")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "R8")
 					(unit 1)
@@ -12794,7 +12755,7 @@
 			(uuid "861fc7a8-787d-42fc-9988-dcef3524edae")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "#PWR06")
 					(unit 1)
@@ -12868,7 +12829,7 @@
 			(uuid "f5c80263-7379-459b-9956-93a96b6e8c9f")
 		)
 		(instances
-			(project "tsal_g_2025"
+			(project "tsal_g_v3"
 				(path "/05521ebf-0785-4840-a4a4-2f27b39a8ae3"
 					(reference "U3")
 					(unit 1)

@@ -2120,7 +2120,7 @@
 				)
 			)
 		)
-		(symbol "Reference_Voltage:TL431LP"
+		(symbol "Reference_Voltage:TL431DBZ"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -2134,7 +2134,7 @@
 					)
 				)
 			)
-			(property "Value" "TL431LP"
+			(property "Value" "TL431DBZ"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -2142,7 +2142,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2162,7 +2162,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Shunt Regulator, TO-92"
+			(property "Description" "Shunt Regulator, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2171,7 +2171,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode device regulator shunt"
+			(property "ki_keywords" "diode device shunt regulator"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2180,7 +2180,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO*92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2189,7 +2189,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TL431LP_0_1"
+			(symbol "TL431DBZ_0_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 0 0) (xy 1.27 0)
@@ -2227,11 +2227,11 @@
 					)
 				)
 			)
-			(symbol "TL431LP_1_1"
+			(symbol "TL431DBZ_1_1"
 				(pin passive line
-					(at 0 2.54 270)
+					(at 2.54 0 180)
 					(length 2.54)
-					(name "REF"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2247,9 +2247,9 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 0 0)
+					(at 0 2.54 270)
 					(length 2.54)
-					(name "A"
+					(name "REF"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2265,9 +2265,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
+					(at -2.54 0 0)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5762,7 +5762,7 @@
 			(uuid "7cffced5-7de4-485b-816f-65b4525ac82b")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R7")
 					(unit 1)
@@ -5831,7 +5831,7 @@
 			(uuid "e04f97e8-aa2a-48bd-a6e1-b371eaae1051")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R8")
 					(unit 1)
@@ -5901,7 +5901,7 @@
 			(uuid "98f09f14-872b-4290-8179-3317433ffaea")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "C5")
 					(unit 1)
@@ -5967,7 +5967,7 @@
 			(uuid "ae197130-f71b-43dd-a094-3aee3d95a054")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR010")
 					(unit 1)
@@ -6033,7 +6033,7 @@
 			(uuid "20e702a2-da03-4ed9-bb10-0e5856881608")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR09")
 					(unit 1)
@@ -6102,7 +6102,7 @@
 			(uuid "d8b08d72-6302-45cd-aa44-8ff1834e3ec6")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R11")
 					(unit 1)
@@ -6171,7 +6171,7 @@
 			(uuid "f2dcd3d5-2180-48bb-9f0e-201eb93ca593")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "C2")
 					(unit 1)
@@ -6240,7 +6240,7 @@
 			(uuid "40b227cd-a707-48af-b38b-da50def3e9c1")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R10")
 					(unit 1)
@@ -6309,7 +6309,7 @@
 			(uuid "bb55e15e-0afe-496d-b668-e5e8c4de4710")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "D1")
 					(unit 1)
@@ -6374,7 +6374,7 @@
 			(uuid "df36c4d9-1ad6-4d4a-b42c-523e92ad18c8")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR04")
 					(unit 1)
@@ -6443,7 +6443,7 @@
 			(uuid "148cc19b-9883-48e8-ba9c-7156fb5a49fc")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R9")
 					(unit 1)
@@ -6508,7 +6508,7 @@
 			(uuid "9493de75-fa74-47dd-a9d4-8986c763a525")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR03")
 					(unit 1)
@@ -6577,7 +6577,7 @@
 			(uuid "3fd5da45-4eb7-4cc9-bee4-fdf29a81c68e")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R6")
 					(unit 1)
@@ -6646,7 +6646,7 @@
 			(uuid "ad6cd6ac-f38d-4c11-a05e-7448bee2598b")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R12")
 					(unit 1)
@@ -6715,7 +6715,7 @@
 			(uuid "e93ef113-2f42-4d4d-b593-c732b6f2131b")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "C3")
 					(unit 1)
@@ -6780,7 +6780,7 @@
 			(uuid "48a86634-ac31-4462-9c93-86d46c89c5f0")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR07")
 					(unit 1)
@@ -6867,7 +6867,7 @@
 			(uuid "2bf93c86-5507-4033-a51f-6680fe1bad38")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "LM1")
 					(unit 1)
@@ -6932,7 +6932,7 @@
 			(uuid "7634ee9f-c3bc-4a0e-a44e-7c59decd270e")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR06")
 					(unit 1)
@@ -6997,7 +6997,7 @@
 			(uuid "8b5a4ecf-0d52-4431-b036-cdbaae632dcb")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR05")
 					(unit 1)
@@ -7033,7 +7033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 229.87 207.01 0)
 			(effects
 				(font
@@ -7067,7 +7067,7 @@
 			(uuid "4569328e-1945-407d-8955-29a5e8703525")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "D2")
 					(unit 1)
@@ -7132,7 +7132,7 @@
 			(uuid "7dea4d92-81ee-4136-8971-06b8986bffa6")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR08")
 					(unit 1)
@@ -7201,7 +7201,7 @@
 			(uuid "78527e77-6bf5-41e0-b002-37738e7000c4")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R13")
 					(unit 1)
@@ -7266,7 +7266,7 @@
 			(uuid "bb60cbb8-494f-4654-aeef-43e15e4c3261")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR012")
 					(unit 1)
@@ -7335,7 +7335,7 @@
 			(uuid "d8f7ceb8-5a67-464a-8c24-97952d01fda2")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R14")
 					(unit 1)
@@ -7404,7 +7404,7 @@
 			(uuid "9edf3d8f-d16f-48b8-a2aa-28f754f7f057")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "C7")
 					(unit 1)
@@ -7473,7 +7473,7 @@
 			(uuid "5ee7908f-1cb6-4cbc-89bb-d109ddf64cd1")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R17")
 					(unit 1)
@@ -7542,7 +7542,7 @@
 			(uuid "1c7f5344-168c-46b0-ad9c-cf78eff4b491")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "C6")
 					(unit 1)
@@ -7611,7 +7611,7 @@
 			(uuid "1378ab43-1381-4d4c-b588-96cf3adccf2c")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "C8")
 					(unit 1)
@@ -7680,7 +7680,7 @@
 			(uuid "b9665a77-06b1-414e-9713-7726716832cf")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R16")
 					(unit 1)
@@ -7749,7 +7749,7 @@
 			(uuid "e4e093d3-8c36-43f5-a001-5291c8cdfe04")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R5")
 					(unit 1)
@@ -7818,7 +7818,7 @@
 			(uuid "69d2c900-247f-44a1-be7a-4bd9b42852a6")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R3")
 					(unit 1)
@@ -7884,7 +7884,7 @@
 			(uuid "0930d5a0-c1e0-41e7-bc90-84d07ba8339a")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR015")
 					(unit 1)
@@ -7950,7 +7950,7 @@
 			(uuid "296d96de-f905-4732-aca4-3276fb299264")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR013")
 					(unit 1)
@@ -8025,7 +8025,7 @@
 			(uuid "85fcdfc8-4e93-4bb5-a569-be438ee429e1")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "U4")
 					(unit 1)
@@ -8091,7 +8091,7 @@
 			(uuid "2b7cb294-2b45-4607-bf19-af87c2da3fb3")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR014")
 					(unit 1)
@@ -8156,7 +8156,7 @@
 			(uuid "291d1999-e93e-4669-9e46-3568eaf13816")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR011")
 					(unit 1)
@@ -8221,7 +8221,7 @@
 			(uuid "66404985-721e-4225-b91a-f33336a193a3")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR017")
 					(unit 1)
@@ -8290,7 +8290,7 @@
 			(uuid "fa1e08f6-dffd-467a-8eff-84d81e70a173")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R15")
 					(unit 1)
@@ -8355,7 +8355,7 @@
 			(uuid "9285f2b1-f6fb-4839-8ad8-20eedb85b2c1")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR018")
 					(unit 1)
@@ -8421,7 +8421,7 @@
 			(uuid "c3bfc3ba-b747-45f9-837a-184389fde7fc")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR016")
 					(unit 1)
@@ -8491,81 +8491,9 @@
 			(uuid "fbecb913-03d8-4d0b-8db1-56e1380c2f9f")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Reference_Voltage:TL431LP")
-		(at 78.74 191.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "06f63b1d-e17c-4f4d-8050-8772c88b31da")
-		(property "Reference" "U1"
-			(at 82.55 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV431BQDBZR"
-			(at 85.09 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 82.55 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-			(at 78.74 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Shunt Regulator, SOT-23"
-			(at 78.74 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "43382c7c-65e4-41fa-8a6f-648212fb985d")
-		)
-		(pin "3"
-			(uuid "109ab51d-0137-4372-a4db-43d73f518153")
-		)
-		(pin "1"
-			(uuid "20c0aa44-6a1d-4a08-a03b-f60a6a8fa7fc")
-		)
-		(instances
-			(project "tsal_r_2025"
-				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8629,7 +8557,7 @@
 			(uuid "f61744f1-3feb-4e54-92e3-9306994aa037")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR02")
 					(unit 1)
@@ -8697,7 +8625,7 @@
 			(uuid "fe5389df-73ea-47d9-821e-a6e3955b3902")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R2")
 					(unit 1)
@@ -8785,7 +8713,7 @@
 			(uuid "50e6fd17-4a2f-4502-a622-c1c8eab1fdd5")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "U2")
 					(unit 1)
@@ -8855,7 +8783,7 @@
 			(uuid "8437295a-03e9-4d5b-8714-6418d95179fb")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "C1")
 					(unit 1)
@@ -8922,7 +8850,7 @@
 			(uuid "44d7ce85-eb51-4df8-8dea-5930883ff184")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R19")
 					(unit 1)
@@ -8989,7 +8917,7 @@
 			(uuid "b4a9ade1-58f9-4a9a-b6eb-a2abfb01bc2f")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R20")
 					(unit 1)
@@ -9063,7 +8991,7 @@
 			(uuid "29db656f-d8d4-4b07-afe4-5113a2a5b534")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "U7")
 					(unit 1)
@@ -9139,7 +9067,7 @@
 			(uuid "d2316316-fe1b-421a-b6a2-a5d0fe29850f")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "Q3")
 					(unit 1)
@@ -9203,7 +9131,7 @@
 			)
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "H3")
 					(unit 1)
@@ -9268,7 +9196,7 @@
 			(uuid "b394c6e0-6465-429d-9043-dd40877dae77")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR019")
 					(unit 1)
@@ -9335,7 +9263,7 @@
 			(uuid "40854e12-d256-4bd2-b29c-9f9b4c26c30c")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R21")
 					(unit 1)
@@ -9399,7 +9327,7 @@
 			)
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "H4")
 					(unit 1)
@@ -9481,7 +9409,7 @@
 			(uuid "0cab55ba-8b67-4410-bb61-121ba6a2d87a")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "Conn_01x1")
 					(unit 1)
@@ -9551,7 +9479,7 @@
 			(uuid "ad99404e-52b3-4a42-968c-518a17d30588")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "C4")
 					(unit 1)
@@ -9617,7 +9545,7 @@
 			(uuid "0fc8317f-6696-449e-b82c-87da3f68c3a5")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR01")
 					(unit 1)
@@ -9685,9 +9613,84 @@
 			(uuid "85c42e17-8ec3-4311-b200-c1430f1b9856")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Reference_Voltage:TL431DBZ")
+		(at 78.74 191.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b885a0e4-b629-4871-83fb-374dcbf02032")
+		(property "Reference" "U1"
+			(at 81.28 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TL431DBZ"
+			(at 81.28 193.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 82.55 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
+			(at 78.74 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shunt Regulator, SOT-23"
+			(at 78.74 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e86c3340-af12-422e-9139-5e56af29241f")
+		)
+		(pin "2"
+			(uuid "bc8a6dca-6578-4413-b7fc-b28409e582cc")
+		)
+		(pin "3"
+			(uuid "de88b6fd-439c-4106-9ada-e4fb2f13067b")
+		)
+		(instances
+			(project "tsal_r_v3"
+				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9753,7 +9756,7 @@
 			(uuid "30f1d9c5-e3a6-453f-a55a-8237f2f37936")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "J1")
 					(unit 1)
@@ -9817,7 +9820,7 @@
 			)
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "H2")
 					(unit 1)
@@ -9892,7 +9895,7 @@
 			(uuid "f1d57fbf-dc9f-4dee-9905-4a24da204b02")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "Q1")
 					(unit 1)
@@ -9960,7 +9963,7 @@
 			(uuid "be3851e4-0f2e-4bc2-818d-257c2b78330a")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R18")
 					(unit 1)
@@ -10030,7 +10033,7 @@
 			(uuid "73a4328a-dab5-4d3f-b741-884d4fd33ff8")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "F1")
 					(unit 1)
@@ -10095,7 +10098,7 @@
 			(uuid "fc272395-4d41-40e7-aca4-329d9a4e47c5")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "#PWR020")
 					(unit 1)
@@ -10169,7 +10172,7 @@
 			(uuid "c29d627a-416f-4a30-88bc-6ee80245b061")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "U3")
 					(unit 1)
@@ -10233,7 +10236,7 @@
 			)
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "H1")
 					(unit 1)
@@ -10301,7 +10304,7 @@
 			(uuid "1d0caf5c-4b51-4f78-ae48-ce97e4b842d6")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "J2")
 					(unit 1)
@@ -10371,7 +10374,7 @@
 			(uuid "139ce629-b701-4b7c-8ca0-afeb2fb11c24")
 		)
 		(instances
-			(project "tsal_r_2025"
+			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "R4")
 					(unit 1)
