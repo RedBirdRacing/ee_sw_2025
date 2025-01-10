@@ -74,7 +74,7 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -1272,7 +1272,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D1"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(layer "F.SilkS")
 			(uuid "da2f69b6-098a-4cc1-8f0c-ec4a3fe6f5ae")
 			(effects
@@ -1283,7 +1283,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "e379dc10-40a1-4d29-89fb-f7d5ea2c8c37")
 			(effects
@@ -1455,7 +1455,7 @@
 			(uuid "b5d35856-7d31-465d-bcc9-ccd109148ef5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "072cd117-39ac-46fe-b158-fa34b572bd36")
 			(effects
@@ -2623,7 +2623,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "RBR-LED-MOS v2.0\n10/01/2025\nNicholas Chan"
+	(gr_text "RBR-LED-Driver v2.0\n10/01/2025\nNicholas Chan"
 		(at 119.5 84.5 0)
 		(layer "F.SilkS")
 		(uuid "fcebd271-cedb-4a2a-9781-12ac6b58cce7")
