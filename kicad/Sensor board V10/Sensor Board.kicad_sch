@@ -720,6 +720,145 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -985,6 +1124,139 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2541,7 +2813,10 @@
 				)
 			)
 		)
-		(symbol "Regulator_Switching:LM2596T-5"
+		(symbol "Regulator_Switching:LM2575-5.0BU"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2554,7 +2829,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LM2596T-5"
+			(property "Value" "LM2575-5.0BU"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -2563,8 +2838,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical"
-				(at 1.27 -6.35 0)
+			(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2574,7 +2849,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2583,7 +2858,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "5V 3A 150kHz Step-Down Voltage Regulator, TO-220"
+			(property "Description" "Fixed 5.0V 52kHz Simple 1A Buck Regulator, TO-263"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2592,7 +2867,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Step-Down Voltage Regulator 5V 3A"
+			(property "ki_keywords" "Buck regulator Switcher"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2601,7 +2876,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?220*"
+			(property "ki_fp_filters" "TO?263*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2610,7 +2885,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM2596T-5_0_1"
+			(symbol "LM2575-5.0BU_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -2623,7 +2898,7 @@
 					)
 				)
 			)
-			(symbol "LM2596T-5_1_1"
+			(symbol "LM2575-5.0BU_1_1"
 				(pin power_in line
 					(at -12.7 2.54 0)
 					(length 2.54)
@@ -3988,16 +4263,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 60.96) (xy 212.09 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "487229d0-5444-4bfe-a24e-0acdb0ed9369")
-	)
-	(wire
-		(pts
 			(xy 101.6 137.16) (xy 101.6 139.7)
 		)
 		(stroke
@@ -4405,16 +4670,6 @@
 			(type default)
 		)
 		(uuid "b312a6f3-98c3-4649-9c97-b576bf783a74")
-	)
-	(wire
-		(pts
-			(xy 212.09 60.96) (xy 212.09 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3e4749b-b180-4880-9f49-1954e42cfd0d")
 	)
 	(wire
 		(pts
@@ -6614,7 +6869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-DEVKIT-V1 (1):MODULE_ESP32_DEVKIT_V1"
+		(property "Footprint" "ESP32_DEVKIT_V1:MODULE_ESP32_DEVKIT_V1"
 			(at 251.46 64.77 0)
 			(effects
 				(font
@@ -6776,73 +7031,6 @@
 			(project "Sensor Board"
 				(path "/9286295f-122e-4130-b600-8e8fc7da3221"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 143.51 41.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "071b534f-169a-4f17-852e-e726c06b8474")
-		(property "Reference" "#PWR054"
-			(at 139.7 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 147.32 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c101cf67-962b-4f53-a64a-7a77a511aba0")
-		)
-		(instances
-			(project "Sensor Board"
-				(path "/9286295f-122e-4130-b600-8e8fc7da3221"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -7186,72 +7374,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 212.09 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10fc2412-b862-4d09-a32f-0fc412026696")
-		(property "Reference" "#PWR060"
-			(at 212.09 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.09 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c98d2c6c-a4ce-404b-acdc-73bafcb6dab7")
-		)
-		(instances
-			(project "Sensor Board"
-				(path "/9286295f-122e-4130-b600-8e8fc7da3221"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 25.4 134.62 0)
 		(unit 1)
@@ -7513,80 +7635,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 195.58 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1531e050-3db8-4473-814f-79371843836d")
-		(property "Reference" "J21"
-			(at 197.104 54.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 196.215 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 195.58 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 195.58 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ccb2de35-b4f6-437b-bf72-92b5ad0d280a")
-		)
-		(pin "4"
-			(uuid "e4deb9d1-7a02-45d4-a920-ec15c9112e7f")
-		)
-		(pin "1"
-			(uuid "2cc9d284-d694-46a4-a7d7-5caeacf62704")
-		)
-		(pin "3"
-			(uuid "2ea26a34-17e4-4f95-acc4-c6dea1816d5a")
-		)
-		(instances
-			(project "Sensor Board"
-				(path "/9286295f-122e-4130-b600-8e8fc7da3221"
-					(reference "J21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 44.45 180.34 0)
 		(unit 1)
@@ -7724,6 +7772,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Switching:LM2575-5.0BU")
+		(at 113.03 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a1a6e00-8fd9-45b4-b5ab-3d97092786f3")
+		(property "Reference" "U1"
+			(at 113.03 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2575-5.0BU"
+			(at 113.03 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf"
+			(at 113.03 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fixed 5.0V 52kHz Simple 1A Buck Regulator, TO-263"
+			(at 113.03 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d09043f-bb9c-4c23-8a38-78364d3c99cf")
+		)
+		(pin "3"
+			(uuid "3cf5ba4d-0537-4c97-bb2c-06f8caea44f7")
+		)
+		(pin "1"
+			(uuid "0eeb77fd-7d17-412c-a5c2-8a86d5e876d6")
+		)
+		(pin "5"
+			(uuid "8713b07c-0a68-4c4a-a392-6644c6544b05")
+		)
+		(pin "4"
+			(uuid "991a2f0d-a4fd-4890-aaac-e48790f47142")
+		)
+		(instances
+			(project "Sensor Board"
+				(path "/9286295f-122e-4130-b600-8e8fc7da3221"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 142.24 45.72 0)
 		(unit 1)
@@ -7742,7 +7869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "330uF"
 			(at 146.05 46.9899 0)
 			(effects
 				(font
@@ -7751,7 +7878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "RMC_Capacitor:CP_Radial_D10.0mm_P5.00mm_F"
 			(at 143.2052 49.53 0)
 			(effects
 				(font
@@ -8551,7 +8678,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
 			(at 268.2748 118.11 0)
 			(effects
 				(font
@@ -8818,7 +8945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 129.54 116.84 0)
 			(effects
 				(font
@@ -8888,7 +9015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 129.54 133.35 0)
 			(effects
 				(font
@@ -8931,71 +9058,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 200.66 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c5ccc46-19c0-4407-a11d-3d0f16d6e3d0")
-		(property "Reference" "#PWR058"
-			(at 200.66 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 201.93 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd33fed5-028b-4d1e-b40f-f88caba2e235")
-		)
-		(instances
-			(project "Sensor Board"
-				(path "/9286295f-122e-4130-b600-8e8fc7da3221"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 129.54 106.68 0)
 		(unit 1)
@@ -9023,7 +9085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 129.54 106.68 0)
 			(effects
 				(font
@@ -9257,6 +9319,74 @@
 			(project "Sensor Board"
 				(path "/9286295f-122e-4130-b600-8e8fc7da3221"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 195.58 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43fcf0fe-ab69-4017-be61-fdad57e76e75")
+		(property "Reference" "J21"
+			(at 195.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 195.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cb8865d-9de7-491a-9d29-6a55196fe632")
+		)
+		(pin "2"
+			(uuid "b189f56a-aae5-40f3-ac33-1b1e342d509c")
+		)
+		(instances
+			(project "Sensor Board"
+				(path "/9286295f-122e-4130-b600-8e8fc7da3221"
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -9531,85 +9661,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:LM2596T-5")
-		(at 113.03 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4cf181c4-bf46-478f-9e12-a708ea308efe")
-		(property "Reference" "U1"
-			(at 113.03 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2596T-5"
-			(at 113.03 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical"
-			(at 114.3 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
-			(at 113.03 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5V 3A 150kHz Step-Down Voltage Regulator, TO-220"
-			(at 113.03 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "db7e2e81-1816-43e6-a765-d6e8baf9ee12")
-		)
-		(pin "5"
-			(uuid "2f40e436-f807-43ea-a8f9-d12b83ed703e")
-		)
-		(pin "4"
-			(uuid "e0f3cb26-c6f3-4724-b6e5-3ceeda61168c")
-		)
-		(pin "1"
-			(uuid "d6fb899d-58fc-45c5-9466-2aa25bde16f0")
-		)
-		(pin "2"
-			(uuid "2312f555-af01-43ff-911e-d8b4c3cfb961")
-		)
-		(instances
-			(project "Sensor Board"
-				(path "/9286295f-122e-4130-b600-8e8fc7da3221"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Interface_CAN_LIN:TJA1051T-3")
 		(at 176.53 41.91 0)
 		(mirror y)
@@ -9724,7 +9775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 118.11 62.992 90)
 			(effects
 				(font
@@ -9860,7 +9911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 129.54 143.51 0)
 			(effects
 				(font
@@ -10000,7 +10051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
 			(at 185.42 28.2448 0)
 			(effects
 				(font
@@ -10070,7 +10121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 129.54 160.02 0)
 			(effects
 				(font
@@ -10197,7 +10248,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5824"
+		(property "Value" "1N5819"
 			(at 130.81 46.9899 90)
 			(effects
 				(font
@@ -10742,7 +10793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
 			(at 56.1848 43.18 0)
 			(effects
 				(font
@@ -11086,7 +11137,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
 			(at 254.3048 119.38 0)
 			(effects
 				(font
@@ -11212,7 +11263,7 @@
 				)
 			)
 		)
-		(property "Value" "33uH"
+		(property "Value" "330uH"
 			(at 134.62 39.37 90)
 			(effects
 				(font
@@ -11220,7 +11271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "RMC_Inductor:L_10.4x10.4_H4.8"
 			(at 134.62 41.91 0)
 			(effects
 				(font
@@ -11557,7 +11608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 87.63 62.992 90)
 			(effects
 				(font
@@ -11820,7 +11871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TXS0108EPW:SOP65P640X120-20N"
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 219.71 137.16 0)
 			(effects
 				(font
@@ -11945,7 +11996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "RMC_Capacitor:CP_Radial_D10.0mm_P5.00mm_F"
 			(at 89.8652 44.45 0)
 			(effects
 				(font
@@ -11982,6 +12033,72 @@
 			(project "Sensor Board"
 				(path "/9286295f-122e-4130-b600-8e8fc7da3221"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 151.13 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2a27437-3e09-4b5f-a057-f7c904b4cb69")
+		(property "Reference" "#PWR054"
+			(at 151.13 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 151.13 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bb9b647-99c2-4854-af56-179691fdcf3d")
+		)
+		(instances
+			(project "Sensor Board"
+				(path "/9286295f-122e-4130-b600-8e8fc7da3221"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -12146,7 +12263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "RMC_LED:LED_0805_2012Metric_Pad1.45x1.40mm_HandSolder"
 			(at 110.49 64.77 0)
 			(effects
 				(font
@@ -12541,7 +12658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
 			(at 222.25 34.5948 0)
 			(effects
 				(font
@@ -12609,7 +12726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "RMC_LED:LED_0805_2012Metric_Pad1.45x1.40mm_HandSolder"
 			(at 80.01 64.77 0)
 			(effects
 				(font
@@ -13290,7 +13407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 129.54 170.18 0)
 			(effects
 				(font
@@ -14428,6 +14545,74 @@
 			(project "Sensor Board"
 				(path "/9286295f-122e-4130-b600-8e8fc7da3221"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 147.32 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb1dc35f-edbc-4c09-9901-03cb84de1d2b")
+		(property "Reference" "F1"
+			(at 147.32 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 147.32 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+			(at 147.32 43.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 147.32 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d756f8e9-71b7-4aca-843c-e23b544d6c92")
+		)
+		(pin "1"
+			(uuid "d00b03e5-e5ef-42d3-a64b-43597f71cb8f")
+		)
+		(instances
+			(project "Sensor Board"
+				(path "/9286295f-122e-4130-b600-8e8fc7da3221"
+					(reference "F1")
 					(unit 1)
 				)
 			)
