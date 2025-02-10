@@ -9,60 +9,60 @@ uint8_t pin_out[8] = {BTN1, BTN2, BTN3, BTN4, LED1, LED2, LED3};
 
 MCP2515 mcp2515(PC0); // CS pin PC0
 
-struct can_frame tx_msg;
+struct can_frame tx_throttle_msg;
 struct can_frame rx_msg;
 
-float MAX_THROTTLE_VAL = 4.3;
-float MIN_THROTTLE_VAL = 0.7;
-float THROTTLE_LOWER_DEADZONE_MAX = 0.5;
-float THORTTLE_UPPER_DEADZONE_MIN = 4.5;
-/*
-Between 0V and THROTTLE_LOWER_DEADZONE_MIN: Error for open circuit
-Between THROTTLE_LOWER_DEADZONE_MIN and MIN_THROTTLE_VAL: 0% Torque
-Between MIN_THROTTLE_VAL and MAX_THROTTLE_VAL: Linear relationship 
-Between MAX_THROTTLE_VAL and THORTTLE_UPPER_DEADZONE_MIN: 100% Torque
-Between THORTTLE_UPPER_DEADZONE_MIN and 5V: Error for short circuit
-*/
+const float MAX_THROTTLE_IN_VOLT = 4.3;
+const float MIN_THROTTLE_IN_VOLT = 0.7;
+const float THROTTLE_LOWER_DEADZONE_MAX_IN_VOLT = 0.5;
+const float THORTTLE_UPPER_DEADZONE_MIN_IN_VOLT = 4.5;
 
-uint16_t get_throttle_torque_val(float throttle_val)
+const int MAX_THROTTLE_OUT_VAL = 32760; // Maximum torque value is 32760 for mcp2515
+const int MIN_THROTTLE_OUT_VAL = 300; // Minium torque value tested is 300 (TBC)
+
+uint16_t get_throttle_torque_val()
 {
-    float throttle_volt = analogRead(ADC1) / 1024 * 5; // Outputs a value between 0 and 1023 inclusive
+    float throttle_volt = analogRead(ADC1) / 1024 * 5; // Converts analogRead output to a float between 0V and 5V
 
     uint16_t ret = 0;
 
-    if (throttle_volt < THROTTLE_LOWER_DEADZONE_MAX)
+    /*
+    Between 0V and THROTTLE_LOWER_DEADZONE_MIN_IN_VOLT: Error for open circuit
+    Between THROTTLE_LOWER_DEADZONE_MIN_IN_VOLT and MIN_THROTTLE_IN_VOLT: 0% Torque
+    Between MIN_THROTTLE_IN_VOLT and MAX_THROTTLE_IN_VOLT: Linear relationship 
+    Between MAX_THROTTLE_IN_VOLT and THORTTLE_UPPER_DEADZONE_MIN_IN_VOLT: 100% Torque
+    Between THORTTLE_UPPER_DEADZONE_MIN_IN_VOLT and 5V: Error for short circuit
+    */
+    if (throttle_volt < THROTTLE_LOWER_DEADZONE_MAX_IN_VOLT)
         ret = 0;
-    else if (throttle_volt < MIN_THROTTLE_VAL) 
-        ret = 0;
-    else if (throttle_volt < MAX_THROTTLE_VAL)
+    else if (throttle_volt < MIN_THROTTLE_IN_VOLT) 
+        ret = MIN_THROTTLE_OUT_VAL;
+    else if (throttle_volt < MAX_THROTTLE_IN_VOLT)
         // Scale up the value for canbus
-        // For torque, maximum canbus value is 32760
-        ret = (throttle_volt - MIN_THROTTLE_VAL) / (MAX_THROTTLE_VAL - MIN_THROTTLE_VAL) * 32760;
-    else if (throttle_volt < THORTTLE_UPPER_DEADZONE_MIN)
-        ret = 32760;
+        ret = (throttle_volt - MIN_THROTTLE_IN_VOLT) / (MAX_THROTTLE_IN_VOLT - MIN_THROTTLE_IN_VOLT) * MAX_THROTTLE_OUT_VAL;
+    else if (throttle_volt < THORTTLE_UPPER_DEADZONE_MIN_IN_VOLT)
+        ret = MAX_THROTTLE_OUT_VAL;
     else
         ret = 0;
 
-    return throttle_val;
+    return ret;
 }
 
-can_frame get_throttle_can_msg()
+uint16_t update_can_tx_throttle_msg()
 {
-    can_frame tx_msg; // Init can_frame
-
-    // Get the throttle sensor voltage value
-    float throttle_val;
-
     // Set the can_frame according to the torque map
-    uint16_t throttle_torque_val = get_throttle_torque_val(throttle_val);
+    uint16_t throttle_torque_val = get_throttle_torque_val();
 
-    tx_msg.can_id = 201;
-    tx_msg.can_dlc = 3;
-    tx_msg.data[0] = 0x90; //0x90 for torque, 0x31 for speed
-    tx_msg.data[1] = throttle_torque_val % 0xFF;
-    tx_msg.data[2] = (throttle_torque_val >> 8) & 0xFF;
+    if (throttle_torque_val == 0) // Error in reading torque value
+      return 1;
 
-    return tx_msg;
+    tx_throttle_msg.can_id = 201;
+    tx_throttle_msg.can_dlc = 3;
+    tx_throttle_msg.data[0] = 0x90; //0x90 for torque, 0x31 for speed
+    tx_throttle_msg.data[1] = throttle_torque_val % 0xFF;
+    tx_throttle_msg.data[2] = (throttle_torque_val >> 8) & 0xFF;
+
+    return 0;
 }
 
 void setup()
@@ -73,7 +73,7 @@ void setup()
     for (int i = 0; i < 7; i++)
         pinMode(pin_out[i], OUTPUT);
 
-    // MCP2515 mcp2515(PC0); // CS pin PC0
+    // Init mcp2515 
     mcp2515.reset();
     mcp2515.setBitrate(CAN_500KBPS, MCP_16MHZ);
     mcp2515.setNormalMode();
@@ -81,17 +81,18 @@ void setup()
 
 void loop()
 {
-    tx_msg = get_throttle_can_msg();
+    // Send throttle torque msg if no error
+    if (update_can_tx_throttle_msg() == 0)
+        mcp2515.sendMessage(&tx_throttle_msg);
 
     uint32_t lastLEDtick = 0;
     if (mcp2515.readMessage(&rx_msg) == MCP2515::ERROR_OK)
     {
-        if (rx_msg.can_id == 0x522)
-            for (int i = 0; i < 8; i++)
-                digitalWrite(pin_out[i], (rx_msg.data[0] >> i) & 0x01);
+        // Commented out as currenlty no need to include receive functionality
+        // if (rx_msg.can_id == 0x522)
+        //     for (int i = 0; i < 8; i++)
+        //         digitalWrite(pin_out[i], (rx_msg.data[0] >> i) & 0x01);
     }
-
-    mcp2515.sendMessage(&tx_msg);
 }
 
 // #include "Pedal.h"
