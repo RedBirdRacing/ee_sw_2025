@@ -12,7 +12,7 @@ void Queue<T, size>::push(T val) {
     buffer[0] = val;
 
     if (!queueFull)
-      ++queueCount;
+        ++queueCount;
       
     queueFull = (queueCount == size);
 }
