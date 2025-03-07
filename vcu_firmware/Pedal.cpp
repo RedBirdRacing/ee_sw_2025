@@ -45,22 +45,29 @@ void Pedal::pedal_update(int millis) {
         pedalValue_1.push(analogRead(input_pin_1));
         pedalValue_2.push(analogRead(input_pin_2));
 
+        // By defualt pedal 1 is 0-5v, pedal 2 is 0-3.3v
         int pedal_filtered_1 = FIR_filter<int>(pedalValue_1.buffer, SINC_128, ADC_BUFFER_SIZE, 6.176445);
         int pedal_filtered_2 = FIR_filter<int>(pedalValue_2.buffer, SINC_128, ADC_BUFFER_SIZE, 6.176445);
-        final_pedal_value = average(pedal_filtered_1, pedal_filtered_2);
+        final_pedal_value = pedal_filtered_1; // Only take in 5v pedal value (pedal 1);
+        // final_pedal_value = average(pedal_filtered_1, (int)(pedal_filtered_2 * (5 / 3.3))); // Converts pedal 2 value to a value between 0 and 1023
 
         // if (Serial) {
         //     Serial.print("Filtered output: ");
+        //     Serial.print(pedal_filtered_1);
+        //     Serial.print(" ");
+        //     Serial.print(pedal_filtered_2);
+        //     Serial.print(" ");
         //     Serial.println(average(pedal_filtered_1, pedal_filtered_2));
         // }
 
-        if (check_pedal_fault())
+        if (check_pedal_fault(pedal_filtered_1, pedal_filtered_2))
         {
             if (fault) { // Previous scan is already faulty
                 if (fault_start_millis - millis > 100) { // Faulty for more than 100 ms 
                     // TODO: Add code for alerting the faulty pedal, and whatever else mandated in rules Ch.2 Section 12.8, 12.9
 
                     // Turning off the motor is achieved using another digital pin, not via canbus
+                    
                     return;
                 }
             }
@@ -101,8 +108,13 @@ void Pedal::pedal_can_frame_update(can_frame *tx_throttle_msg) {
     else
         throttle_torque_val = 0;
 
-    // if (Serial)
-    //     Serial.println(String(throttle_torque_val) + " "+ String(analogRead(A1))+ " "+ String(throttle_volt));
+    // if (Serial) {
+    //     Serial.print(throttle_torque_val);
+    //     Serial.print(" ");
+    //     Serial.print(final_pedal_value);
+    //     Serial.print(" ");
+    //     Serial.println(throttle_volt);
+    // }
 
     tx_throttle_msg->can_id = 201;
     tx_throttle_msg->can_dlc = 3;
@@ -112,10 +124,19 @@ void Pedal::pedal_can_frame_update(can_frame *tx_throttle_msg) {
 
 }
 
-bool Pedal::check_pedal_fault() { 
-    // TODO: Add logic for determining if pedals are faulty or not
+bool Pedal::check_pedal_fault(int pedal_1, int pedal_2) { 
+    float pedal_1_percentage = (float)pedal_1 / 1023;
+    float pedal_2_percentage = (float)pedal_2 * (5 / 3.3) / 1023;
 
+    float pedal_percentage_diff = abs(pedal_1_percentage - pedal_2_percentage);
     // Currently the only indication for faulty pedal is just 2 pedal values are more than 10% different
 
-    return true;
+    if (pedal_percentage_diff > 0.1 && Serial) {
+        Serial.print("Invalid pedals");
+        Serial.print(" ");
+        Serial.print(pedal_1_percentage);
+        Serial.print(" ");
+        Serial.println(pedal_2_percentage);
+    }
+    return pedal_percentage_diff > 0.1;
 }

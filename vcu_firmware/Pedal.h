@@ -5,14 +5,13 @@
 #include "mcp2515.h"
 
 // Constants
-const float MAX_THROTTLE_IN_VOLT = 4.3;
-const float MIN_THROTTLE_IN_VOLT = 0.7;
-const float THROTTLE_LOWER_DEADZONE_MAX_IN_VOLT = 0.3;
-const float THORTTLE_UPPER_DEADZONE_MIN_IN_VOLT = 4.7;
+const float MAX_THROTTLE_IN_VOLT = 4.8;
+const float MIN_THROTTLE_IN_VOLT = 1.7;
+const float THROTTLE_LOWER_DEADZONE_MAX_IN_VOLT = 1.6;
+const float THORTTLE_UPPER_DEADZONE_MIN_IN_VOLT = 5.1;
 
 const int MAX_THROTTLE_OUT_VAL = 32760; // Maximum torque value is 32760 for mcp2515
 const int MIN_THROTTLE_OUT_VAL = 300; // Minium torque value tested is 300 (TBC)
-
 
 #define ADC_BUFFER_SIZE 128
 
@@ -31,6 +30,7 @@ class Pedal {
         void pedal_can_frame_update(can_frame *tx_throttle_msg);
 
         // Pedal value after filtering and processing
+        // Under normal circumstance, should store a value between 0 and 1023 inclusive (translates to 0v - 5v)
         int final_pedal_value;
 
     private:
@@ -49,7 +49,7 @@ class Pedal {
         unsigned long previous_millis;
 
         // Returns true if pedal is faulty
-        bool check_pedal_fault();
+        bool check_pedal_fault(int pedal_1, int pedal_2);
 
         Queue<int, ADC_BUFFER_SIZE> pedalValue_1;
         Queue<int, ADC_BUFFER_SIZE> pedalValue_2;
