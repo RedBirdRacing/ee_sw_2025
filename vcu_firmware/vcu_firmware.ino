@@ -64,7 +64,7 @@ uint16_t update_can_tx_throttle_msg()
     tx_throttle_msg.can_id = 201;
     tx_throttle_msg.can_dlc = 3;
     tx_throttle_msg.data[0] = 0x90; //0x90 for torque, 0x31 for speed
-    tx_throttle_msg.data[1] = throttle_torque_val % 0xFF;
+    tx_throttle_msg.data[1] = throttle_torque_val & 0xFF;
     tx_throttle_msg.data[2] = (throttle_torque_val >> 8) & 0xFF;
 
     return 0;
@@ -82,19 +82,17 @@ void setup()
     mcp2515.reset();
     mcp2515.setBitrate(CAN_500KBPS, MCP_8MHZ); // 8MHZ for testing on uno
     mcp2515.setNormalMode();
+
+    // Init serial for testing
     while (!Serial);
       Serial.begin(9600);
 }
 
 void loop()
 {
-    update_can_tx_throttle_msg();
-    
     // Send throttle torque msg if no error
     if (update_can_tx_throttle_msg() == 0)
         mcp2515.sendMessage(&tx_throttle_msg);
-
-    // Serial.println(tx_throttle_msg.can_id);
     
     delay(100);
 
