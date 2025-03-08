@@ -179,7 +179,8 @@
       "track_widths": [
         0.0,
         0.2,
-        0.5
+        0.5,
+        0.7
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -211,6 +212,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
@@ -601,7 +610,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -617,20 +626,20 @@
       "Root"
     ],
     [
-      "ee05c668-fdc5-4e58-a917-4d64b0e277cb",
-      "voltage divider"
+      "d0ef591d-4eff-4023-b2eb-8815fbff3a81",
+      "voltage divider7"
     ],
     [
-      "81ab667c-482f-4bb3-bb0a-88102c354cb6",
-      "voltage divider1"
+      "6601a928-0afa-4d9a-b428-b9be92196442",
+      "voltage divider8"
     ],
     [
-      "0ec34efe-5cc3-4314-9720-ef1838aaa3da",
-      "voltage divider2"
+      "d1eedcf3-a622-4318-a9ec-3671912c6106",
+      "voltage divider9"
     ],
     [
-      "8dfa2e26-19ba-4ec7-8e53-aeb44d2440e9",
-      "voltage divider3"
+      "fe768f6c-0779-4690-bba6-dc06d650a51f",
+      "3V3 divider4"
     ],
     [
       "3b21fc28-c8b9-483a-a059-dd8193226d42",
@@ -643,6 +652,10 @@
     [
       "c95b4a2b-b42a-4024-af14-ef340befd390",
       "voltage divider6"
+    ],
+    [
+      "5baee054-6139-40f7-b6bd-5fcce8dbdbb9",
+      "voltage divider10"
     ],
     [
       "02657d5f-35c3-459a-91ca-e89a2aa05d13",
