@@ -645,10 +645,6 @@
       "voltage divider6"
     ],
     [
-      "1153a467-d12c-4cbb-8264-2e80c29423fe",
-      "voltage divider_3V3"
-    ],
-    [
       "02657d5f-35c3-459a-91ca-e89a2aa05d13",
       "current to voltage"
     ]
