@@ -1,4 +1,4 @@
-23462833780649343
+23464575303869139
 293D106X9025C2TE3
 CAPPM6032X280N
 Case C
@@ -85564,6 +85564,13 @@ RMC_Inductor
 L_10.4x10.4_H4.8
 Choke, SMD, 10.4x10.4mm 4.8mm height
 Choke SMD
+0
+2
+2
+RMC_Inductor
+L_CD54
+Inductor, Wuerth Elektronik, Wuerth_HCI-5040, 5.5mmx5.2mm
+inductor Wuerth hci smd
 0
 2
 2
