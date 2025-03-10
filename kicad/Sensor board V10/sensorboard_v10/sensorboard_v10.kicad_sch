@@ -5631,16 +5631,16 @@
 		)
 	)
 	(junction
+		(at 179.07 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02189435-831b-462e-a0c9-3e1a64233126")
+	)
+	(junction
 		(at 196.85 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "049ed1fd-d976-4fb9-b8a3-a3d87133a6ee")
-	)
-	(junction
-		(at 179.07 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "074568d9-b610-4d77-bbc8-bd88cd965b61")
 	)
 	(junction
 		(at 271.78 34.29)
@@ -12051,7 +12051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
+		(property "Footprint" "RMC_Capacitor:CP_EIA-3528-15_AVX-H_Pad1.50x2.35mm_HandSolder_RMC"
 			(at 219.4052 66.04 0)
 			(effects
 				(font
@@ -12425,6 +12425,75 @@
 			(project "sensorboard_v10"
 				(path "/bee3e03c-9a5f-4c66-913e-823f7b125a2a"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 179.07 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6203a6fe-c1ac-435f-a9b6-3103e4b22354")
+		(property "Reference" "C32"
+			(at 182.88 60.0709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 182.88 62.6109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_Capacitor:CP_EIA-3528-15_AVX-H_Pad1.50x2.35mm_HandSolder_RMC"
+			(at 180.0352 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfb5455e-2bce-4f90-b956-e86837107814")
+		)
+		(pin "2"
+			(uuid "79f76659-cbc9-4656-9b2b-22dd47fb8869")
+		)
+		(instances
+			(project "sensorboard_v10"
+				(path "/bee3e03c-9a5f-4c66-913e-823f7b125a2a"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -18480,75 +18549,6 @@
 			(project "sensorboard_v10"
 				(path "/bee3e03c-9a5f-4c66-913e-823f7b125a2a"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 179.07 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1f9cbc1-687f-4548-af2c-5528cc70b720")
-		(property "Reference" "C32"
-			(at 182.88 60.0709 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 182.88 62.6109 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
-			(at 180.0352 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 179.07 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ca6e123-fe88-4f8a-9682-b684d5577600")
-		)
-		(pin "2"
-			(uuid "77dcb924-ee98-4662-b058-c190d8e8c0a5")
-		)
-		(instances
-			(project "sensorboard_v10"
-				(path "/bee3e03c-9a5f-4c66-913e-823f7b125a2a"
-					(reference "C32")
 					(unit 1)
 				)
 			)
