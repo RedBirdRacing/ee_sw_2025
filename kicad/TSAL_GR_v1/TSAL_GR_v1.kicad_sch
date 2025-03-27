@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7f12fc09-c1e9-417e-8a60-651c1a7fe14c")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 175.26 120.65)
+		(size 64.77 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c22373d8-5156-46cb-976b-080aedd957d1")
+		(property "Sheetname" "TSAL_G"
+			(at 175.26 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TSAL_G.kicad_sch"
+			(at 175.26 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSAL_GR_v1"
+				(path "/7f12fc09-c1e9-417e-8a60-651c1a7fe14c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 106.68)
+		(size 41.91 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c78cf85a-45be-4894-aac6-6cf12f2359d6")
+		(property "Sheetname" "TSAL_R"
+			(at 34.29 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TSAL_R.kicad_sch"
+			(at 34.29 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TSAL_GR_v1"
+				(path "/7f12fc09-c1e9-417e-8a60-651c1a7fe14c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
