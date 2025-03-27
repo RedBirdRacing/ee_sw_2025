@@ -1028,7 +1028,7 @@
 			(net 5 "XTAL2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "26ef4cda-f530-4158-9d0a-349976fb7985")
+			(uuid "147b76ca-cd1e-4ad5-851a-ff9345ebc8b1")
 		)
 		(pad "2" smd rect
 			(at 4.9 0 90)
@@ -1051,7 +1051,7 @@
 			(net 4 "XTAL1")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "35e3efd1-6f2a-45a6-acf3-d3c30b86d148")
+			(uuid "2c1bf451-500d-4e04-8559-cbe102fe847c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC49-U_Vertical.wrl"
@@ -4437,7 +4437,7 @@
 			(net 6 "Net-(U2-OSC2)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "dafc00f2-bcdb-4d0c-82e8-9ed2f2ac23d8")
+			(uuid "ea364f86-8932-46fe-8abf-473bee974f0b")
 		)
 		(pad "2" smd rect
 			(at 4.9 0)
@@ -4460,7 +4460,7 @@
 			(net 7 "Net-(U2-OSC1)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "241b93ea-ee59-4403-b7b2-adae96570cf9")
+			(uuid "81d416e0-696a-46e1-a736-bf537ba00143")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC49-U_Vertical.wrl"
@@ -13708,7 +13708,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "83012357-05c5-42f0-942f-bdac4b8f0c0e")
+			(uuid "f6a631e8-85c4-4791-b8f9-f10d60b70fbd")
 		)
 		(pad "3" smd roundrect
 			(at -0.925 2.775 270)
@@ -13718,7 +13718,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "83012357-05c5-42f0-942f-bdac4b8f0c0e")
+			(uuid "fe4190f5-afdb-4ade-a90f-ccbca547ec14")
 		)
 		(pad "3" smd roundrect
 			(at 1.9 0 270)
@@ -13728,7 +13728,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "83012357-05c5-42f0-942f-bdac4b8f0c0e")
+			(uuid "a4db2066-5413-4f9b-affe-977722805358")
 		)
 		(pad "3" smd roundrect
 			(at 4.325 -2.775 270)
@@ -13738,7 +13738,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "83012357-05c5-42f0-942f-bdac4b8f0c0e")
+			(uuid "f4f3e0bd-e972-4d59-8ced-300a3dcaad1b")
 		)
 		(pad "3" smd roundrect
 			(at 4.325 2.775 270)
@@ -13748,7 +13748,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "83012357-05c5-42f0-942f-bdac4b8f0c0e")
+			(uuid "98414a16-d894-454b-970b-c7b3991840a7")
 		)
 		(pad "4" smd roundrect
 			(at -8.675 1.7 270)
@@ -15519,7 +15519,7 @@
 			(net 10 "Net-(U5-VO)")
 			(pinfunction "VO")
 			(pintype "power_out")
-			(uuid "317e93b1-fea5-48f1-8f17-9eefe317c666")
+			(uuid "71424eda-1664-47cf-8282-0ca615076393")
 		)
 		(pad "3" smd roundrect
 			(at -3.825 2.275)
@@ -17369,7 +17369,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "0050527e-83d8-4fa9-a6f1-2a9e29331f34")
+			(uuid "88ab37db-bad6-4f36-a2e8-7ad7e61d9acc")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.125 180)
@@ -17380,7 +17380,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "0050527e-83d8-4fa9-a6f1-2a9e29331f34")
+			(uuid "59a2c96b-0228-49a4-aa0d-9ce421910012")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075 180)
@@ -17391,7 +17391,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "0050527e-83d8-4fa9-a6f1-2a9e29331f34")
+			(uuid "d76cd27e-b5b2-405e-81d0-70f4cb010119")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_G-Switch_GT-USB-7010ASV.wrl"
