@@ -81,6 +81,14 @@ void Pedal::pedal_update(int millis) {
     }
 }
 
+void Pedal::pedal_can_frame_stop_motor(can_frame *tx_throttle_msg) {
+    tx_throttle_msg->can_id = 0x201;
+    tx_throttle_msg->can_dlc = 3;
+    tx_throttle_msg->data[0] = 0x90; //0x90 for torque, 0x31 for speed
+    tx_throttle_msg->data[1] = 0;
+    tx_throttle_msg->data[2] = 0;
+}
+
 void Pedal::pedal_can_frame_update(can_frame *tx_throttle_msg) {
     float throttle_volt = (float)final_pedal_value * 5 / 1024; // Converts most update pedal value to a float between 0V and 5V
 
@@ -116,11 +124,19 @@ void Pedal::pedal_can_frame_update(can_frame *tx_throttle_msg) {
     //     Serial.println(throttle_volt);
     // }
 
-    tx_throttle_msg->can_id = 201;
+    if (FLIP_MOTOR_OUTPUT_DIRECTION) // Flips the rotating direction of the motor
+    {
+        throttle_torque_val = throttle_torque_val * (-1);
+    }
+
+    tx_throttle_msg->can_id = 0x201;
     tx_throttle_msg->can_dlc = 3;
     tx_throttle_msg->data[0] = 0x90; //0x90 for torque, 0x31 for speed
     tx_throttle_msg->data[1] = throttle_torque_val & 0xFF;
     tx_throttle_msg->data[2] = (throttle_torque_val >> 8) & 0xFF;
+
+    // Serial.print(throttle_torque_val);
+    // Serial.print(" ");
 
 }
 
@@ -131,12 +147,12 @@ bool Pedal::check_pedal_fault(int pedal_1, int pedal_2) {
     float pedal_percentage_diff = abs(pedal_1_percentage - pedal_2_percentage);
     // Currently the only indication for faulty pedal is just 2 pedal values are more than 10% different
 
-    if (pedal_percentage_diff > 0.1 && Serial) {
-        Serial.print("Invalid pedals");
-        Serial.print(" ");
-        Serial.print(pedal_1_percentage);
-        Serial.print(" ");
-        Serial.println(pedal_2_percentage);
-    }
+    // if (pedal_percentage_diff > 0.1 && Serial) {
+    //     Serial.print("Invalid pedals");
+    //     Serial.print(" ");
+    //     Serial.print(pedal_1_percentage);
+    //     Serial.print(" ");
+    //     Serial.println(pedal_2_percentage);
+    // }
     return pedal_percentage_diff > 0.1;
 }
