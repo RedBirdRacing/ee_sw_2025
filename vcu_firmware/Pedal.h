@@ -13,6 +13,8 @@ const float THORTTLE_UPPER_DEADZONE_MIN_IN_VOLT = 5.1;
 const int MAX_THROTTLE_OUT_VAL = 32760; // Maximum torque value is 32760 for mcp2515
 const int MIN_THROTTLE_OUT_VAL = 300; // Minium torque value tested is 300 (TBC)
 
+const bool FLIP_MOTOR_OUTPUT_DIRECTION = true; // Flips the direction of motor output
+
 #define ADC_BUFFER_SIZE 128
 
 // Class for generic pedal object
@@ -28,6 +30,9 @@ class Pedal {
 
         // Updates the can_frame with the most update pedal value. To be called on every loop and pass the can_frame by reference.
         void pedal_can_frame_update(can_frame *tx_throttle_msg);
+
+        // Updates the can_frame to send a "0 Torque" value through canbus.
+        void pedal_can_frame_stop_motor(can_frame *tx_throttle_msg);
 
         // Pedal value after filtering and processing
         // Under normal circumstance, should store a value between 0 and 1023 inclusive (translates to 0v - 5v)
