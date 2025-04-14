@@ -3,12 +3,12 @@
 #include <mcp2515.h>
 
 // uint8_t pin_in[8] = {A1, A2};
-uint8_t pin_out[3] = {LED1, LED2, LED3};
+uint8_t pin_out[4] = {LED1, LED2, LED3, BREAK_OUT};
 uint8_t pin_in[4] = {BTN1, BTN2, BTN3, BTN4};
 
-MCP2515 mcp2515(10);
+MCP2515 mcp2515(CS_CAN);
 
-Pedal pedal = Pedal(A1, A2, millis());
+Pedal pedal = Pedal(APPS_5V, APPS_3V3, millis());
 
 struct can_frame tx_throttle_msg;
 struct can_frame rx_msg;
