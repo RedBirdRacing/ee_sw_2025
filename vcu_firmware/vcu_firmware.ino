@@ -38,7 +38,7 @@ void setup()
     for (int i = 0; i < 4; i++)
         pinMode(pin_in[i], INPUT);
     // Init output pins
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 4; i++)
         pinMode(pin_out[i], OUTPUT);
 
     // Init mcp2515 
