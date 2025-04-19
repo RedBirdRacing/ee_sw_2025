@@ -13,8 +13,11 @@ Pedal pedal = Pedal(APPS_5V, APPS_3V3, millis());
 struct can_frame tx_throttle_msg;
 struct can_frame rx_msg;
 
+const int THROTTLE_UPDATE_PERIOD_MILLIS = 50; // Period of sending canbus signal
+unsigned long final_throttle_time_millis = 0;  // The last time sent a canbus message
+
 int car_status = 0;
-int car_status_millis_counter = 0; // Millis counter for 1st and 2nd transitionin states
+unsigned long car_status_millis_counter = 0; // Millis counter for 1st and 2nd transitionin states
 const int STATUS_1_TIME_MILLIS = 2000; // The amount of time that the driver needs to hold the "Start" button and full brakes in order to activate driving mode
 const int BUSSIN_TIME_MILLIS = 2000; // The amount of time that the buzzer will buzz for
 /*
@@ -46,7 +49,7 @@ void setup()
     mcp2515.setBitrate(CAN_500KBPS, MCP_8MHZ); // 8MHZ for testing on uno
     mcp2515.setNormalMode();
 
-    // // Init serial for testing
+    // Init serial for testing
     // while (!Serial);
     //   Serial.begin(9600);
 }
@@ -68,6 +71,9 @@ void loop()
     // Serial.println(car_status);
     if (car_status == 0)
     {
+        car_status = 3; // For testing drive mode
+        pedal.pedal_can_frame_stop_motor(&tx_throttle_msg);
+        mcp2515.sendMessage(&tx_throttle_msg);
         if (digitalRead(BTN1) == HIGH && digitalRead(BTN2) == HIGH) // Check if "Start" button and brake is fully pressed
         {
             car_status = 1;
@@ -76,6 +82,8 @@ void loop()
     }
     else if (car_status == 1)
     {
+        pedal.pedal_can_frame_stop_motor(&tx_throttle_msg);
+        mcp2515.sendMessage(&tx_throttle_msg);
         if (digitalRead(BTN1) == LOW || digitalRead(BTN2) == LOW) // Check if "Start" button or brake is not fully pressed
         {
             car_status = 0;
@@ -90,6 +98,8 @@ void loop()
     }
     else if (car_status == 2)
     {
+        pedal.pedal_can_frame_stop_motor(&tx_throttle_msg);
+        mcp2515.sendMessage(&tx_throttle_msg);
         if (millis() - car_status_millis_counter >= BUSSIN_TIME_MILLIS)
         {
             digitalWrite(LED2, HIGH); // Turn on "Drive" mode indicator
@@ -111,13 +121,18 @@ void loop()
     {   
         // Send pedal value through canbus
         pedal.pedal_can_frame_update(&tx_throttle_msg);
+        // if (millis() - final_throttle_time_millis >= THROTTLE_UPDATE_PERIOD_MILLIS)
+        // {
+        //     mcp2515.sendMessage(&tx_throttle_msg);
+        //     final_throttle_time_millis = millis();
+        // }
         mcp2515.sendMessage(&tx_throttle_msg);
         // Serial.print(tx_throttle_msg.data[0],tx_throttle_msg.data[2],tx_throttle_msg.data[2]);
         // Serial.print(tx_throttle_msg.can_id);
     }
     else
     {
-        if (pedal.final_pedal_value > 325)
+        if (pedal.final_pedal_value > MIN_THROTTLE_OUT_VAL)
         {
             car_status = 0;
             car_status_millis_counter = millis(); // Set to current time, in case any counter relies on this

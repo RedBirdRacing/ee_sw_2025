@@ -36,7 +36,7 @@ Pedal::Pedal(int input_pin_1, int input_pin_2, unsigned long millis, int convers
     }
 }
 
-void Pedal::pedal_update(int millis) {
+void Pedal::pedal_update(unsigned long millis) {
     // If is time to update
     if (millis - previous_millis > conversion_period) {
         // Updating the previous millis 
@@ -45,11 +45,12 @@ void Pedal::pedal_update(int millis) {
         pedalValue_1.push(analogRead(input_pin_1));
         pedalValue_2.push(analogRead(input_pin_2));
 
-        // By defualt pedal 1 is 0-5v, pedal 2 is 0-3.3v
-        int pedal_filtered_1 = FIR_filter<int>(pedalValue_1.buffer, SINC_128, ADC_BUFFER_SIZE, 6.176445);
-        int pedal_filtered_2 = FIR_filter<int>(pedalValue_2.buffer, SINC_128, ADC_BUFFER_SIZE, 6.176445);
-        final_pedal_value = pedal_filtered_1; // Only take in 5v pedal value (pedal 1);
-        // final_pedal_value = average(pedal_filtered_1, (int)(pedal_filtered_2 * (5 / 3.3))); // Converts pedal 2 value to a value between 0 and 1023
+        // By defualt range of pedal 1 is APPS_PEDAL_1_RANGE, pedal 2 is APPS_PEDAL_2_RANGE;
+        int pedal_filtered_1 = round(AVG_filter<float>(pedalValue_1.buffer, ADC_BUFFER_SIZE));
+        int pedal_filtered_2 = round(AVG_filter<float>(pedalValue_2.buffer, ADC_BUFFER_SIZE));
+        // int pedal_filtered_1 = round(FIR_filter<float>(pedalValue_1.buffer, SINC_128, ADC_BUFFER_SIZE, 6.176445));
+        // int pedal_filtered_2 = round(FIR_filter<float>(pedalValue_2.buffer, SINC_128, ADC_BUFFER_SIZE, 6.176445));
+        final_pedal_value = pedal_filtered_1; // Only take in pedal 1 value
 
         // if (Serial) {
         //     Serial.print("Filtered output: ");
@@ -63,7 +64,7 @@ void Pedal::pedal_update(int millis) {
         if (check_pedal_fault(pedal_filtered_1, pedal_filtered_2))
         {
             if (fault) { // Previous scan is already faulty
-                if (fault_start_millis - millis > 100) { // Faulty for more than 100 ms 
+                if (millis - fault_start_millis > 100) { // Faulty for more than 100 ms 
                     // TODO: Add code for alerting the faulty pedal, and whatever else mandated in rules Ch.2 Section 12.8, 12.9
 
                     // Turning off the motor is achieved using another digital pin, not via canbus
@@ -90,32 +91,50 @@ void Pedal::pedal_can_frame_stop_motor(can_frame *tx_throttle_msg) {
 }
 
 void Pedal::pedal_can_frame_update(can_frame *tx_throttle_msg) {
-    float throttle_volt = (float)final_pedal_value * 5 / 1024; // Converts most update pedal value to a float between 0V and 5V
+    float throttle_volt = (float)final_pedal_value * APPS_PEDAL_1_RANGE / 1024; // Converts most update pedal value to a float between 0V and 5V
 
-    uint16_t throttle_torque_val = 0;
+    int16_t throttle_torque_val = 0;
     /*
-    Between 0V and THROTTLE_LOWER_DEADZONE_MIN_IN_VOLT: Error for open circuit
-    Between THROTTLE_LOWER_DEADZONE_MIN_IN_VOLT and MIN_THROTTLE_IN_VOLT: 0% Torque
+    Between 0V and THROTTLE_LOWER_DEADZONE_MAX_IN_VOLT: Error for open circuit
+    Between THROTTLE_LOWER_DEADZONE_MAX_IN_VOLT and MIN_THROTTLE_IN_VOLT: 0% Torque
     Between MIN_THROTTLE_IN_VOLT and MAX_THROTTLE_IN_VOLT: Linear relationship 
     Between MAX_THROTTLE_IN_VOLT and THORTTLE_UPPER_DEADZONE_MIN_IN_VOLT: 100% Torque
     Between THORTTLE_UPPER_DEADZONE_MIN_IN_VOLT and 5V: Error for short circuit
     */
-    if (throttle_volt < THROTTLE_LOWER_DEADZONE_MAX_IN_VOLT)
+    if (throttle_volt < THROTTLE_LOWER_DEADZONE_MIN_IN_VOLT) {
+        // Serial.print("Voltage too smol ");
+        // Serial.println(throttle_volt);
         throttle_torque_val = 0;
-
-    else if (throttle_volt < MIN_THROTTLE_IN_VOLT) 
+    }
+    else if (throttle_volt < MIN_THROTTLE_IN_VOLT) {
         throttle_torque_val = MIN_THROTTLE_OUT_VAL;
-
-    else if (throttle_volt < MAX_THROTTLE_IN_VOLT)
+    }
+    else if (throttle_volt < MAX_THROTTLE_IN_VOLT) {
         // Scale up the value for canbus
         throttle_torque_val = (throttle_volt - MIN_THROTTLE_IN_VOLT) * MAX_THROTTLE_OUT_VAL / (MAX_THROTTLE_IN_VOLT - MIN_THROTTLE_IN_VOLT);
-
-    else if (throttle_volt < THORTTLE_UPPER_DEADZONE_MIN_IN_VOLT)
+        // if (throttle_torque_val > MAX_THROTTLE_OUT_VAL) {
+        //     Serial.print("Output voltage too large");
+        //     Serial.print(" ");
+        //     Serial.print(throttle_volt);
+        //     Serial.print(" ");
+        //     Serial.println(throttle_torque_val);
+        // }
+        // if (throttle_torque_val < MIN_THROTTLE_OUT_VAL) {
+        //     Serial.print("Output voltage too smol");
+        //     Serial.print(" ");
+        //     Serial.print(throttle_volt);
+        //     Serial.print(" ");
+        //     Serial.println(throttle_torque_val);
+        // }
+    }
+    else if (throttle_volt < THORTTLE_UPPER_DEADZONE_MAX_IN_VOLT) {
         throttle_torque_val = MAX_THROTTLE_OUT_VAL;
-
-    else
+    }
+    else {
+        // Serial.print("Voltage too large");
+        // Serial.println(throttle_volt);
         throttle_torque_val = 0;
-
+    }
     // if (Serial) {
     //     Serial.print(throttle_torque_val);
     //     Serial.print(" ");
@@ -124,10 +143,15 @@ void Pedal::pedal_can_frame_update(can_frame *tx_throttle_msg) {
     //     Serial.println(throttle_volt);
     // }
 
+    // throttle_torque_val = 32760; // For debugging
+
     if (FLIP_MOTOR_OUTPUT_DIRECTION) // Flips the rotating direction of the motor
     {
         throttle_torque_val = throttle_torque_val * (-1);
     }
+
+    // Serial.print("Throttle: ");
+    // Serial.println(throttle_torque_val);
 
     tx_throttle_msg->can_id = 0x201;
     tx_throttle_msg->can_dlc = 3;
@@ -141,8 +165,8 @@ void Pedal::pedal_can_frame_update(can_frame *tx_throttle_msg) {
 }
 
 bool Pedal::check_pedal_fault(int pedal_1, int pedal_2) { 
-    float pedal_1_percentage = (float)pedal_1 / 1023;
-    float pedal_2_percentage = (float)pedal_2 * (5 / 3.3) / 1023;
+    float pedal_1_percentage = (float)pedal_1 / 1024;
+    float pedal_2_percentage = (float)pedal_2 * (APPS_PEDAL_1_RANGE / APPS_PEDAL_2_RANGE) / 1024;
 
     float pedal_percentage_diff = abs(pedal_1_percentage - pedal_2_percentage);
     // Currently the only indication for faulty pedal is just 2 pedal values are more than 10% different
