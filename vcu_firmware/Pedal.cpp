@@ -27,7 +27,7 @@ Pedal::Pedal(int input_pin_1, int input_pin_2, unsigned long millis, int convers
     pinMode(input_pin_2, INPUT);
     conversion_period = 1000 / conversion_rate;
 
-    // Init ADC butters
+    // Init ADC buffers
     for (int i = 0; i < ADC_BUFFER_SIZE; ++i) {
         pedalValue_1.buffer[i] = 0;
         pedalValue_2.buffer[i] = 0;
@@ -43,7 +43,7 @@ void Pedal::pedal_update(unsigned long millis) {
         pedalValue_1.push(analogRead(input_pin_1));
         pedalValue_2.push(analogRead(input_pin_2));
 
-        // By defualt range of pedal 1 is APPS_PEDAL_1_RANGE, pedal 2 is APPS_PEDAL_2_RANGE;
+        // By default range of pedal 1 is APPS_PEDAL_1_RANGE, pedal 2 is APPS_PEDAL_2_RANGE;
         int pedal_filtered_1 = round(AVG_filter<float>(pedalValue_1.buffer, ADC_BUFFER_SIZE));
         int pedal_filtered_2 = round(AVG_filter<float>(pedalValue_2.buffer, ADC_BUFFER_SIZE));
         // int pedal_filtered_1 = round(FIR_filter<float>(pedalValue_1.buffer, SINC_128, ADC_BUFFER_SIZE, 6.176445));
