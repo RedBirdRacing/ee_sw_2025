@@ -64,7 +64,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -1603,13 +1602,13 @@
 	(footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0210_1x02-1MP_P3.00mm_Horizontal_PnP"
 		(layer "F.Cu")
 		(uuid "564abc2f-290f-479d-a119-e6bce53b8123")
-		(at 133.05 76.25)
+		(at 131.6 75)
 		(descr "Molex Micro-Fit 3.0 Connector System, 43650-0210 (compatible alternatives: 43650-0211, 43650-0209), 2 Pins per row (https://www.molex.com/pdm_docs/sd/436500210_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Micro-Fit_3.0 horizontal")
 		(property "Reference" "J9"
 			(at 0 -6.15 0)
 			(layer "F.SilkS")
-			(uuid "5362d645-6995-4788-a958-2ef0f22fe402")
+			(uuid "5689e533-cbd6-4eed-9127-c51398be7ebd")
 			(effects
 				(font
 					(size 1 1)
@@ -1620,7 +1619,7 @@
 		(property "Value" "TSAL_green-"
 			(at 0 7.78 0)
 			(layer "F.Fab")
-			(uuid "60d845e9-0dac-436d-9cb1-a8846d92eece")
+			(uuid "a57b6971-0bc3-48c7-9913-a7f3183b0bc4")
 			(effects
 				(font
 					(size 1 1)
@@ -1632,7 +1631,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f30f6e58-335b-4dd5-970e-9985bb63c894")
+			(uuid "31a0e4f5-953f-405c-aebb-1b353ed3d760")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1644,7 +1643,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b59893c5-b7ec-4a22-9e57-5cf6ee49cd93")
+			(uuid "fc3b982c-3099-4f82-b67d-61df1c7fc8bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,13 +3155,13 @@
 	(footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0210_1x02-1MP_P3.00mm_Horizontal_PnP"
 		(layer "F.Cu")
 		(uuid "be88ae20-f7fa-41f2-9f8d-309c50739565")
-		(at 145.45 76.35)
+		(at 144.9 74.985)
 		(descr "Molex Micro-Fit 3.0 Connector System, 43650-0210 (compatible alternatives: 43650-0211, 43650-0209), 2 Pins per row (https://www.molex.com/pdm_docs/sd/436500210_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Micro-Fit_3.0 horizontal")
 		(property "Reference" "J7"
 			(at 0 -6.15 0)
 			(layer "F.SilkS")
-			(uuid "10f1ab15-9a3c-4bef-91f7-b62511146e0d")
+			(uuid "b805a5e4-db67-4ad0-85ba-03301dc6e5c8")
 			(effects
 				(font
 					(size 1 1)
@@ -3173,7 +3172,7 @@
 		(property "Value" "TSAL_green+"
 			(at 0 7.78 0)
 			(layer "F.Fab")
-			(uuid "2cfe0bd7-3a53-4fa6-a9ce-97aac87104be")
+			(uuid "7d45b181-7743-4905-9614-fcf4c2a06942")
 			(effects
 				(font
 					(size 1 1)
@@ -3185,7 +3184,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "04e09c6d-0c3b-40fa-9525-1320244a5f11")
+			(uuid "ba962b68-92ad-4471-9d23-ee14d74d5dda")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +3196,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "48cbbae4-0055-495c-b730-19aa24199989")
+			(uuid "052ba1cb-7ab3-47ae-a28f-a4c6afbac491")
 			(effects
 				(font
 					(size 1.27 1.27)

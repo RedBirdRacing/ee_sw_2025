@@ -3105,7 +3105,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AIR+"
+		(property "Value" "PRE+"
 			(at 46.99 147.3199 0)
 			(effects
 				(font
