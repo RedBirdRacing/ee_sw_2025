@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 2,
-    "active_layer_preset": "",
+    "active_layer": 5,
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -49,8 +49,8 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffff",
-    "zone_display_mode": 1
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "zone_display_mode": 0
   },
   "git": {
     "repo_type": "",
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "BDU_v1.kicad_prl",
+    "filename": "cc_cv_lt3741.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -87,16 +87,16 @@
       9
     ],
     "col_widths": [
-      149,
-      137,
-      90,
-      63,
-      90,
-      90,
-      90,
-      66,
-      90,
-      90
+      223,
+      205,
+      134,
+      95,
+      134,
+      134,
+      134,
+      100,
+      134,
+      134
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
