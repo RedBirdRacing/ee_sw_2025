@@ -1,4 +1,4 @@
-25595825291543738
+25716110194241459
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91454,6 +91454,272 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RMC_Capacitor
+CP_EIA-3528-15_AVX-H_Pad1.50x2.35mm_HandSolder_RMC
+Tantalum Capacitor SMD AVX-H (3528-15 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+RMC_Capacitor
+CP_Radial_D10.0mm_P5.00mm_F
+CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor
+0
+2
+2
+RMC_Capacitor
+C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+RMC_Connnector
+56pin_hd561
+
+
+0
+56
+56
+RMC_Connnector
+HD241_24pin
+
+
+0
+24
+24
+RMC_Connnector
+HD241_GF15
+
+
+0
+24
+24
+RMC_Connnector
+HD241_GF30
+
+
+0
+24
+24
+RMC_Connnector
+TE-2354318-1_32pin_conn
+
+
+0
+32
+32
+RMC_Connnector
+USB_C_Receptacle_G-Switch_GT-USB-7010ASV_Handsolder
+USB Type C, right-angle, SMT, https://datasheet.lcsc.com/lcsc/2204071530_G-Switch-GT-USB-7010ASV_C2988369.pdf
+USB C Type-C Receptacle SMD
+0
+20
+17
+RMC_Connnector
+USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal_Handsolder
+USB Type C Receptacle, GCT, power-only, 6P, top mounted, horizontal, 3A, 1.9mm stake: https://gct.co/files/drawings/usb4125.pdf
+USB C Type-C receptacle power-only charging-only 6P 6C right angled
+0
+10
+7
+RMC_Crystal
+Crystal_HC49-U_Vertical_W_SMD
+Crystal THT HC-49/U http://5hertz.com/pdfs/04404_D.pdf
+THT crystalHC-49/U
+0
+4
+2
+RMC_Crystal
+Crystal_SMD_3225-4Pin_3.2x2.5mm
+SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+RMC_Inductor
+L_10.4x10.4_H4.8
+Choke, SMD, 10.4x10.4mm 4.8mm height
+Choke SMD
+0
+2
+2
+RMC_Inductor
+L_TDK_SLF12575
+Inductor, TDK, SLF12575, 12.5mmx12.5mm (Script generated with StandardBox.py) (https://product.tdk.com/info/en/catalog/datasheets/inductor_automotive_power_slf12575-h_en.pdf)
+Inductor SLF12575
+0
+2
+2
+RMC_LED
+LED_0805_2012Metric_Pad1.45x1.40mm_HandSolder
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+RMC_Logo
+LK_LOGO
+
+
+0
+0
+0
+RMC_Logo
+RMC Logo
+
+
+0
+0
+0
+RMC_MountingHole
+MountingHole_3.2mmx5mm_M3_ISO7380
+Mounting Hole 3.2mm, no annular, M3, ISO7380
+mounting hole 3.2mm no annular m3 iso7380
+0
+0
+0
+RMC_MountingHole
+MountingHole_3.5mmx5.5mm_M3_ISO7380
+Mounting Hole 3.2mm, no annular, M3, ISO7380
+mounting hole 3.2mm no annular m3 iso7380
+0
+0
+0
+RMC_QFP
+TQFP-32_7x7mm_P0.8mm_L
+32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+32
+32
+RMC_Resistor
+R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+RMC_Resistor
+R_1206_3216Metric_Pad1.30x1.75mm_HandSolder_RMC
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+RMC_SO
+SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+RMC_SO
+SOIC-16_3.9x9.9mm_P1.27mm_Handsolder
+SOIC, 16 Pin (JEDEC MS-012AC, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+16
+16
+RMC_SO
+SOIC-18W_7.5x11.6mm_P1.27mm_L
+SOIC, 18 Pin (JEDEC MS-013AB, https://www.analog.com/media/en/package-pcb-resources/package/33254132129439rw_18.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+18
+18
+RMC_SO
+SOIC127P600X175-8N
+
+
+0
+8
+8
+RMC_SO
+SOIC127P600X175-14N
+
+
+0
+14
+14
+RMC_SO
+TSSOP-20_4.4x6.5mm_P0.65mm
+TSSOP, 20 Pin (JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+20
+20
+RMC_SO
+VSSOP-8_2.3x2mm_P0.5mm_Handsolder_RMC
+VSSOP-8 2.3x2mm Pitch 0.5mm
+VSSOP-8 2.3x2mm Pitch 0.5mm
+0
+8
+8
+RMC_SOT
+SOT-23
+SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
+RMC_SOT
+SOT-23-5_HandSoldering_Extended_RMC
+5-pin SOT23 package
+SOT-23-5 hand-soldering
+0
+5
+5
+RMC_SOT
+SOT-23-6_Handsoldering_Extended_RMC
+6-pin SOT-23 package, Handsoldering
+SOT-23-6 Handsoldering
+0
+6
+6
+RMC_SOT
+SOT-223-3_TabPin2_Handsolder
+module CMS SOT223 4 pins
+CMS SOT
+0
+4
+3
+RMC_TO
+TO-220-3_Horizontal_TabDown_bottom_bighole
+TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Horizontal RM 2.54mm
+0
+3
+3
+RMC_TO
+TO-220-3_Horizontal_hole
+TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Vertical RM 2.54mm
+0
+3
+3
+RMC_TO
+TO-252-2
+TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
+DPAK TO-252 DPAK-3 TO-252-3 SOT-428
+0
+3
+3
+RMC_TO
+TO-263-5_TabPin3_Handsolder
+TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/
+D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426
+0
+10
+5
+RMC_toggle_switch
+SPDT_P_4.70mm_01x03
+
+
+0
+3
+3
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
@@ -95836,6 +96102,27 @@ Logo WEEE
 0
 0
 0
+Symbols
+LK_LOGO
+
+
+0
+0
+0
+Symbols
+RMC Logo
+
+
+0
+0
+0
+Symbols
+SOIC127P600X175-8N
+
+
+0
+8
+8
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -102637,6 +102924,202 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+to be sorted
+AMASS_XT90PW-F
+
+
+0
+4
+4
+to be sorted
+CP_Radial_D10.0mm_P5.00mm_F
+CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor
+0
+2
+2
+to be sorted
+C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+to be sorted
+CeramicFuse_10x38_clamp
+
+
+0
+4
+2
+to be sorted
+Crystal_HC49-U_Vertical_W_SMD
+Crystal THT HC-49/U http://5hertz.com/pdfs/04404_D.pdf
+THT crystalHC-49/U
+0
+4
+2
+to be sorted
+Crystal_SMD_3225-4Pin_3.2x2.5mm
+SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+to be sorted
+DG302-5.0-02P
+
+
+0
+3
+3
+to be sorted
+DG2350-50AH-02P
+
+
+0
+4
+4
+to be sorted
+DG2350-50AH-03P
+
+
+0
+6
+6
+to be sorted
+ESP32-WROOM-S3-2
+2.4 GHz Wi­-Fi and Bluetooth 5 (LE) module: https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-2_datasheet_en.pdf
+Bluetooth WiFi Wi-Fi ESP WROOM
+0
+61
+41
+to be sorted
+HD241_24pin
+
+
+0
+24
+24
+to be sorted
+HD241_GF15
+
+
+0
+24
+24
+to be sorted
+L_10.4x10.4_H4.8
+Choke, SMD, 10.4x10.4mm 4.8mm height
+Choke SMD
+0
+2
+2
+to be sorted
+MountingHole_3.2mmx5mm_M3_ISO7380
+Mounting Hole 3.2mm, no annular, M3, ISO7380
+mounting hole 3.2mm no annular m3 iso7380
+0
+0
+0
+to be sorted
+PinHeader_2x03_P2.54mm_Vertical
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+to be sorted
+R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+to be sorted
+SDI4005I
+
+
+0
+4
+4
+to be sorted
+SOIC-16W_5.3x10.2mm_P1.27mm_betterHandSolder
+16-Lead Plastic Small Outline (SO) - Wide, 5.3 mm Body (http://www.ti.com/lit/ml/msop002a/msop002a.pdf)
+SOIC 1.27
+0
+16
+16
+to be sorted
+SOIC-18W_7.5x11.6mm_P1.27mm_L
+SOIC, 18 Pin (JEDEC MS-013AB, https://www.analog.com/media/en/package-pcb-resources/package/33254132129439rw_18.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+18
+18
+to be sorted
+SOT-23_betterHandSolder
+SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
+to be sorted
+TO-220-3_Horizontal_TabDown_bottom_bighole
+TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Horizontal RM 2.54mm
+0
+3
+3
+to be sorted
+TO-220-3_Horizontal_hole
+TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Vertical RM 2.54mm
+0
+3
+3
+to be sorted
+TO-252-2
+TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
+DPAK TO-252 DPAK-3 TO-252-3 SOT-428
+0
+3
+3
+to be sorted
+TQFP-32_7x7mm_P0.8mm_L
+32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+32
+32
+to be sorted
+Terminal_m4_plate
+
+
+0
+4
+1
+to be sorted
+big ass pad circ
+
+
+0
+1
+1
+to be sorted
+big ass pad sq
+
+
+0
+1
+1
+to be sorted
+big ass pad sq_1
+
+
 0
 2
 2
