@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.2,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -650,26 +650,6 @@
     [
       "bee3e03c-9a5f-4c66-913e-823f7b125a2a",
       "Root"
-    ],
-    [
-      "d0ef591d-4eff-4023-b2eb-8815fbff3a81",
-      "voltage divider7"
-    ],
-    [
-      "6601a928-0afa-4d9a-b428-b9be92196442",
-      "voltage divider8"
-    ],
-    [
-      "d1eedcf3-a622-4318-a9ec-3671912c6106",
-      "voltage divider9"
-    ],
-    [
-      "c95b4a2b-b42a-4024-af14-ef340befd390",
-      "voltage divider6"
-    ],
-    [
-      "5baee054-6139-40f7-b6bd-5fcce8dbdbb9",
-      "voltage divider10"
     ],
     [
       "02657d5f-35c3-459a-91ca-e89a2aa05d13",
