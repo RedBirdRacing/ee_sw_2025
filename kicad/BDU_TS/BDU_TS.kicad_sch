@@ -2269,7 +2269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Littelfuse_Nano2_157x"
+		(property "Footprint" "Fuse:Fuse_Littelfuse-NANO2-885"
 			(at 54.61 127.508 90)
 			(effects
 				(font
@@ -2622,7 +2622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
 			(at 62.23 127.508 90)
 			(effects
 				(font
@@ -3245,7 +3245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Littelfuse_Nano2_157x"
+		(property "Footprint" "Fuse:Fuse_Littelfuse-NANO2-885"
 			(at 95.25 130.302 90)
 			(effects
 				(font
