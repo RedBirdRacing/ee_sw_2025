@@ -170,142 +170,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Fuse"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -575,12 +439,6 @@
 		(uuid "b85c58c3-594d-4a77-b3ad-967638fc5d92")
 	)
 	(junction
-		(at 121.92 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1e2bcbe-7623-43fb-a5d4-5b6cb8b0bb91")
-	)
-	(junction
 		(at 49.53 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -591,12 +449,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d478a5a0-b06c-410f-8a08-3b1506c12292")
-	)
-	(junction
-		(at 151.13 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9ff6111-337c-4791-a5d2-56a21a4e20b7")
 	)
 	(junction
 		(at 151.13 40.64)
@@ -664,7 +516,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 68.58) (xy 121.92 78.74)
+			(xy 121.92 59.69) (xy 121.92 78.74)
 		)
 		(stroke
 			(width 0)
@@ -751,26 +603,6 @@
 			(type default)
 		)
 		(uuid "5ed85e41-57ab-4e6b-8204-d5e410107428")
-	)
-	(wire
-		(pts
-			(xy 139.7 68.58) (xy 151.13 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fcae2a8-c16d-4867-8632-951a01c1f044")
-	)
-	(wire
-		(pts
-			(xy 121.92 59.69) (xy 121.92 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6669536f-e47f-4a80-9a20-c75a9d2ee7f6")
 	)
 	(wire
 		(pts
@@ -894,16 +726,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 66.04) (xy 151.13 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89ce193b-c2f8-44c2-81af-26196b808c7f")
-	)
-	(wire
-		(pts
 			(xy 77.47 86.36) (xy 81.28 86.36)
 		)
 		(stroke
@@ -994,16 +816,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 68.58) (xy 132.08 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df11b7a9-a457-44e7-b3c0-d36f269494de")
-	)
-	(wire
-		(pts
 			(xy 49.53 30.48) (xy 62.23 30.48)
 		)
 		(stroke
@@ -1031,7 +843,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "03831c83-6bfb-4c44-bc18-57c16d29f077")
 		(property "Reference" "R2"
 			(at 135.89 53.34 90)
@@ -1506,7 +1317,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "65350610-0a60-4794-a729-dee89a79a691")
 		(property "Reference" "R1"
 			(at 101.6 21.59 90)
@@ -1698,75 +1508,6 @@
 			(project "RBR_TSMP"
 				(path "/7ec1c3b3-dee6-4124-90bc-986279566c8d"
 					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 156.21 68.58 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99231340-3d32-448a-a656-4648f989e689")
-		(property "Reference" "J4"
-			(at 155.575 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "energy meter+"
-			(at 155.575 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
-			(at 156.21 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 156.21 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b952ce3-d561-4179-ae02-d2eb72235c2a")
-		)
-		(pin "2"
-			(uuid "183c4e47-a4b2-474e-80f9-9aa506799d52")
-		)
-		(instances
-			(project "RBR_TSMP"
-				(path "/7ec1c3b3-dee6-4124-90bc-986279566c8d"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2036,75 +1777,6 @@
 			(project "RBR_TSMP"
 				(path "/7ec1c3b3-dee6-4124-90bc-986279566c8d"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 135.89 68.58 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c25de89b-3ae9-4875-a8fd-58d045726948")
-		(property "Reference" "F1"
-			(at 135.89 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 135.89 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_Littelfuse-NANO2-885"
-			(at 135.89 66.802 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 135.89 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b450350d-3253-4826-b398-89ae7310db9b")
-		)
-		(pin "2"
-			(uuid "6bd17d89-fa65-465e-a165-ba6eddeb1033")
-		)
-		(instances
-			(project "RBR_TSMP"
-				(path "/7ec1c3b3-dee6-4124-90bc-986279566c8d"
-					(reference "F1")
 					(unit 1)
 				)
 			)
