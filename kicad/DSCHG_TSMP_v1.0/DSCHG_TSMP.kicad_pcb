@@ -7398,7 +7398,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "HV+"
+	(gr_text "MCU+\n"
 		(at 164 102.04 0)
 		(layer "F.SilkS")
 		(uuid "441bd1e3-8beb-44e9-8c96-e0bf6d7cf9c0")
@@ -7411,7 +7411,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "SDC+&GND"
+	(gr_text "SDC+ GND"
 		(at 226 73 0)
 		(layer "F.SilkS")
 		(uuid "58aeb094-9847-4053-81d8-704c014df5d0")
@@ -7437,7 +7437,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "HV-"
+	(gr_text "MCU-"
 		(at 164 89.04 0)
 		(layer "F.SilkS")
 		(uuid "62705b26-7269-4bc7-ab78-b4dcab78345a")
