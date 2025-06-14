@@ -7914,7 +7914,7 @@
 	)
 	(global_label "BRAKE_TEMP_OUT1"
 		(shape input)
-		(at 92.71 82.55 0)
+		(at 92.71 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7924,7 +7924,7 @@
 		)
 		(uuid "06eb9896-7f91-462d-b7a7-41f5ab78a99b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.3541 82.55 0)
+			(at 113.3541 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8244,7 +8244,7 @@
 	)
 	(global_label "BRAKE_TEMP_OUT2"
 		(shape input)
-		(at 92.71 85.09 0)
+		(at 92.71 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8254,7 +8254,7 @@
 		)
 		(uuid "3d365f48-74b5-4b65-a2ea-3468a1c8b465")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.3541 85.09 0)
+			(at 113.3541 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8288,7 +8288,7 @@
 	)
 	(global_label "IRO"
 		(shape input)
-		(at 92.71 80.01 0)
+		(at 92.71 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8298,7 +8298,7 @@
 		)
 		(uuid "4031480e-696b-4268-9f14-39b1e70f3c2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.9005 80.01 0)
+			(at 98.9005 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8552,7 +8552,7 @@
 	)
 	(global_label "BRAKE_TEMP_OUT4"
 		(shape input)
-		(at 92.71 90.17 0)
+		(at 92.71 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8562,7 +8562,7 @@
 		)
 		(uuid "5ea79c3d-9bf4-43c6-bc92-22b7b218a031")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.3541 90.17 0)
+			(at 113.3541 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8904,7 +8904,7 @@
 	)
 	(global_label "BRAKE_TEMP_OUT3"
 		(shape input)
-		(at 92.71 87.63 0)
+		(at 92.71 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8914,7 +8914,7 @@
 		)
 		(uuid "96eb28ec-1b5a-4f2b-9254-d69c2c81636b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.3541 87.63 0)
+			(at 113.3541 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
