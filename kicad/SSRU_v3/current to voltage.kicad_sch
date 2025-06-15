@@ -925,7 +925,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+5V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -946,7 +946,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+5V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -972,7 +972,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -990,7 +990,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1028,7 +1028,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1169,12 +1169,6 @@
 		(uuid "0ed0b872-d7da-4874-8ff8-3d47e09962ad")
 	)
 	(junction
-		(at 140.97 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10211913-344f-4d0a-932d-5896dfa81f02")
-	)
-	(junction
 		(at 83.82 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1233,6 +1227,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "850421b7-36fb-470c-8b58-7e42291ce54b")
+	)
+	(junction
+		(at 140.97 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8886ae3e-69da-4cbc-80ee-2447f7eb59b5")
 	)
 	(junction
 		(at 196.85 95.25)
@@ -2349,72 +2349,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 140.97 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f5dc9a0-4d86-4c3c-a330-aeb44256e427")
-		(property "Reference" "#PWR066"
-			(at 140.97 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 140.97 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 140.97 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eeeabcc8-36b8-47d8-9669-752a6812a396")
-		)
-		(instances
-			(project "sensorboard_v10"
-				(path "/bee3e03c-9a5f-4c66-913e-823f7b125a2a/02657d5f-35c3-459a-91ca-e89a2aa05d13"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:LM324")
 		(at 170.815 39.37 0)
 		(unit 4)
@@ -2582,6 +2516,72 @@
 			(project "sensorboard_v10"
 				(path "/bee3e03c-9a5f-4c66-913e-823f7b125a2a/02657d5f-35c3-459a-91ca-e89a2aa05d13"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 140.97 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a0ed3cc-4850-4b05-afb9-4d810612004b")
+		(property "Reference" "#PWR030"
+			(at 140.97 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 140.97 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 140.97 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8ba56af-99bb-4202-bf01-5fb4249cccde")
+		)
+		(instances
+			(project ""
+				(path "/bee3e03c-9a5f-4c66-913e-823f7b125a2a/02657d5f-35c3-459a-91ca-e89a2aa05d13"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
