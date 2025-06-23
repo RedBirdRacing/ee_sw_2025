@@ -21,7 +21,7 @@
       "graphics": true,
       "keepouts": true,
       "lockedItems": false,
-      "otherItems": true,
+      "otherItems": false,
       "pads": true,
       "text": true,
       "tracks": true,

@@ -1,4 +1,4 @@
-24860931839584920
+24867934590394571
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88914,6 +88914,20 @@ capacitor tantalum
 2
 2
 RMC_Capacitor
+CP_Radial_D6.3mm_P2.50mm_extended
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor
+0
+2
+2
+RMC_Capacitor
+CP_Radial_D6.3mm_P2.50mm_handsolder
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor
+0
+2
+2
+RMC_Capacitor
 CP_Radial_D10.0mm_P5.00mm_F
 CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor
 CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor
@@ -88999,6 +89013,13 @@ SMD SMT crystal
 4
 RMC_Inductor
 L_10.4x10.4_H4.8
+Choke, SMD, 10.4x10.4mm 4.8mm height
+Choke SMD
+0
+2
+2
+RMC_Inductor
+L_10.4x10.4_H4.8_handsolder
 Choke, SMD, 10.4x10.4mm 4.8mm height
 Choke SMD
 0
@@ -99889,6 +99910,13 @@ Bluetooth WiFi Wi-Fi ESP WROOM
 0
 61
 41
+to be sorted
+Fuse_1210_3225Metric_Pad1.42x2.65mm_HandSolder
+Fuse SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse handsolder
+0
+2
+2
 to be sorted
 HD241_24pin
 
