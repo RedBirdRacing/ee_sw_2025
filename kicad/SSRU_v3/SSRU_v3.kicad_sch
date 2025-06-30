@@ -8794,7 +8794,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 36.83 63.5 0)
+		(at 44.45 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8804,7 +8804,7 @@
 		)
 		(uuid "64f67f33-946a-4b12-ac7d-a3a013838eea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.4114 63.5 0)
+			(at 52.0314 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9322,7 +9322,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 36.83 68.58 0)
+		(at 44.45 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9332,7 +9332,7 @@
 		)
 		(uuid "9edfdc19-48af-46a3-b236-9786331a3cc1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.5647 68.58 0)
+			(at 51.1847 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10092,7 +10092,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 36.83 66.04 0)
+		(at 44.45 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10102,7 +10102,7 @@
 		)
 		(uuid "f64a4a99-e3cb-411f-8041-579a6b6f08c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.4114 66.04 0)
+			(at 52.0314 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15365,6 +15365,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 40.64 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65672c56-62b3-47ae-b287-aa81fe35c8d1")
+		(property "Reference" "R6"
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+			(at 40.64 61.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 40.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 40.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 40.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "488972c5-1214-49e1-9199-06554c3882e3")
+		)
+		(pin "2"
+			(uuid "529888e6-0274-41d4-87b7-a018ce3314ce")
+		)
+		(instances
+			(project "SSRU_v3"
+				(path "/bee3e03c-9a5f-4c66-913e-823f7b125a2a"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 240.03 116.84 0)
 		(mirror x)
@@ -19650,6 +19740,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 40.64 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab2e09b5-41e3-4a2d-ae3d-2b14d73b4ba6")
+		(property "Reference" "R7"
+			(at 39.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 41.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+			(at 40.64 64.262 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 40.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 40.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 40.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61a76002-a471-452f-8652-d5cc38169f0c")
+		)
+		(pin "2"
+			(uuid "c0052290-0daa-4475-9b1f-6dadb5fce6df")
+		)
+		(instances
+			(project "SSRU_v3"
+				(path "/bee3e03c-9a5f-4c66-913e-823f7b125a2a"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 134.62 107.95 0)
 		(unit 1)
@@ -21225,6 +21405,96 @@
 			(project "SSRU_v3"
 				(path "/bee3e03c-9a5f-4c66-913e-823f7b125a2a"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 40.64 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3ec4017-6e56-4ecf-9a74-ce8c76f0d010")
+		(property "Reference" "R8"
+			(at 39.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 41.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+			(at 40.64 66.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 40.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 40.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 40.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38472ca5-8878-4db9-a270-e87ff1ccf024")
+		)
+		(pin "2"
+			(uuid "6d2c4940-83d4-42ca-8b11-a56c81dc521d")
+		)
+		(instances
+			(project "SSRU_v3"
+				(path "/bee3e03c-9a5f-4c66-913e-823f7b125a2a"
+					(reference "R8")
 					(unit 1)
 				)
 			)
