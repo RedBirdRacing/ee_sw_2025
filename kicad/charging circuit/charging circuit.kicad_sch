@@ -2537,10 +2537,10 @@
 	)
 	(text "Shutdown circuit"
 		(exclude_from_sim no)
-		(at 139.192 80.518 0)
+		(at 143.256 72.136 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 5 5)
 			)
 		)
 		(uuid "387aa4c7-b221-4122-830c-9f6f535cf917")
@@ -2554,6 +2554,26 @@
 			)
 		)
 		(uuid "96903b35-4370-4206-b2e9-eb1798179682")
+	)
+	(text "Ningbo\nKBE FHL2G\n25mm^2\nTS"
+		(exclude_from_sim no)
+		(at 247.396 72.644 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "b2f01e06-bfa0-4c8a-a611-1a831899961c")
+	)
+	(text "Alpha Wire\nEco Wire Series 6712\n0.2mm^2"
+		(exclude_from_sim no)
+		(at 145.796 55.626 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "c9f32942-2fb6-496c-a718-c5a3832d394a")
 	)
 	(text "OBC"
 		(exclude_from_sim no)
@@ -3523,7 +3543,7 @@
 				)
 			)
 		)
-		(property "Value" "Relay_DPST-NO"
+		(property "Value" "KILOVAC 	EV200-HAANA"
 			(at 82.55 54.61 90)
 			(effects
 				(font
@@ -4022,18 +4042,18 @@
 		(fields_autoplaced yes)
 		(uuid "4239af2f-19e7-4a8e-8ebd-701248277c8e")
 		(property "Reference" "F1"
-			(at 195.58 60.96 0)
+			(at 195.58 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "L50QS150"
-			(at 195.58 63.5 0)
+		(property "Value" "L50QS150 150A"
+			(at 195.58 62.23 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3 3)
 				)
 			)
 		)
@@ -4223,7 +4243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "662aa896-0ef2-4a54-8bdf-1be4478d1dc6")
-		(property "Reference" "K1"
+		(property "Reference" "AIR_H"
 			(at 207.01 45.72 90)
 			(effects
 				(font
@@ -4231,7 +4251,7 @@
 				)
 			)
 		)
-		(property "Value" "Relay_DPST-NO"
+		(property "Value" "KILOVAC 	EV200-HAANA"
 			(at 207.01 48.26 90)
 			(effects
 				(font
@@ -4288,7 +4308,7 @@
 		(instances
 			(project ""
 				(path "/3be6bc6a-149a-4182-aeea-983f7e00c2a9"
-					(reference "K1")
+					(reference "AIR_H")
 					(unit 1)
 				)
 			)
@@ -4312,7 +4332,7 @@
 				)
 			)
 		)
-		(property "Value" "Relay_SPST-NC"
+		(property "Value" "GIGAVAC	PNC113BDA"
 			(at 114.3 101.6 90)
 			(effects
 				(font
@@ -4595,7 +4615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2b11b2d-b457-4e0b-b93b-b1727d89219b")
-		(property "Reference" "K2"
+		(property "Reference" "AIR_L"
 			(at 207.01 88.9 90)
 			(effects
 				(font
@@ -4603,7 +4623,7 @@
 				)
 			)
 		)
-		(property "Value" "Relay_DPST-NO"
+		(property "Value" "KILOVAC 	EV200-HAANA"
 			(at 207.01 91.44 90)
 			(effects
 				(font
@@ -4660,7 +4680,7 @@
 		(instances
 			(project "charging circuit"
 				(path "/3be6bc6a-149a-4182-aeea-983f7e00c2a9"
-					(reference "K2")
+					(reference "AIR_L")
 					(unit 1)
 				)
 			)
@@ -4896,19 +4916,18 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d47be111-1b5b-4d47-9636-3e6d28eeaba1")
 		(property "Reference" "HVP800_interlock"
 			(at 124.46 86.3599 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3 3)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 124.46 88.8999 90)
+		(property "Value" "TE_HVP800"
+			(at 124.46 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,18 +5125,18 @@
 		(fields_autoplaced yes)
 		(uuid "f10dfb2f-cb60-4d31-bd33-bf0435667f1a")
 		(property "Reference" "J1"
-			(at 83.82 101.6 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 83.82 104.14 0)
+		(property "Value" "TE HVP800"
+			(at 83.82 102.87 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3 3)
 				)
 			)
 		)

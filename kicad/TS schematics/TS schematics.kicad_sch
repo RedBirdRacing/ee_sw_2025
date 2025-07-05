@@ -1269,6 +1269,36 @@
 		)
 		(uuid "6665d58e-53a6-4735-8d14-0399a6dc6e63")
 	)
+	(text "Copper Bus Bar	Custom made	20mm^2"
+		(exclude_from_sim no)
+		(at 120.396 122.428 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a709c58-a6de-44e9-b3d5-cb8d349cb381")
+	)
+	(text "Alpha Wire	Eco Wire Series 6712	0.2mm^2"
+		(exclude_from_sim no)
+		(at 60.706 130.048 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7e41950d-cbbe-4a53-9513-be2e41dc5bce")
+	)
+	(text "Ningbo	KBE FHL2G	25mm^2"
+		(exclude_from_sim no)
+		(at 147.574 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8dfcf3b6-b589-406a-aa68-23acfa0336a2")
+	)
 	(text "TSAC"
 		(exclude_from_sim no)
 		(at 170.434 103.124 0)
@@ -1279,6 +1309,16 @@
 			)
 		)
 		(uuid "94b434d8-3933-4a59-a23c-e4468f6442fd")
+	)
+	(text "Ningbo	KBE FHL2G	25mm^2"
+		(exclude_from_sim no)
+		(at 166.624 73.914 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8f77ea7-4548-4cf3-80fa-cf9c516b004d")
 	)
 	(junction
 		(at 130.81 95.25)
@@ -2843,6 +2883,48 @@
 				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0"
 					(reference "R3")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 100.33)
+		(size 13.97 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ba531de5-0225-4458-93d2-6539cce2b96a")
+		(property "Sheetname" "accumulator"
+			(at 182.88 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TSAC.kicad_sch"
+			(at 182.88 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0"
+					(page "2")
 				)
 			)
 		)
