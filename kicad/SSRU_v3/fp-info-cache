@@ -1,4 +1,4 @@
-24867934590394571
+24869698559731949
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99868,6 +99868,13 @@ CeramicFuse_10x38_clamp
 0
 4
 2
+to be sorted
+Converter_DCDC_F1212
+DCDC-Converter, TRACO, TMA-05xxS, TMA-12xxS, Single, 1W, Rev. November 10. 2023 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tma.pdf)
+DCDC-Converter TRACO TMA THT SIP-7 1W
+0
+4
+4
 to be sorted
 Crystal_HC49-U_Vertical_W_SMD
 Crystal THT HC-49/U http://5hertz.com/pdfs/04404_D.pdf
