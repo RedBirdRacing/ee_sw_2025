@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "9.0.0"
     },
-    "CreationDate": "2025-07-10T21:53:32+08:00"
+    "CreationDate": "2025-07-11T04:59:07+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "tsal_g_v3",
-      "GUID": "7473616c-5f67-45f7-9633-2e6b69636164",
+      "Name": "tsal_g_v4.zip",
+      "GUID": "7473616c-5f67-45f7-9634-2e7a69702e6b",
       "Revision": "rev?"
     },
     "Size": {
@@ -27,54 +27,54 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.5,
+      "MinLineWidth": 0.2,
       "TrackToRegion": 0.5,
       "RegionToRegion": 0.5
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "tsal_g_v3-F_Cu.gbr",
+      "Path": "tsal_g_v4-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "tsal_g_v3-B_Cu.gbr",
+      "Path": "tsal_g_v4-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "tsal_g_v3-F_Paste.gbr",
+      "Path": "tsal_g_v4-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "tsal_g_v3-B_Paste.gbr",
+      "Path": "tsal_g_v4-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "tsal_g_v3-F_Silkscreen.gbr",
+      "Path": "tsal_g_v4-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "tsal_g_v3-B_Silkscreen.gbr",
+      "Path": "tsal_g_v4-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "tsal_g_v3-F_Mask.gbr",
+      "Path": "tsal_g_v4-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "tsal_g_v3-B_Mask.gbr",
+      "Path": "tsal_g_v4-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "tsal_g_v3-Edge_Cuts.gbr",
+      "Path": "tsal_g_v4-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
