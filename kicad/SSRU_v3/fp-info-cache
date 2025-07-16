@@ -1,4 +1,4 @@
-24869698559731949
+24881988341250595
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88942,6 +88942,13 @@ capacitor handsolder
 2
 2
 RMC_Connnector
+3 in 1 fuseholder
+
+
+0
+4
+2
+RMC_Connnector
 56pin_hd561
 
 
@@ -88969,6 +88976,13 @@ HD241_GF30
 0
 24
 24
+RMC_Connnector
+JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical_handsolder
+JST PH series connector, B6B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH side entry
+0
+6
+6
 RMC_Connnector
 TE-2354318-1_32pin_conn
 
@@ -89095,6 +89109,20 @@ resistor handsolder
 0
 2
 2
+RMC_Resistor
+R_2512_6332Metric_Pad1.40x3.35mm_HandSolder
+Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+RMC_SO
+Infineon_PG-TDSON-8_6.15x5.15mm
+Infineon, PG-TDSON-8, 6.15x5.15x1mm, https://www.infineon.com/dgdl/Infineon-BSC520N15NS3_-DS-v02_02-en.pdf?fileId=db3a30432239cccd0122eee57d9b21a4
+Infineon OptiMOS
+0
+21
+5
 RMC_SO
 SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder
 SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -89118,6 +89146,13 @@ SOIC SO
 18
 RMC_SO
 SOIC127P600X175-8N
+
+
+0
+8
+8
+RMC_SO
+SOIC127P600X175-8N_handsolder
 
 
 0
@@ -89195,6 +89230,13 @@ DPAK TO-252 DPAK-3 TO-252-3 SOT-428
 3
 RMC_TO
 TO-263-5_TabPin3_Handsolder
+TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/
+D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426
+0
+10
+5
+RMC_TO
+TO-263-5_TabPin3_Long
 TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/
 D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426
 0
@@ -99910,6 +99952,13 @@ DG2350-50AH-03P
 0
 6
 6
+to be sorted
+D_SOD-523
+http://www.diodes.com/datasheets/ap02001.pdf p.144
+Diode SOD523
+0
+2
+2
 to be sorted
 ESP32-WROOM-S3-2
 2.4 GHz Wi­-Fi and Bluetooth 5 (LE) module: https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-2_datasheet_en.pdf
