@@ -4272,7 +4272,30 @@
 			)
 		)
 	)
-	(global_label "SDC_in"
+	(global_label "SDC_Relay"
+		(shape input)
+		(at 156.21 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "4163f44d-025a-46a4-aacb-c138d1893865")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.484 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDC_Relay"
 		(shape input)
 		(at 54.61 59.69 0)
 		(fields_autoplaced yes)
@@ -4285,7 +4308,7 @@
 		)
 		(uuid "4b59be0a-597b-4799-be93-bce7372cce6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.0661 59.69 0)
+			(at 67.4527 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,29 +4331,6 @@
 		(uuid "59e2f08e-9db0-446f-88ac-e679eb43839a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.2824 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDC+"
-		(shape input)
-		(at 64.77 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "6549937d-b840-4f19-a852-000000e42cfa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.0771 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,6 +4402,29 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDC_Relay"
+		(shape input)
+		(at 64.77 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "88636c8d-943c-4ab6-84f5-94d8bdc6db5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.6127 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4539,7 +4562,7 @@
 			)
 		)
 	)
-	(global_label "SDC+"
+	(global_label "TSMS_SDC"
 		(shape input)
 		(at 54.61 45.72 0)
 		(fields_autoplaced yes)
@@ -4552,7 +4575,7 @@
 		)
 		(uuid "d1c1787d-c298-44f0-ab98-694a3e538810")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.9171 45.72 0)
+			(at 67.1503 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5610,24 +5633,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "420cdc38-a1ec-4a9f-9927-e416ef6c3dd5")
 		(property "Reference" "J13"
-			(at 46.99 73.6599 0)
+			(at 45.466 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 46.99 76.1999 0)
+		(property "Value" "DT 04"
+			(at 44.958 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5881,74 +5901,6 @@
 			(project ""
 				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0"
 					(reference "EMARX208_HV_LC")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 156.21 147.32 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f3235d9-9157-4c98-9766-b975417890c4")
-		(property "Reference" "#PWR05"
-			(at 160.02 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 152.4 147.3201 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 156.21 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa2308cc-3a3a-47b6-8c65-ef38d5a09413")
-		)
-		(instances
-			(project "TS schematics"
-				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6376,15 +6328,15 @@
 		(dnp no)
 		(uuid "6afbf2cb-8480-44ae-90bc-ad3688f11512")
 		(property "Reference" "J12"
-			(at 49.53 54.61 0)
+			(at 44.704 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SDC_END DT2"
-			(at 49.53 52.07 0)
+		(property "Value" "DT-02"
+			(at 44.196 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6577,24 +6529,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c9f7864-221b-4a47-8b00-4eb1dfc5ced1")
 		(property "Reference" "J11"
-			(at 46.99 59.6899 0)
+			(at 44.45 57.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 46.99 62.2299 0)
+		(property "Value" "DT 04"
+			(at 44.196 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7029,7 +6978,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x12"
+		(property "Value" "dt12"
 			(at 163.83 149.8599 0)
 			(effects
 				(font
