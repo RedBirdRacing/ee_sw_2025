@@ -1915,23 +1915,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 2.54 0)
+			(property "Reference" "U1"
+				(at 1.2701 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "TL431DBZ"
-				(at 0 -2.54 0)
+			(property "Value" "TLV431"
+				(at -1.2699 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "RMC_SOT:SOT-23"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2045,7 +2047,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2063,7 +2065,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3867,6 +3869,12 @@
 		(uuid "b802fafa-4e60-433a-be60-5713215796cf")
 	)
 	(junction
+		(at 72.39 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9f0cb27-5594-4d1b-87ef-d4ede76294db")
+	)
+	(junction
 		(at 228.6 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4899,6 +4907,16 @@
 			(type default)
 		)
 		(uuid "ae8f9176-de5e-4e41-a7c4-ea80232266ac")
+	)
+	(wire
+		(pts
+			(xy 72.39 147.32) (xy 72.39 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc556fe-c411-4afc-8293-ecc45299c7d9")
 	)
 	(wire
 		(pts
@@ -10070,6 +10088,72 @@
 			(project "tsal_r_v3"
 				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 147.32 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d18919b0-895a-4c18-8960-2f4440e89c46")
+		(property "Reference" "#PWR026"
+			(at 72.39 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.263 151.7142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92ce9434-4131-4718-adba-6502bd26fb24")
+		)
+		(instances
+			(project "tsal_r_v3"
+				(path "/94e47eea-ee3d-40f5-84ad-e3510a82a1d2"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
