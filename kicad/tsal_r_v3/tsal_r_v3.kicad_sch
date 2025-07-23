@@ -10793,7 +10793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "RMC_TO:TO-252-2"
 			(at 334.01 91.44 0)
 			(effects
 				(font
