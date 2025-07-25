@@ -9482,7 +9482,7 @@
 	)
 	(global_label "BRAKE_TEMP1"
 		(shape input)
-		(at 303.53 82.55 0)
+		(at 303.53 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9492,7 +9492,7 @@
 		)
 		(uuid "63983ef9-9b63-4346-a88c-eb8d63eac6f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.5779 82.55 0)
+			(at 319.5779 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10032,7 +10032,7 @@
 	)
 	(global_label "BRAKE_TEMP2"
 		(shape input)
-		(at 303.53 85.09 0)
+		(at 303.53 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10042,7 +10042,7 @@
 		)
 		(uuid "a2fda23c-e6bf-402c-955c-913408f08ee8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.5779 85.09 0)
+			(at 319.5779 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11061,74 +11061,6 @@
 			(project "SSRU_v3"
 				(path "/bee3e03c-9a5f-4c66-913e-823f7b125a2a"
 					(reference "C42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 303.53 49.53 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e5e75ed-2b10-4cdf-b178-ebd26d436b2a")
-		(property "Reference" "#PWR043"
-			(at 299.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 307.34 49.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 303.53 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 303.53 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 303.53 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e066f75d-9689-45ab-8a6e-d2cae5cad5e5")
-		)
-		(instances
-			(project "SSRU_v3.1"
-				(path "/bee3e03c-9a5f-4c66-913e-823f7b125a2a"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -19189,6 +19121,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 303.53 49.53 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b74b5d5e-f98f-484b-844e-a3009f543d3e")
+		(property "Reference" "#PWR029"
+			(at 299.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 307.34 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 303.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 303.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a8cf029-0681-42e9-b5bc-2909908f4749")
+		)
+		(instances
+			(project "SSRU_v3.1"
+				(path "/bee3e03c-9a5f-4c66-913e-823f7b125a2a"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 53.34 22.86 0)
 		(mirror y)
@@ -21228,7 +21228,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 303.53 87.63 270)
+		(at 303.53 82.55 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21238,7 +21238,7 @@
 		(fields_autoplaced yes)
 		(uuid "d60b6841-5573-4b00-8192-64a6fb4d2156")
 		(property "Reference" "#PWR061"
-			(at 299.72 87.63 0)
+			(at 299.72 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21247,7 +21247,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 307.34 87.6299 90)
+			(at 307.34 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21256,7 +21256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 303.53 87.63 0)
+			(at 303.53 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21265,7 +21265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 87.63 0)
+			(at 303.53 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21274,7 +21274,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 303.53 87.63 0)
+			(at 303.53 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23839,6 +23839,56 @@
 			(project "SSRU_v3.1"
 				(path "/bee3e03c-9a5f-4c66-913e-823f7b125a2a"
 					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 354.33 152.4)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "373e5655-eda4-4619-be16-374ba35b165a")
+		(property "Sheetname" "CAN scheme"
+			(at 354.33 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 354.33 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 354.33 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "SSRU_v3.1"
+				(path "/bee3e03c-9a5f-4c66-913e-823f7b125a2a"
+					(page "3")
 				)
 			)
 		)
