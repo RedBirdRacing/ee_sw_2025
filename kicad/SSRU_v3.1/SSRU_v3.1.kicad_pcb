@@ -21069,7 +21069,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "df393758-39c4-4f53-9b70-991bf4e8c76e")
-		(at 10.5 102.7)
+		(at 158.8 83.2)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
