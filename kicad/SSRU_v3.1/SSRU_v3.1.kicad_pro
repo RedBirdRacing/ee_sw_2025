@@ -56,6 +56,16 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.25,
+          "via_gap": 0.5,
+          "width": 0.25
+        },
+        {
+          "gap": 0.5,
+          "via_gap": 1.0,
+          "width": 0.5
         }
       ],
       "drc_exclusions": [],
@@ -146,7 +156,7 @@
       "teardrop_options": [
         {
           "td_onpthpad": true,
-          "td_onroundshapesonly": false,
+          "td_onroundshapesonly": true,
           "td_onsmdpad": true,
           "td_ontrackend": false,
           "td_onvia": true
