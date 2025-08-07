@@ -1322,7 +1322,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 101.6 96.52 0)
+		(at 91.44 41.91 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1330,7 +1331,7 @@
 		(dnp no)
 		(uuid "182ed7f0-466c-4785-8924-1e78cc81f8d7")
 		(property "Reference" "C25"
-			(at 93.98 96.52 90)
+			(at 99.06 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,7 +1339,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 96.52 96.52 90)
+			(at 96.52 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,7 +1347,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
-			(at 102.5652 100.33 0)
+			(at 90.4748 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1355,7 +1356,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 96.52 0)
+			(at 91.44 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1364,7 +1365,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 101.6 96.52 0)
+			(at 91.44 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1373,7 +1374,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 101.6 96.52 0)
+			(at 91.44 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1381,7 +1382,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 101.6 96.52 0)
+			(at 91.44 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +1406,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 52.07 93.98 180)
+		(at 41.91 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1413,7 +1414,7 @@
 		(dnp no)
 		(uuid "2989c334-07a1-4158-a82c-53b537b2753d")
 		(property "Reference" "R25"
-			(at 53.975 92.71 0)
+			(at 43.815 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1422,7 +1423,7 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 53.975 95.25 0)
+			(at 43.815 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,7 +1432,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder_RMC"
-			(at 53.848 93.98 90)
+			(at 43.688 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,7 +1441,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 93.98 0)
+			(at 41.91 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,7 +1450,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 52.07 93.98 0)
+			(at 41.91 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1458,7 +1459,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 52.07 93.98 0)
+			(at 41.91 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1466,7 +1467,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 52.07 93.98 0)
+			(at 41.91 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,7 +1557,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 55.88 101.6 90)
+		(at 54.61 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1564,7 +1565,7 @@
 		(dnp no)
 		(uuid "61a5a2cf-60ee-459e-a156-9044c49931a8")
 		(property "Reference" "R32"
-			(at 55.626 104.648 90)
+			(at 54.356 50.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +1574,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 53.086 104.648 90)
+			(at 51.816 50.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,7 +1583,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
-			(at 55.88 103.378 90)
+			(at 54.61 48.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,7 +1592,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 101.6 0)
+			(at 54.61 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1600,7 +1601,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 55.88 101.6 0)
+			(at 54.61 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,7 +1610,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 55.88 101.6 0)
+			(at 54.61 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,7 +1618,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 55.88 101.6 0)
+			(at 54.61 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1708,7 +1709,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 46.99 90)
+		(at 55.88 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1716,7 +1717,7 @@
 		(dnp no)
 		(uuid "68f46096-a194-44b8-b8d7-7a9f3aca1e05")
 		(property "Reference" "R29"
-			(at 54.356 50.038 90)
+			(at 55.626 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,7 +1726,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 51.816 50.038 90)
+			(at 53.086 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,7 +1735,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
-			(at 54.61 48.768 90)
+			(at 55.88 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +1744,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 46.99 0)
+			(at 55.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +1753,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 54.61 46.99 0)
+			(at 55.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +1762,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 54.61 46.99 0)
+			(at 55.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1769,7 +1770,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 54.61 46.99 0)
+			(at 55.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,7 +1794,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM2904")
-		(at 72.39 92.71 0)
+		(at 71.12 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1802,7 +1803,7 @@
 		(fields_autoplaced yes)
 		(uuid "74d5eee8-71a9-4665-beda-cef604ddfa1c")
 		(property "Reference" "U14"
-			(at 72.39 82.55 0)
+			(at 71.12 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,7 +1811,7 @@
 			)
 		)
 		(property "Value" "LM2904"
-			(at 72.39 85.09 0)
+			(at 71.12 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +1819,7 @@
 			)
 		)
 		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
-			(at 72.39 92.71 0)
+			(at 71.12 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +1828,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm358.pdf"
-			(at 72.39 92.71 0)
+			(at 71.12 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,7 +1837,7 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
-			(at 72.39 92.71 0)
+			(at 71.12 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1946,8 +1947,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 91.44 41.91 0)
-		(mirror y)
+		(at 101.6 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1955,7 +1955,7 @@
 		(dnp no)
 		(uuid "90033569-76ac-4e31-8202-80d66849f98b")
 		(property "Reference" "C22"
-			(at 99.06 41.91 90)
+			(at 93.98 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +1963,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 96.52 41.91 90)
+			(at 96.52 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,7 +1971,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
-			(at 90.4748 45.72 0)
+			(at 102.5652 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +1980,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 41.91 0)
+			(at 101.6 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,7 +1989,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 91.44 41.91 0)
+			(at 101.6 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,7 +1998,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 91.44 41.91 0)
+			(at 101.6 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2006,7 +2006,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 91.44 41.91 0)
+			(at 101.6 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2097,7 +2097,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 74.93 46.99 90)
+		(at 76.2 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2105,7 +2105,7 @@
 		(dnp no)
 		(uuid "b453b42e-1094-45ef-aa24-a54200c3cd73")
 		(property "Reference" "R28"
-			(at 74.93 49.784 90)
+			(at 76.2 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,7 +2114,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 71.12 49.784 90)
+			(at 72.39 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +2123,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
-			(at 74.93 48.768 90)
+			(at 76.2 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +2132,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 46.99 0)
+			(at 76.2 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,7 +2141,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 74.93 46.99 0)
+			(at 76.2 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2150,7 +2150,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 74.93 46.99 0)
+			(at 76.2 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2158,7 +2158,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 74.93 46.99 0)
+			(at 76.2 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2182,7 +2182,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 41.91 40.64 180)
+		(at 52.07 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2190,7 +2190,7 @@
 		(dnp no)
 		(uuid "c2e94ccd-6a93-4ed6-814d-93540df8f777")
 		(property "Reference" "R24"
-			(at 43.815 39.37 0)
+			(at 53.975 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +2199,7 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 43.815 41.91 0)
+			(at 53.975 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,7 +2208,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Resistor:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder_RMC"
-			(at 43.688 40.64 90)
+			(at 53.848 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +2217,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 40.64 0)
+			(at 52.07 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2226,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 41.91 40.64 0)
+			(at 52.07 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +2235,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 41.91 40.64 0)
+			(at 52.07 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,7 +2243,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 41.91 40.64 0)
+			(at 52.07 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,7 +2417,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM2904")
-		(at 71.12 38.1 0)
+		(at 72.39 92.71 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2426,7 +2426,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea8fa7e4-8a98-40d3-a52f-6d3b297fd8d3")
 		(property "Reference" "U14"
-			(at 71.12 27.94 0)
+			(at 72.39 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2434,7 @@
 			)
 		)
 		(property "Value" "LM2904"
-			(at 71.12 30.48 0)
+			(at 72.39 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2442,7 +2442,7 @@
 			)
 		)
 		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
-			(at 71.12 38.1 0)
+			(at 72.39 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2451,7 +2451,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm358.pdf"
-			(at 71.12 38.1 0)
+			(at 72.39 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2460,7 +2460,7 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
-			(at 71.12 38.1 0)
+			(at 72.39 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2503,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 101.6 90)
+		(at 74.93 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2511,7 +2511,7 @@
 		(dnp no)
 		(uuid "fa9634a0-88b8-467e-8dfe-8bfed8a60ae3")
 		(property "Reference" "R33"
-			(at 76.2 104.394 90)
+			(at 74.93 49.784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,7 +2520,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 72.39 104.394 90)
+			(at 71.12 49.784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,7 +2529,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
-			(at 76.2 103.378 90)
+			(at 74.93 48.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,7 +2538,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 101.6 0)
+			(at 74.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2547,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 101.6 0)
+			(at 74.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,7 +2556,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 76.2 101.6 0)
+			(at 74.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +2564,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 76.2 101.6 0)
+			(at 74.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
