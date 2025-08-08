@@ -9338,6 +9338,48 @@
 		)
 	)
 	(sheet
+		(at 208.28 67.945)
+		(size 32.385 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0435e21c-a4e3-4e2d-91c4-53287f9a5fe6")
+		(property "Sheetname" "Shutdown Circuit"
+			(at 208.28 67.2334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sdc.kicad_sch"
+			(at 208.28 81.2296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 182.88 100.33)
 		(size 13.97 6.35)
 		(exclude_from_sim no)

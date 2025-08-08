@@ -616,6 +616,10 @@
     [
       "ba531de5-0225-4458-93d2-6539cce2b96a",
       "accumulator"
+    ],
+    [
+      "0435e21c-a4e3-4e2d-91c4-53287f9a5fe6",
+      "Shutdown Circuit"
     ]
   ],
   "text_variables": {}
