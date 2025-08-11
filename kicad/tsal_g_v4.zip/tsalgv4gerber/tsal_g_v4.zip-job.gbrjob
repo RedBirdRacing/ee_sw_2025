@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.0"
+      "Version": "9.0.2"
     },
-    "CreationDate": "2025-07-11T04:59:07+08:00"
+    "CreationDate": "2025-08-11T16:15:31+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "tsal_g_v4-F_Cu.gbr",
+      "Path": "tsal_g_v4.zip-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "tsal_g_v4-B_Cu.gbr",
+      "Path": "tsal_g_v4.zip-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "tsal_g_v4-F_Paste.gbr",
+      "Path": "tsal_g_v4.zip-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "tsal_g_v4-B_Paste.gbr",
+      "Path": "tsal_g_v4.zip-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "tsal_g_v4-F_Silkscreen.gbr",
+      "Path": "tsal_g_v4.zip-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "tsal_g_v4-B_Silkscreen.gbr",
+      "Path": "tsal_g_v4.zip-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "tsal_g_v4-F_Mask.gbr",
+      "Path": "tsal_g_v4.zip-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "tsal_g_v4-B_Mask.gbr",
+      "Path": "tsal_g_v4.zip-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "tsal_g_v4-Edge_Cuts.gbr",
+      "Path": "tsal_g_v4.zip-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
