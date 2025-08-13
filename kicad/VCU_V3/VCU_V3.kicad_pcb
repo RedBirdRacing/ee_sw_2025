@@ -103,7 +103,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -25783,6 +25782,15 @@
 		(free yes)
 		(net 2)
 		(uuid "e21e2308-1ab7-4194-a37c-cbf55ab76a49")
+	)
+	(via
+		(at 156.5 97.75)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "e3940c8d-62d4-4a46-a602-01ca50965baf")
 	)
 	(via
 		(at 148 67)

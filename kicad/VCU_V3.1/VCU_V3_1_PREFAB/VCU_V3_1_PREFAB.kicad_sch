@@ -4938,6 +4938,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LED:IR204A"
 			(pin_numbers
 				(hide yes)
@@ -8218,6 +8368,12 @@
 		(uuid "f8ede0f8-7148-4081-9d9f-1cc94185422c")
 	)
 	(junction
+		(at 40.64 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa4a25d2-97d8-4aa3-af30-09e061833299")
+	)
+	(junction
 		(at 274.955 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11003,7 +11159,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.275 43.18) (xy 50.8 43.18)
+			(xy 40.64 43.18) (xy 50.8 43.18)
 		)
 		(stroke
 			(width 0)
@@ -14433,6 +14589,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 188.595 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84f77a95-fd4c-40de-91ce-c13c2052fa21")
 		)
@@ -14699,6 +14864,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 49.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "44089c16-0e85-497a-a3de-3b6e4ac71fdb")
 		)
@@ -14898,6 +15072,15 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 110.49 182.245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c45875c0-0865-449d-b55d-7b9b498dfa66")
 		)
@@ -15026,6 +15209,15 @@
 		)
 		(property "Description" "Two pin crystal"
 			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 157.48 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15168,6 +15360,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 318.77 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "98ea8526-8c4f-4935-86c1-fe1c43fa83ca")
 		)
@@ -15299,6 +15500,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 95.885 247.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15499,6 +15709,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 19.685 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/2ee860c7-97b9-4b80-8450-c8c506558cf4"
@@ -15557,6 +15776,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15891,6 +16119,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 274.955 194.945 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "55ae89ec-1852-4fb1-b1ab-dd47b510b94a")
 		)
@@ -15954,6 +16191,15 @@
 		)
 		(property "Description" "Infrared LED , 3mm LED package"
 			(at 198.12 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 198.12 242.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16091,6 +16337,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 429.895 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16487,6 +16742,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 163.195 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bbbec078-d2bf-4e13-bff2-c1a9b58ab0a4")
 		)
@@ -16548,6 +16812,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 41.91 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 41.91 30.48 0)
 			(effects
 				(font
@@ -16689,6 +16962,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 128.27 339.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ddd191f0-874d-4cf6-adc7-fe5599ea5828")
 		)
@@ -16758,6 +17040,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 276.225 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec452225-d46f-4126-bb2d-d98ad51f3ee8")
 		)
@@ -16799,7 +17090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
 			(at 240.03 55.245 0)
 			(effects
 				(font
@@ -16819,6 +17110,15 @@
 			)
 		)
 		(property "Description" "Dual-channel digital isolator, bidirectional communication, 3V/5V level translation, SOIC-8"
+			(at 240.03 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 240.03 45.085 0)
 			(effects
 				(font
@@ -16913,6 +17213,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 322.58 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88a249f7-aaa5-4e1f-a8d1-1d67e618dd58")
 		)
@@ -16974,6 +17283,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 144.399 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 144.399 250.19 0)
 			(effects
 				(font
@@ -17044,6 +17362,15 @@
 			)
 		)
 		(property "Description" "Atmel 6-pin ISP connector"
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 44.45 148.59 0)
 			(effects
 				(font
@@ -17126,6 +17453,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 224.155 248.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 224.155 248.285 0)
 			(effects
 				(font
@@ -17239,7 +17575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
 			(at 203.835 335.28 0)
 			(effects
 				(font
@@ -17258,6 +17594,15 @@
 			)
 		)
 		(property "Description" "Single Ultra-Low Offset Voltage Operational Amplifier, DIP-8/SOIC-8"
+			(at 202.565 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 202.565 336.55 0)
 			(effects
 				(font
@@ -17613,6 +17958,15 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 344.805 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c43dc6a-1e66-43b7-8209-3751da68a4d5")
 		)
@@ -17748,6 +18102,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 177.8 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "23fb8aaf-69fb-429a-ac48-5e22d787d4a5")
 		)
@@ -17855,7 +18218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
 			(at 280.035 29.845 0)
 			(effects
 				(font
@@ -17875,6 +18238,15 @@
 			)
 		)
 		(property "Description" "High-Speed CAN Transceiver, silent mode, SOIC-8"
+			(at 280.035 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 280.035 42.545 0)
 			(effects
 				(font
@@ -17911,6 +18283,73 @@
 			(project ""
 				(path "/2ee860c7-97b9-4b80-8450-c8c506558cf4"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 30.48 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a492013-63a1-4074-8a4e-d2cab9a2172f")
+		(property "Reference" "#PWR03"
+			(at 34.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 26.67 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 30.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0157f3d5-5809-4acb-8b4d-8f04eb30eca5")
+		)
+		(instances
+			(project "VCU_V3_1_PREFAB"
+				(path "/2ee860c7-97b9-4b80-8450-c8c506558cf4"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -18099,6 +18538,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 410.21 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce5e8446-c4d2-44a6-8e75-7a9dd215fccf")
 		)
@@ -18232,6 +18680,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 274.955 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f36e91cd-456e-4f3b-86ed-cace7d1253f3")
 		)
@@ -18299,6 +18756,15 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 153.67 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "22e8ba1c-65cd-4743-9595-e1bc6f3710c5")
 		)
@@ -18360,6 +18826,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 64.135 344.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 64.135 344.805 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18437,6 +18912,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 106.045 186.055 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1ec54ccf-3808-4e11-9e69-6713be8c06c5")
 		)
@@ -18505,6 +18989,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 56.515 344.805 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36a17018-8576-41de-b6dc-616bdbb8c401")
 		)
@@ -18548,7 +19041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:TO-252-2"
+		(property "Footprint" "RMC_TO:TO-252-2"
 			(at 198.755 186.055 0)
 			(effects
 				(font
@@ -18567,6 +19060,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 193.675 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 193.675 188.595 0)
 			(effects
 				(font
@@ -18905,6 +19407,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 282.575 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6efd3d8f-8bee-4b96-b89d-8835c3eee4c8")
 		)
@@ -18965,6 +19476,15 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4"
+			(at 259.715 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 259.715 180.34 0)
 			(effects
 				(font
@@ -19316,6 +19836,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 175.26 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "237334d3-698e-45a2-be35-4eb26cc69922")
 		)
@@ -19518,6 +20047,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 370.205 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa9ad4bd-1ce0-4542-9816-9e4e19a0b907")
 		)
@@ -19582,6 +20120,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 372.11 53.975 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19719,6 +20266,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 259.08 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcfa47d1-77be-457e-b21b-9cf4bbdf0ae6")
 		)
@@ -19781,6 +20337,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 443.23 329.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 443.23 329.565 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19851,6 +20416,15 @@
 		)
 		(property "Description" "Infrared LED , 3mm LED package"
 			(at 144.399 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 144.399 241.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20188,6 +20762,15 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 372.11 61.595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "079d6f81-6be9-4c1b-84b7-367c64938e59")
 		)
@@ -20251,6 +20834,15 @@
 		)
 		(property "Description" "Infrared LED , 3mm LED package"
 			(at 117.475 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 117.475 139.065 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20389,6 +20981,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 481.965 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20695,7 +21296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
 			(at 279.4 336.55 0)
 			(effects
 				(font
@@ -20714,6 +21315,15 @@
 			)
 		)
 		(property "Description" "Single Ultra-Low Offset Voltage Operational Amplifier, DIP-8/SOIC-8"
+			(at 278.13 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 278.13 337.82 0)
 			(effects
 				(font
@@ -20800,6 +21410,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 494.03 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 494.03 326.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21006,6 +21625,15 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 258.445 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f221fae-4829-45c4-b00c-b6bd9efb6c76")
 		)
@@ -21067,6 +21695,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 50.8 348.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 50.8 348.615 0)
 			(effects
 				(font
@@ -21276,6 +21913,15 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 28.194 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df77358d-fb61-4842-ae31-d2ce723eb64d")
 		)
@@ -21476,6 +22122,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 151.13 175.895 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "495a335f-735d-4305-8afd-5d2b01c5e2f9")
 		)
@@ -21609,6 +22264,15 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 88.519 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb424133-9260-4359-818f-a0ee62da8221")
 		)
@@ -21671,6 +22335,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 258.445 248.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 258.445 248.285 0)
 			(effects
 				(font
@@ -21743,6 +22416,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 271.78 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21851,7 +22533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
 			(at 73.025 332.105 0)
 			(effects
 				(font
@@ -21870,6 +22552,15 @@
 			)
 		)
 		(property "Description" "Single Ultra-Low Offset Voltage Operational Amplifier, DIP-8/SOIC-8"
+			(at 71.755 333.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 71.755 333.375 0)
 			(effects
 				(font
@@ -21958,6 +22649,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 37.465 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 37.465 67.31 0)
 			(effects
 				(font
@@ -22133,7 +22833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
 			(at 463.55 64.135 0)
 			(effects
 				(font
@@ -22153,6 +22853,15 @@
 			)
 		)
 		(property "Description" "Dual-channel digital isolator, bidirectional communication, 3V/5V level translation, SOIC-8"
+			(at 463.55 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 463.55 53.975 0)
 			(effects
 				(font
@@ -22240,6 +22949,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 76.2 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 76.2 323.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22420,7 +23138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
 			(at 406.4 95.885 0)
 			(effects
 				(font
@@ -22440,6 +23158,15 @@
 			)
 		)
 		(property "Description" "High-Speed CAN Transceiver, silent mode, SOIC-8"
+			(at 406.4 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 406.4 108.585 0)
 			(effects
 				(font
@@ -22529,6 +23256,15 @@
 		)
 		(property "Description" "Two pin crystal"
 			(at 276.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 276.86 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22710,7 +23446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "RMC_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 403.86 74.295 0)
 			(effects
 				(font
@@ -22730,6 +23466,15 @@
 			)
 		)
 		(property "Description" "Stand-Alone CAN Controller with SPI Interface, TSSOP-20"
+			(at 403.86 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 403.86 51.435 0)
 			(effects
 				(font
@@ -22833,7 +23578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
 			(at 361.95 121.285 0)
 			(effects
 				(font
@@ -22853,6 +23598,15 @@
 			)
 		)
 		(property "Description" "Dual-channel digital isolator, bidirectional communication, 3V/5V level translation, SOIC-8"
+			(at 361.95 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 361.95 111.125 0)
 			(effects
 				(font
@@ -23027,7 +23781,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 41.275 46.99 0)
+		(at 40.64 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23035,7 +23789,7 @@
 		(dnp no)
 		(uuid "7d3d6590-492c-47c2-8c16-01e44afce6b5")
 		(property "Reference" "C2"
-			(at 45.72 45.085 0)
+			(at 45.085 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23044,7 +23798,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 45.085 45.72 90)
+			(at 44.45 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23053,7 +23807,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
-			(at 42.2402 50.8 0)
+			(at 41.6052 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23062,7 +23816,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.275 46.99 0)
+			(at 40.64 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23071,7 +23825,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 41.275 46.99 0)
+			(at 40.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 40.64 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23112,7 +23875,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "500R"
 			(at 121.285 147.955 0)
 			(effects
 				(font
@@ -23140,6 +23903,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 117.475 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 117.475 147.955 0)
 			(effects
 				(font
@@ -23284,6 +24056,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 461.01 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f69009f1-9f4a-4d6c-a724-e216730d9467")
 		)
@@ -23410,6 +24191,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 282.575 328.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 282.575 328.295 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23550,6 +24340,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 281.305 197.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53dea4c3-2650-4b19-bbe8-9bbcf6c3b06d")
 		)
@@ -23682,6 +24481,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 204.47 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6826961d-1572-4de8-af31-f7b465b94fb4")
 		)
@@ -23751,6 +24559,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 167.894 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3bcddfb7-ae4d-460f-9d14-dd6156060b82")
 		)
@@ -23791,7 +24608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "RMC_SOT:SOT-223-3_TabPin2_Handsolder"
 			(at 247.015 239.395 0)
 			(effects
 				(font
@@ -23810,6 +24627,15 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 247.015 244.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 247.015 244.475 0)
 			(effects
 				(font
@@ -23882,6 +24708,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 42.545 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 42.545 339.09 0)
 			(effects
 				(font
@@ -23999,7 +24834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:TO-252-2"
+		(property "Footprint" "RMC_TO:TO-252-2"
 			(at 384.81 188.595 0)
 			(effects
 				(font
@@ -24018,6 +24853,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 379.73 191.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 379.73 191.135 0)
 			(effects
 				(font
@@ -24099,6 +24943,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 281.305 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73518efd-06bb-4dc9-b729-c964a9fcb1fc")
 		)
@@ -24169,6 +25022,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 383.54 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c966add9-3702-4a2f-8230-ecc052b4bb15")
 		)
@@ -24229,6 +25091,15 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4"
+			(at 445.77 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 445.77 179.705 0)
 			(effects
 				(font
@@ -24439,6 +25310,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 424.18 339.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B12"
 			(uuid "525dbeac-228d-4c46-83fb-abd74afea752")
 		)
@@ -24608,6 +25488,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 42.799 249.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -24876,6 +25765,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 504.19 336.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "de537e4a-fcf0-4a90-9bb7-bcceaa3cb8e0")
 		)
@@ -24943,6 +25841,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 69.469 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -25223,6 +26130,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 458.47 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7589ea21-f44e-4a2b-ad2d-95f1da2c10c1")
 		)
@@ -25292,6 +26208,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 115.824 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -25487,6 +26412,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 538.48 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 538.48 51.435 0)
 			(effects
 				(font
@@ -25830,6 +26764,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 476.25 326.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "62756df2-8636-414e-8907-ac7e0d085d66")
 		)
@@ -25899,6 +26842,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 443.23 332.105 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f54b8de-74c6-4021-922a-2b23814d3197")
 		)
@@ -25961,6 +26913,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 211.455 248.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 211.455 248.285 0)
 			(effects
 				(font
@@ -26172,6 +27133,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 184.15 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b238511b-2db8-4f19-a5b0-45150e555eb0")
 		)
@@ -26213,7 +27183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
 			(at 146.685 334.01 0)
 			(effects
 				(font
@@ -26232,6 +27202,15 @@
 			)
 		)
 		(property "Description" "Single Ultra-Low Offset Voltage Operational Amplifier, DIP-8/SOIC-8"
+			(at 145.415 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 145.415 335.28 0)
 			(effects
 				(font
@@ -26344,6 +27323,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 443.23 324.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e2264634-789f-4df8-b4ae-1308b6766eb1")
 		)
@@ -26387,7 +27375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
 			(at 505.46 38.735 0)
 			(effects
 				(font
@@ -26407,6 +27395,15 @@
 			)
 		)
 		(property "Description" "High-Speed CAN Transceiver, silent mode, SOIC-8"
+			(at 505.46 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 505.46 51.435 0)
 			(effects
 				(font
@@ -26561,6 +27558,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 19.685 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 19.685 72.39 0)
 			(effects
 				(font
@@ -26936,7 +27942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:TO-252-2"
+		(property "Footprint" "RMC_TO:TO-252-2"
 			(at 295.91 187.96 0)
 			(effects
 				(font
@@ -26955,6 +27961,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 290.83 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 290.83 190.5 0)
 			(effects
 				(font
@@ -27116,7 +28131,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.275 50.8 0)
+		(at 40.64 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27124,7 +28139,7 @@
 		(dnp no)
 		(uuid "b6aa11c6-2780-4bf4-8fc3-1833a658a321")
 		(property "Reference" "#PWR078"
-			(at 41.275 57.15 0)
+			(at 40.64 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27133,7 +28148,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.355 53.34 0)
+			(at 45.72 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27141,7 +28156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.275 50.8 0)
+			(at 40.64 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27150,7 +28165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.275 50.8 0)
+			(at 40.64 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27159,7 +28174,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.275 50.8 0)
+			(at 40.64 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27226,6 +28241,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 535.305 268.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 535.305 268.605 0)
 			(effects
 				(font
@@ -27370,6 +28394,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 370.205 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "471e16c7-29f4-4017-9405-00001597f5cc")
 		)
@@ -27503,6 +28536,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 363.855 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f5cbcc07-96cb-4e1e-82e6-513f9958286e")
 		)
@@ -27546,7 +28588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "RMC_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 303.53 138.43 0)
 			(effects
 				(font
@@ -27566,6 +28608,15 @@
 			)
 		)
 		(property "Description" "Stand-Alone CAN Controller with SPI Interface, TSSOP-20"
+			(at 303.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 303.53 115.57 0)
 			(effects
 				(font
@@ -27760,6 +28811,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 207.01 327.025 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c4f3fbe3-489d-449c-a33d-d13bb31b3aa3")
 		)
@@ -27826,6 +28886,15 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 55.245 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c9b983e-ef7d-4b82-b7a5-563973e07bb3")
 		)
@@ -27889,6 +28958,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 248.285 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 248.285 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27965,6 +29043,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 77.47 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b61806df-5a1f-4b30-a2b5-e480281e8472")
 		)
@@ -28034,6 +29121,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 184.15 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6456587b-ccf8-4473-b3c6-7e79965e52ce")
 		)
@@ -28044,6 +29140,83 @@
 			(project "VCU_V2_kicad9"
 				(path "/2ee860c7-97b9-4b80-8450-c8c506558cf4"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 35.56 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c08f7d22-0461-4123-963d-3ce95166ee8e")
+		(property "Reference" "JP1"
+			(at 35.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 35.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 35.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 35.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 35.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "228e9191-209c-4963-b46f-1a1d23174a8f")
+		)
+		(pin "2"
+			(uuid "c7683a2f-fa39-4583-99f6-744c22555af7")
+		)
+		(instances
+			(project ""
+				(path "/2ee860c7-97b9-4b80-8450-c8c506558cf4"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -28162,6 +29335,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 467.36 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 467.36 181.61 0)
 			(effects
 				(font
@@ -28369,6 +29551,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 363.855 205.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78034f03-cd03-4b52-a019-bcda06023028")
 		)
@@ -28568,6 +29759,15 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 243.205 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99c43e57-119e-4ef4-8461-63c591245844")
 		)
@@ -28702,6 +29902,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 198.12 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a939a3b0-cb6f-462f-b5b6-910d984a7a40")
 		)
@@ -28767,6 +29976,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 43.815 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -28964,6 +30182,15 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 222.885 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7bc6d76f-667d-4ad7-9999-c9b2d64a7138")
 		)
@@ -29033,6 +30260,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 501.65 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8c0eb46-f734-442c-874e-4696cd6fd601")
 		)
@@ -29076,7 +30312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "RMC_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 185.42 68.58 0)
 			(effects
 				(font
@@ -29096,6 +30332,15 @@
 			)
 		)
 		(property "Description" "Stand-Alone CAN Controller with SPI Interface, TSSOP-20"
+			(at 185.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 185.42 45.72 0)
 			(effects
 				(font
@@ -29228,6 +30473,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 167.894 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7d734252-4c92-4f35-8330-8428d0139167")
 		)
@@ -29289,6 +30543,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 99.695 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 99.695 186.055 0)
 			(effects
 				(font
@@ -29367,6 +30630,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 434.34 177.165 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "963c63ff-9fcc-4f0e-ae02-c0ba183e2555")
 		)
@@ -29433,6 +30705,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 102.489 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -29628,6 +30909,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 149.86 325.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 149.86 325.755 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29832,6 +31122,15 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 153.67 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53cbfbbc-e380-433d-8d14-592e6cc6f2be")
 		)
@@ -29965,6 +31264,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 162.56 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9be59d9-a601-4a67-bc25-9a368fa84464")
 		)
@@ -30035,6 +31343,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 446.405 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -30243,6 +31560,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 272.415 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b668244-0c1c-4b1f-8b17-f8ccf16b8786")
 		)
@@ -30306,6 +31632,15 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4"
+			(at 348.615 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 348.615 180.975 0)
 			(effects
 				(font
@@ -30390,6 +31725,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 276.225 248.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "164ff23b-12ba-4c03-9c79-48478e4722cd")
 		)
@@ -30460,6 +31804,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 456.565 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "919e1019-8e41-41f6-b03a-0d515120f517")
 		)
@@ -30521,6 +31874,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 461.01 203.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 461.01 203.835 0)
 			(effects
 				(font
@@ -30599,6 +31961,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 379.095 57.785 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "765ba556-6d0f-42ac-9dcb-c9c97fc70f35")
 		)
@@ -30660,6 +32031,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 422.91 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 422.91 66.675 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30734,6 +32114,15 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 271.78 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e237d180-e4d0-4388-b746-1dd9f31f9e99")
 		)
@@ -30795,6 +32184,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 191.77 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 191.77 24.13 0)
 			(effects
 				(font
@@ -30938,6 +32336,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 337.185 178.435 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29b3f695-1aac-4d52-9aa3-3339bd8cd84c")
 		)
@@ -31002,6 +32409,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 43.561 189.865 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -31200,6 +32616,15 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 121.539 247.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9842b2c1-b58f-4952-a102-801879bd03cf")
 		)
@@ -31264,6 +32689,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 110.49 189.865 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -31373,7 +32807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
 			(at 486.41 317.5 0)
 			(effects
 				(font
@@ -31392,6 +32826,15 @@
 			)
 		)
 		(property "Description" "USB serial converter, 2Mbps, UART, SOP-8"
+			(at 490.22 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 490.22 336.55 0)
 			(effects
 				(font
@@ -31479,6 +32922,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 37.465 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 37.465 72.39 0)
 			(effects
 				(font
@@ -31616,6 +33068,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 402.59 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e5753cef-b9de-4f71-b21a-b183d4022dca")
 		)
@@ -31677,6 +33138,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 467.36 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 467.36 196.85 0)
 			(effects
 				(font
@@ -31810,6 +33280,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 309.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 309.88 93.98 0)
 			(effects
 				(font
@@ -32011,6 +33490,15 @@
 			)
 		)
 		(property "Description" "20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32"
+			(at 66.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 66.04 73.66 0)
 			(effects
 				(font
@@ -32379,6 +33867,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 361.315 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a88acb5f-33db-4655-b348-ed07e570e473")
 		)
@@ -32580,6 +34077,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 446.405 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "70d30381-c0cd-40c8-bc8d-163bc3bd0e27")
 		)
@@ -32650,6 +34156,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 380.365 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -32782,6 +34297,15 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 146.05 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f8cc3f5-cb55-427b-abc9-f9ca3f3fff44")
 		)
@@ -32889,7 +34413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:TO-252-2"
+		(property "Footprint" "RMC_TO:TO-252-2"
 			(at 481.965 187.325 0)
 			(effects
 				(font
@@ -32908,6 +34432,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 476.885 189.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 476.885 189.865 0)
 			(effects
 				(font
@@ -32985,6 +34518,15 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 332.74 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f23db2f-9629-4d87-862b-1a46063cb42a")
 		)
@@ -33046,6 +34588,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 177.8 202.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 177.8 202.565 0)
 			(effects
 				(font
@@ -33116,6 +34667,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 496.57 269.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 496.57 269.875 0)
 			(effects
 				(font
