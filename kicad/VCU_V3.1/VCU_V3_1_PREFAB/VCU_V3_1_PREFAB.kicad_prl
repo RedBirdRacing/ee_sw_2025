@@ -28,28 +28,8 @@
       "vias": true,
       "zones": true
     },
-    "visible_items": [
-      "vias",
-      "footprint_text",
-      "footprint_anchors",
-      "ratsnest",
-      "grid",
-      "footprints_front",
-      "footprints_back",
-      "footprint_values",
-      "footprint_references",
-      "tracks",
-      "drc_errors",
-      "drawing_sheet",
-      "bitmaps",
-      "pads",
-      "zones",
-      "drc_warnings",
-      "locked_item_shadows",
-      "conflict_shadows",
-      "shapes"
-    ],
-    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffff5f",
+    "visible_items": [],
+    "visible_layers": "ffffff5_ffffff5f",
     "zone_display_mode": 1
   },
   "git": {
@@ -60,7 +40,7 @@
   },
   "meta": {
     "filename": "VCU_V3_1_PREFAB.kicad_prl",
-    "version": 5
+    "version": 3
   },
   "net_inspector_panel": {
     "col_hidden": [
