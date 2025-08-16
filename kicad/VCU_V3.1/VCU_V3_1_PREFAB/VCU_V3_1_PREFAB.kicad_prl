@@ -1,11 +1,11 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 5,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -16,30 +16,51 @@
       "zones": 0.6
     },
     "selection_filter": {
-      "dimensions": true,
+      "dimensions": false,
       "footprints": true,
-      "graphics": true,
-      "keepouts": true,
-      "lockedItems": true,
-      "otherItems": true,
-      "pads": true,
-      "text": true,
+      "graphics": false,
+      "keepouts": false,
+      "lockedItems": false,
+      "otherItems": false,
+      "pads": false,
+      "text": false,
       "tracks": true,
       "vias": true,
-      "zones": true
+      "zones": false
     },
-    "visible_items": [],
-    "visible_layers": "ffffff5_ffffffff",
+    "visible_items": [
+      "vias",
+      "footprint_text",
+      "footprint_anchors",
+      "ratsnest",
+      "grid",
+      "footprints_front",
+      "footprints_back",
+      "footprint_values",
+      "footprint_references",
+      "tracks",
+      "drc_errors",
+      "drawing_sheet",
+      "bitmaps",
+      "pads",
+      "zones",
+      "drc_warnings",
+      "locked_item_shadows",
+      "conflict_shadows",
+      "shapes"
+    ],
+    "visible_layers": "ffffffff_ffffffff_fffffffd_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
+    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "SSRU_v3.1.kicad_prl",
-    "version": 3
+    "filename": "VCU_V3_1_PREFAB.kicad_prl",
+    "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
@@ -67,16 +88,16 @@
       9
     ],
     "col_widths": [
-      149,
-      137,
-      90,
-      63,
-      90,
-      90,
-      90,
-      66,
-      90,
-      90
+      28,
+      27,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      21,
+      426
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
