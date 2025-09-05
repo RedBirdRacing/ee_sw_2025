@@ -5,7 +5,7 @@
     "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -29,11 +29,20 @@
       "zones": true
     },
     "visible_items": [
+      "vias",
+      "footprint_text",
+      "ratsnest",
       "grid",
+      "footprints_front",
+      "footprints_back",
+      "footprint_values",
+      "tracks",
+      "pads",
+      "zones",
       "shapes"
     ],
     "visible_layers": "00000000_00000000_0fffffff_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "git": {
     "repo_type": "",
