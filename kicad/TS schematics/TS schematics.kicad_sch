@@ -4825,6 +4825,28 @@
 			)
 		)
 	)
+	(global_label "SDC_HVBOX_IN"
+		(shape input)
+		(at 54.61 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b0c3e73-c3fe-4123-a628-94c1c4b47798")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.4443 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDC_Relay"
 		(shape input)
 		(at 54.61 59.69 0)
@@ -6305,8 +6327,8 @@
 				)
 			)
 		)
-		(property "Value" "DT04"
-			(at 44.704 75.438 0)
+		(property "Value" "AT04-4P-PM11"
+			(at 35.814 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7282,7 +7304,7 @@
 				)
 			)
 		)
-		(property "Value" "DT03"
+		(property "Value" "AT04-3P-PM05"
 			(at 50.8 26.67 0)
 			(effects
 				(font
@@ -8381,73 +8403,6 @@
 			(project ""
 				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 54.61 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6ef3473-6927-4951-9faf-e2e2565cce17")
-		(property "Reference" "#PWR021"
-			(at 60.96 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c806c18e-a647-49a3-9562-c7bfb5eb0aa5")
-		)
-		(instances
-			(project "TS schematics"
-				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
