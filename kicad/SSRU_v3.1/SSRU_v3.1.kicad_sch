@@ -7363,16 +7363,16 @@
 		(uuid "5c459a12-a166-49f6-87da-3d675492e711")
 	)
 	(junction
-		(at 237.49 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ed4faee-f0b6-49e7-8b29-36b78cd19458")
-	)
-	(junction
 		(at 90.17 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "652ef161-63a7-40cf-80ca-2adc5d615ae5")
+	)
+	(junction
+		(at 229.87 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68381d09-8198-41e0-aee9-42049593b2c6")
 	)
 	(junction
 		(at 144.78 27.94)
@@ -7385,6 +7385,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6eccd3f5-31b9-4774-90e3-90a5cd730e25")
+	)
+	(junction
+		(at 237.49 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fdccffd-22de-4540-82fc-ad2898dee3d5")
 	)
 	(junction
 		(at 259.08 34.29)
@@ -7481,12 +7487,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1361e94-f6fd-4135-9657-eef4aad43143")
-	)
-	(junction
-		(at 229.87 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6484402-2d3e-4150-ad65-632662914a3b")
 	)
 	(junction
 		(at 31.75 154.94)
@@ -13263,7 +13263,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 233.68 109.22 0)
+		(at 233.68 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13272,7 +13272,7 @@
 		(fields_autoplaced yes)
 		(uuid "295face5-a2c4-4440-b268-00187b73d029")
 		(property "Reference" "D5"
-			(at 233.68 103.3714 0)
+			(at 233.68 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13280,7 +13280,7 @@
 			)
 		)
 		(property "Value" "SMA Diode"
-			(at 233.68 105.9114 0)
+			(at 233.68 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13506,7 +13506,7 @@
 		(fields_autoplaced yes)
 		(uuid "313e6ed9-746a-43fd-8e91-9fd1d4a0504c")
 		(property "Reference" "R44"
-			(at 239.6997 125.7299 0)
+			(at 240.03 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13514,8 +13514,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680R"
-			(at 239.6997 128.2699 0)
+		(property "Value" "120R"
+			(at 240.03 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16334,7 +16334,7 @@
 		(fields_autoplaced yes)
 		(uuid "69b468a0-6701-4ade-9276-d3cc274e20ec")
 		(property "Reference" "R23"
-			(at 239.6997 118.1099 0)
+			(at 240.03 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16342,8 +16342,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "249k"
-			(at 239.6997 120.6499 0)
+		(property "Value" "4k7"
+			(at 240.03 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
