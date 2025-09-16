@@ -1364,10 +1364,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5VD"
+		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1381,7 +1385,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5VD"
+			(property "Value" "+5V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1407,7 +1411,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1425,7 +1429,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5VD_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1463,12 +1467,11 @@
 					)
 				)
 			)
-			(symbol "+5VD_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5VD"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1595,16 +1598,16 @@
 		(uuid "038ad76e-d3b8-48d0-9a91-a4b1676948a7")
 	)
 	(junction
-		(at 169.164 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d590417-b6e3-47ae-8e02-94574b83e354")
-	)
-	(junction
 		(at 120.65 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14a7953d-0f0c-482f-a18b-cbb75f29ec61")
+	)
+	(junction
+		(at 168.91 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17a2d2dc-bb4a-4ec1-80fb-cfb432ef288d")
 	)
 	(junction
 		(at 119.38 88.9)
@@ -1619,6 +1622,12 @@
 		(uuid "3fb7e0c1-6fc2-4b47-b7e0-894c685bc8f9")
 	)
 	(junction
+		(at 168.91 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fd1ff19-d6c6-4db1-9bf2-2dc493d7618f")
+	)
+	(junction
 		(at 119.38 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1629,12 +1638,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4be4fc46-003d-4883-9fbe-b6e292542dfb")
-	)
-	(junction
-		(at 169.164 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56ccdd7f-b042-4c4f-bd74-30d0f9591af6")
 	)
 	(junction
 		(at 107.95 80.01)
@@ -1649,10 +1652,10 @@
 		(uuid "661591ac-3a48-47bf-b17a-16b60a2bde0c")
 	)
 	(junction
-		(at 179.324 135.89)
+		(at 179.07 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "91122d63-a6f1-496b-b038-cd39a5cd30ac")
+		(uuid "b9f08049-69f7-4afb-9e93-647cb1cffc2e")
 	)
 	(junction
 		(at 106.68 53.34)
@@ -1667,10 +1670,22 @@
 		(uuid "ce4b3be8-0199-462e-a256-0cdd914570d8")
 	)
 	(junction
+		(at 168.91 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2032ad0-299b-4e9f-b98f-526118495f5b")
+	)
+	(junction
 		(at 118.11 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2be9c5c-8367-4d56-acdb-c7091f9bfc10")
+	)
+	(junction
+		(at 251.46 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f556b406-07f6-4fee-841a-18e8bf58cc4d")
 	)
 	(junction
 		(at 118.11 62.23)
@@ -1678,11 +1693,21 @@
 		(color 0 0 0 0)
 		(uuid "f81caf71-6503-4125-b282-6041a81451cc")
 	)
-	(junction
-		(at 169.164 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9e75202-fb2a-4fda-8b02-f47ae6ea19e5")
+	(no_connect
+		(at 229.87 107.95)
+		(uuid "024bb34b-49a7-483e-9354-6cf45301895a")
+	)
+	(no_connect
+		(at 214.63 107.95)
+		(uuid "9cd2e4e7-2b4e-4d3f-a8ba-71a6af49e5ab")
+	)
+	(no_connect
+		(at 227.33 88.9)
+		(uuid "a3b9d8aa-35c8-4eb1-a0a1-e8fa6482a117")
+	)
+	(no_connect
+		(at 212.09 88.9)
+		(uuid "c02eddf7-97d8-48ac-ba22-9d9331fe0890")
 	)
 	(wire
 		(pts
@@ -1746,6 +1771,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 135.89) (xy 183.642 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152284b1-c568-4456-850e-2b825630aec8")
+	)
+	(wire
+		(pts
 			(xy 118.11 62.23) (xy 106.68 62.23)
 		)
 		(stroke
@@ -1773,16 +1808,6 @@
 			(type default)
 		)
 		(uuid "359639ed-c53f-48fa-bb11-5a8d5d28d9c0")
-	)
-	(wire
-		(pts
-			(xy 169.164 53.34) (xy 173.482 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36c27ec6-1a86-4431-b793-16fb1233713f")
 	)
 	(wire
 		(pts
@@ -1826,16 +1851,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.324 135.89) (xy 183.642 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a419c19-41eb-48d0-bf8b-e2787e6c5e9e")
-	)
-	(wire
-		(pts
 			(xy 104.14 144.78) (xy 120.65 144.78)
 		)
 		(stroke
@@ -1846,7 +1861,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 53.34) (xy 169.164 53.34)
+			(xy 165.1 53.34) (xy 168.91 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1896,6 +1911,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 80.01) (xy 173.482 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db97259-bf80-47ff-88fc-57216e48215d")
+	)
+	(wire
+		(pts
 			(xy 165.1 85.09) (xy 168.148 85.09)
 		)
 		(stroke
@@ -1903,6 +1928,16 @@
 			(type default)
 		)
 		(uuid "678d3b4f-e065-4514-baaa-b6744ed6835f")
+	)
+	(wire
+		(pts
+			(xy 254 93.98) (xy 251.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f53c995-2d8e-4dd3-9545-c0e204092f6c")
 	)
 	(wire
 		(pts
@@ -1966,16 +2001,6 @@
 	)
 	(wire
 		(pts
-			(xy 169.164 107.95) (xy 173.482 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97fecf01-9e32-44b5-99cc-d1f282216952")
-	)
-	(wire
-		(pts
 			(xy 104.14 80.01) (xy 107.95 80.01)
 		)
 		(stroke
@@ -1996,7 +2021,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 135.89) (xy 179.324 135.89)
+			(xy 175.26 135.89) (xy 179.07 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2046,17 +2071,7 @@
 	)
 	(wire
 		(pts
-			(xy 169.164 80.01) (xy 173.482 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c993f2f4-ae49-4c8b-b4f2-4db0821e055a")
-	)
-	(wire
-		(pts
-			(xy 165.1 80.01) (xy 169.164 80.01)
+			(xy 165.1 80.01) (xy 168.91 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2066,7 +2081,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 107.95) (xy 169.164 107.95)
+			(xy 165.1 107.95) (xy 168.91 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2096,6 +2111,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 53.34) (xy 173.482 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d735845f-3124-4bf1-a6ca-d22cf1c6f643")
+	)
+	(wire
+		(pts
 			(xy 93.98 80.01) (xy 96.52 80.01)
 		)
 		(stroke
@@ -2103,6 +2128,16 @@
 			(type default)
 		)
 		(uuid "f4603526-d6b1-435e-93ad-5c1c45f75a4e")
+	)
+	(wire
+		(pts
+			(xy 168.91 107.95) (xy 173.482 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52880fe-08b2-4e3d-b7a8-1dc79f7ed709")
 	)
 	(wire
 		(pts
@@ -2203,6 +2238,73 @@
 		(uuid "d2f46c82-9203-43cd-b623-c9b85638c4fb")
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 257.81 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05a5cdd9-ce3f-460a-b9f2-b07553406775")
+		(property "Reference" "CA5"
+			(at 257.81 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 257.81 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
+			(at 261.62 93.0148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0db9112c-b036-4abc-aa7f-0b910b8ddf16")
+		)
+		(pin "2"
+			(uuid "00276638-ead6-4829-afab-4c801248f018")
+		)
+		(instances
+			(project "VCU V3.2"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
+					(reference "CA5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 96.52 53.34 90)
 		(unit 1)
@@ -2211,7 +2313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f101299-3bc5-4b3f-bc37-f52bc5f19e0a")
-		(property "Reference" "R57"
+		(property "Reference" "R33"
 			(at 96.52 50.8 90)
 			(effects
 				(font
@@ -2262,7 +2364,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "R57")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -2278,7 +2380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16bc24d8-b7eb-4eb9-a175-5c5a434b722b")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR076"
 			(at 120.65 151.13 0)
 			(effects
 				(font
@@ -2327,7 +2429,138 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "#PWR056")
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 179.07 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18d9529d-8e82-4171-a26b-c98ebdc25ec5")
+		(property "Reference" "#PWR088"
+			(at 179.07 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 179.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5da5e518-14eb-4718-836d-fad43305d1eb")
+		)
+		(instances
+			(project "VCU V3.2"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ab4c3d4-972a-4a0c-80f9-b8926c3ae788")
+		(property "Reference" "#PWR0115"
+			(at 251.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f0dea77-c93e-4ee2-aebc-cb4e3bec76b0")
+		)
+		(instances
+			(project "VCU V3.2"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -2412,7 +2645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d6b32c6-0a18-4b68-94c9-8b92e75b6f99")
-		(property "Reference" "R54"
+		(property "Reference" "R39"
 			(at 110.49 83.8199 0)
 			(effects
 				(font
@@ -2465,7 +2698,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "R54")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -2473,15 +2706,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 169.164 104.14 180)
+		(at 168.91 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "37cdee8e-479d-49eb-b697-14a24633bba8")
-		(property "Reference" "R67"
-			(at 170.688 102.616 0)
+		(property "Reference" "R47"
+			(at 170.434 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +2723,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 170.688 104.648 0)
+			(at 170.434 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +2732,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
-			(at 170.942 104.14 90)
+			(at 170.688 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +2741,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 169.164 104.14 0)
+			(at 168.91 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2750,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 169.164 104.14 0)
+			(at 168.91 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2533,7 +2766,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "R67")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -2548,7 +2781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44bcca51-ca0a-4673-ae46-7ab259b2f8dd")
-		(property "Reference" "R59"
+		(property "Reference" "R35"
 			(at 100.33 105.41 90)
 			(effects
 				(font
@@ -2599,7 +2832,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "R59")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -2614,7 +2847,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "501c9952-1115-4ba0-9f74-5f20a11192b1")
-		(property "Reference" "R63"
+		(property "Reference" "R43"
 			(at 146.05 105.664 90)
 			(effects
 				(font
@@ -2665,7 +2898,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "R63")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -2681,7 +2914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5147847a-1d41-4a18-a631-01da749e94db")
-		(property "Reference" "U14"
+		(property "Reference" "U11"
 			(at 157.48 102.362 0)
 			(effects
 				(font
@@ -2774,7 +3007,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "U14")
+					(reference "U11")
 					(unit 3)
 				)
 			)
@@ -2789,7 +3022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "561660ae-9142-48e0-8c39-2d4989b5cc50")
-		(property "Reference" "R64"
+		(property "Reference" "R44"
 			(at 156.21 133.604 90)
 			(effects
 				(font
@@ -2840,7 +3073,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "R64")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -2856,7 +3089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65ff6384-5f64-4378-a2fc-117893148ad3")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR080"
 			(at 156.21 147.32 0)
 			(effects
 				(font
@@ -2905,7 +3138,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "#PWR078")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -2990,7 +3223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ccec411-898d-4e19-9c0e-1a27d9375e99")
-		(property "Reference" "U13"
+		(property "Reference" "U10"
 			(at 134.62 71.882 0)
 			(effects
 				(font
@@ -3006,7 +3239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD40106BMT:SOIC127P600X175-14N"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 134.62 80.01 0)
 			(effects
 				(font
@@ -3077,24 +3310,24 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "U13")
+					(reference "U10")
 					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5VD")
-		(at 179.324 128.27 0)
+		(lib_id "power:+5V")
+		(at 168.91 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6d560793-10da-49ab-bed5-77d9cfd6c0f6")
-		(property "Reference" "#PWR083"
-			(at 179.324 132.08 0)
+		(uuid "6ea3496a-e07a-4310-b872-c83d26809ad3")
+		(property "Reference" "#PWR085"
+			(at 168.91 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,8 +3335,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VD"
-			(at 179.324 123.698 0)
+		(property "Value" "+5V"
+			(at 168.91 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +3344,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.324 128.27 0)
+			(at 168.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3353,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.324 128.27 0)
+			(at 168.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,21 +3361,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 179.324 128.27 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 168.91 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "58b52410-2b0b-4069-9045-a273e96d718e")
+			(uuid "a51756fc-31ca-42c6-a327-290fd07c2051")
 		)
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "#PWR083")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -3158,7 +3392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71deda53-5305-43e2-8102-cb6f76fa5a3a")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR077"
 			(at 146.05 64.77 0)
 			(effects
 				(font
@@ -3207,72 +3441,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VD")
-		(at 169.164 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78a456f2-ac4d-4eda-ac7b-3a10f33c66cf")
-		(property "Reference" "#PWR0113"
-			(at 169.164 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VD"
-			(at 169.164 41.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 169.164 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 169.164 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 169.164 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ae430065-82bf-4612-b732-f2b4b6d8ce8f")
-		)
-		(instances
-			(project "VCU V3.2"
-				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "#PWR0113")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -3288,7 +3457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a959dcb-076a-4a01-a37a-16a7d3437d3b")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR081"
 			(at 168.148 64.77 0)
 			(effects
 				(font
@@ -3337,7 +3506,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "#PWR079")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -3345,15 +3514,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 169.164 76.2 180)
+		(at 168.91 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7e21e3ef-9d29-4177-8350-57bf09f0c6d8")
-		(property "Reference" "R66"
-			(at 170.688 74.676 0)
+		(property "Reference" "R46"
+			(at 170.434 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,7 +3531,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 170.688 76.708 0)
+			(at 170.434 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +3540,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
-			(at 170.942 76.2 90)
+			(at 170.688 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3549,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 169.164 76.2 0)
+			(at 168.91 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3389,7 +3558,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 169.164 76.2 0)
+			(at 168.91 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,7 +3574,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "R66")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -3420,7 +3589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f904e9b-30ee-4c70-9e20-9b59f5636196")
-		(property "Reference" "R60"
+		(property "Reference" "R40"
 			(at 133.35 133.35 90)
 			(effects
 				(font
@@ -3471,7 +3640,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "R60")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -3487,7 +3656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4164892-9fb1-457d-a929-51da54dd2831")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR087"
 			(at 178.308 147.32 0)
 			(effects
 				(font
@@ -3536,7 +3705,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "#PWR082")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -3551,7 +3720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a591c0af-b377-4a9f-9b66-13297631aae6")
-		(property "Reference" "R62"
+		(property "Reference" "R42"
 			(at 146.05 77.724 90)
 			(effects
 				(font
@@ -3602,7 +3771,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "R62")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -3618,7 +3787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a657a80e-13db-455d-863c-f3e66d7b515c")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR078"
 			(at 146.05 91.44 0)
 			(effects
 				(font
@@ -3667,7 +3836,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "#PWR076")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -3683,7 +3852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab71bb01-b84b-4be9-a2fc-28bf2307ebb9")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR083"
 			(at 168.148 119.38 0)
 			(effects
 				(font
@@ -3732,7 +3901,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "#PWR081")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -3748,7 +3917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "addf8ebe-0218-4f58-beb6-d04148db7f8e")
-		(property "Reference" "R55"
+		(property "Reference" "R38"
 			(at 109.22 113.0299 0)
 			(effects
 				(font
@@ -3801,7 +3970,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "R55")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -3817,7 +3986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3828f29-fc37-4488-b459-4860cb99d79b")
-		(property "Reference" "U14"
+		(property "Reference" "U11"
 			(at 157.48 46.99 0)
 			(effects
 				(font
@@ -3910,7 +4079,73 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "U14")
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 168.91 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b67cf93c-2a75-43e5-a450-2588b697f3ba")
+		(property "Reference" "#PWR084"
+			(at 168.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 168.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 168.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d31670a3-e77f-425c-83b0-620c6153ac40")
+		)
+		(instances
+			(project ""
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -3926,7 +4161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8f5fe89-efff-42b7-8f41-25c4864d243d")
-		(property "Reference" "R56"
+		(property "Reference" "R36"
 			(at 106.68 139.6999 0)
 			(effects
 				(font
@@ -3979,7 +4214,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "R56")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -3994,7 +4229,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd6e19e9-38f3-463f-98d6-73588f81af14")
-		(property "Reference" "R77"
+		(property "Reference" "R41"
 			(at 146.05 51.054 90)
 			(effects
 				(font
@@ -4045,7 +4280,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "R77")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -4061,7 +4296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c23f11aa-47da-4971-a989-7474903fb3e9")
-		(property "Reference" "U14"
+		(property "Reference" "U11"
 			(at 167.64 130.302 0)
 			(effects
 				(font
@@ -4154,7 +4389,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "U14")
+					(reference "U11")
 					(unit 4)
 				)
 			)
@@ -4170,7 +4405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c286dc16-87a6-4c82-a2e3-0c6e6b4ce8a4")
-		(property "Reference" "U13"
+		(property "Reference" "U10"
 			(at 144.78 127.762 0)
 			(effects
 				(font
@@ -4186,7 +4421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD40106BMT:SOIC127P600X175-14N"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 144.78 135.89 0)
 			(effects
 				(font
@@ -4257,7 +4492,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "U13")
+					(reference "U10")
 					(unit 4)
 				)
 			)
@@ -4342,7 +4577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8820994-9619-42bd-9f87-0512994fb179")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR073"
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -4391,137 +4626,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VD")
-		(at 169.164 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb6688f0-ff9b-47c2-a108-a801920fbd49")
-		(property "Reference" "#PWR0170"
-			(at 169.164 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VD"
-			(at 169.164 67.818 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 169.164 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 169.164 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 169.164 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e740862f-19c2-45ec-9c6d-6b9e35105567")
-		)
-		(instances
-			(project "VCU V3.2"
-				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "#PWR0170")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VD")
-		(at 169.164 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3ff0455-b7e3-4774-ad3a-96b10e60f210")
-		(property "Reference" "#PWR0168"
-			(at 169.164 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VD"
-			(at 169.164 95.758 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 169.164 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 169.164 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 169.164 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75057c3f-03d3-487f-8d48-b8503f9eff8f")
-		)
-		(instances
-			(project "VCU V3.2"
-				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "#PWR0168")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -4537,7 +4642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d69a9beb-eac1-4119-9bc2-b1cec49a919b")
-		(property "Reference" "R69"
+		(property "Reference" "R37"
 			(at 109.22 57.1499 0)
 			(effects
 				(font
@@ -4590,7 +4695,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "R69")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -4606,7 +4711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d98399d9-5432-4db7-95f9-8330e71904da")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR074"
 			(at 119.38 95.25 0)
 			(effects
 				(font
@@ -4655,7 +4760,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "#PWR054")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -4671,7 +4776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc804c99-e67c-4756-828b-cdcb0f8028ac")
-		(property "Reference" "U14"
+		(property "Reference" "U11"
 			(at 157.48 74.422 0)
 			(effects
 				(font
@@ -4764,7 +4869,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "U14")
+					(reference "U11")
 					(unit 2)
 				)
 			)
@@ -4779,7 +4884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dccb0698-60ea-4514-b49b-4cff52fc45ce")
-		(property "Reference" "R58"
+		(property "Reference" "R34"
 			(at 100.33 77.47 90)
 			(effects
 				(font
@@ -4830,7 +4935,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "R58")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -4846,7 +4951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de63ae7c-8642-4666-af91-585c2dc0eb80")
-		(property "Reference" "CA6"
+		(property "Reference" "CA1"
 			(at 121.92 57.1499 0)
 			(effects
 				(font
@@ -4899,7 +5004,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "CA6")
+					(reference "CA1")
 					(unit 1)
 				)
 			)
@@ -4915,7 +5020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e07ea6c9-5ab1-4d20-9108-1e076be23536")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR079"
 			(at 146.05 119.38 0)
 			(effects
 				(font
@@ -4964,7 +5069,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "#PWR077")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -4980,7 +5085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e160d8fd-ae1c-432b-b49a-7b66168d0635")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR082"
 			(at 168.148 91.44 0)
 			(effects
 				(font
@@ -5029,7 +5134,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "#PWR080")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -5037,15 +5142,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 179.324 132.08 180)
+		(at 179.07 132.08 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e356ace2-698e-4941-9bde-6888defacdab")
-		(property "Reference" "R68"
-			(at 180.848 130.556 0)
+		(property "Reference" "R48"
+			(at 180.594 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +5159,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 180.848 132.588 0)
+			(at 180.594 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,7 +5168,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
-			(at 181.102 132.08 90)
+			(at 180.848 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5072,7 +5177,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.324 132.08 0)
+			(at 179.07 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5081,7 +5186,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.324 132.08 0)
+			(at 179.07 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5202,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "R68")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -5105,15 +5210,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 169.164 49.53 180)
+		(at 168.91 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e5041c0e-751c-4cfc-9718-a9901f44d97b")
-		(property "Reference" "R65"
-			(at 170.688 48.006 0)
+		(property "Reference" "R45"
+			(at 170.434 48.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,7 +5227,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 170.688 50.038 0)
+			(at 170.434 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +5236,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
-			(at 170.942 49.53 90)
+			(at 170.688 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +5245,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 169.164 49.53 0)
+			(at 168.91 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +5254,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 169.164 49.53 0)
+			(at 168.91 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5165,7 +5270,139 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "R65")
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 168.91 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9ae223b-3787-4d94-87db-c76d8f3d15d6")
+		(property "Reference" "#PWR086"
+			(at 168.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 168.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a247e5c8-be84-47c1-bf7e-5330cbe7a0b5")
+		)
+		(instances
+			(project "VCU V3.2"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 251.46 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f440605e-be89-4b95-869c-f3331a1da31c")
+		(property "Reference" "#PWR0116"
+			(at 251.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 251.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 251.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22dd9197-2716-4e15-9b89-9ef7dbd83c20")
+		)
+		(instances
+			(project "VCU V3.2"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -5181,7 +5418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f638a197-1d9e-4bf4-8698-388589cf72a1")
-		(property "Reference" "U13"
+		(property "Reference" "U10"
 			(at 134.62 44.45 0)
 			(effects
 				(font
@@ -5197,7 +5434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD40106BMT:SOIC127P600X175-14N"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 134.62 53.34 0)
 			(effects
 				(font
@@ -5268,7 +5505,7 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "U13")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -5284,7 +5521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa2651af-9627-4fb9-a8fe-a9d4b55233b5")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR075"
 			(at 119.38 124.46 0)
 			(effects
 				(font
@@ -5333,7 +5570,72 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "#PWR055")
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff4897e9-e76b-4b7a-926a-e389ada407b7")
+		(property "Reference" "#PWR0114"
+			(at 261.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d92826d8-e5cb-4cd8-aeac-468d6201c5c3")
+		)
+		(instances
+			(project "VCU V3.2"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -5349,7 +5651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff529718-dbd3-4367-b2de-1a2fa7c8c322")
-		(property "Reference" "U13"
+		(property "Reference" "U10"
 			(at 134.62 99.822 0)
 			(effects
 				(font
@@ -5365,7 +5667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD40106BMT:SOIC127P600X175-14N"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 134.62 107.95 0)
 			(effects
 				(font
@@ -5436,8 +5738,319 @@
 		(instances
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "U13")
+					(reference "U10")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 251.46 106.68 0)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff529718-dbd3-4367-b2de-1a2fa7c8c322")
+		(property "Reference" "U10"
+			(at 257.81 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "40106"
+			(at 257.81 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
+			(at 251.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 251.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "562c7189-98c8-4982-89aa-6f8a6ca64a57")
+		)
+		(pin "2"
+			(uuid "55727477-4e5d-48f9-83d7-ce50b7f0a63c")
+		)
+		(pin "3"
+			(uuid "8205df7f-5cd8-4be8-8031-c5511aa27d6d")
+		)
+		(pin "4"
+			(uuid "7f4afb2c-c812-4dcf-8308-ac9e9428942d")
+		)
+		(pin "5"
+			(uuid "ad62fca5-70a4-47cd-8044-6f4c12836a45")
+		)
+		(pin "6"
+			(uuid "947f8dfb-c1a8-4d0f-a9bb-4e682a0d888e")
+		)
+		(pin "8"
+			(uuid "c383c8d4-f850-4434-86de-7246e8081d06")
+		)
+		(pin "9"
+			(uuid "9b2fba59-8e2f-4bbd-95a5-58befb99fbc1")
+		)
+		(pin "10"
+			(uuid "9cf2e2e9-d2e3-4f68-9937-906cc3f10ec9")
+		)
+		(pin "11"
+			(uuid "2b440fa9-2338-419b-a3b8-da985e74d660")
+		)
+		(pin "12"
+			(uuid "7d20d52b-3252-4028-a7ff-216da1615edc")
+		)
+		(pin "13"
+			(uuid "a075d297-8981-4129-908b-e2a8aa1748c1")
+		)
+		(pin "14"
+			(uuid "085bbea1-2f7a-4bce-8c77-24b93ba6be0b")
+		)
+		(pin "7"
+			(uuid "bb3a4e28-531a-4ffd-b2c2-e91993476f34")
+		)
+		(instances
+			(project "VCU V3.2"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
+					(reference "U10")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 219.71 88.9 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff529718-dbd3-4367-b2de-1a2fa7c8c322")
+		(property "Reference" "U10"
+			(at 219.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40106"
+			(at 219.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
+			(at 219.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 219.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "562c7189-98c8-4982-89aa-6f8a6ca64a57")
+		)
+		(pin "2"
+			(uuid "55727477-4e5d-48f9-83d7-ce50b7f0a63c")
+		)
+		(pin "3"
+			(uuid "8205df7f-5cd8-4be8-8031-c5511aa27d6d")
+		)
+		(pin "4"
+			(uuid "7f4afb2c-c812-4dcf-8308-ac9e9428942d")
+		)
+		(pin "5"
+			(uuid "ad62fca5-70a4-47cd-8044-6f4c12836a45")
+		)
+		(pin "6"
+			(uuid "947f8dfb-c1a8-4d0f-a9bb-4e682a0d888e")
+		)
+		(pin "8"
+			(uuid "c383c8d4-f850-4434-86de-7246e8081d06")
+		)
+		(pin "9"
+			(uuid "9b2fba59-8e2f-4bbd-95a5-58befb99fbc1")
+		)
+		(pin "10"
+			(uuid "9cf2e2e9-d2e3-4f68-9937-906cc3f10ec9")
+		)
+		(pin "11"
+			(uuid "2b440fa9-2338-419b-a3b8-da985e74d660")
+		)
+		(pin "12"
+			(uuid "7d20d52b-3252-4028-a7ff-216da1615edc")
+		)
+		(pin "13"
+			(uuid "a075d297-8981-4129-908b-e2a8aa1748c1")
+		)
+		(pin "14"
+			(uuid "085bbea1-2f7a-4bce-8c77-24b93ba6be0b")
+		)
+		(pin "7"
+			(uuid "bb3a4e28-531a-4ffd-b2c2-e91993476f34")
+		)
+		(instances
+			(project "VCU V3.2"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
+					(reference "U10")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 222.25 107.95 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff529718-dbd3-4367-b2de-1a2fa7c8c322")
+		(property "Reference" "U10"
+			(at 222.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40106"
+			(at 222.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
+			(at 222.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 222.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "562c7189-98c8-4982-89aa-6f8a6ca64a57")
+		)
+		(pin "2"
+			(uuid "55727477-4e5d-48f9-83d7-ce50b7f0a63c")
+		)
+		(pin "3"
+			(uuid "8205df7f-5cd8-4be8-8031-c5511aa27d6d")
+		)
+		(pin "4"
+			(uuid "7f4afb2c-c812-4dcf-8308-ac9e9428942d")
+		)
+		(pin "5"
+			(uuid "ad62fca5-70a4-47cd-8044-6f4c12836a45")
+		)
+		(pin "6"
+			(uuid "947f8dfb-c1a8-4d0f-a9bb-4e682a0d888e")
+		)
+		(pin "8"
+			(uuid "c383c8d4-f850-4434-86de-7246e8081d06")
+		)
+		(pin "9"
+			(uuid "9b2fba59-8e2f-4bbd-95a5-58befb99fbc1")
+		)
+		(pin "10"
+			(uuid "9cf2e2e9-d2e3-4f68-9937-906cc3f10ec9")
+		)
+		(pin "11"
+			(uuid "2b440fa9-2338-419b-a3b8-da985e74d660")
+		)
+		(pin "12"
+			(uuid "7d20d52b-3252-4028-a7ff-216da1615edc")
+		)
+		(pin "13"
+			(uuid "a075d297-8981-4129-908b-e2a8aa1748c1")
+		)
+		(pin "14"
+			(uuid "085bbea1-2f7a-4bce-8c77-24b93ba6be0b")
+		)
+		(pin "7"
+			(uuid "bb3a4e28-531a-4ffd-b2c2-e91993476f34")
+		)
+		(instances
+			(project "VCU V3.2"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
+					(reference "U10")
+					(unit 6)
 				)
 			)
 		)

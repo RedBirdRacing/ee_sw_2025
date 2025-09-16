@@ -669,6 +669,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 107.95) (xy 110.49 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4953ea6f-d895-4331-9474-c465ae15732c")
+	)
+	(wire
+		(pts
 			(xy 171.45 101.6) (xy 171.45 105.41)
 		)
 		(stroke
@@ -709,6 +719,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 86.36) (xy 110.49 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba4ac016-3c62-42b4-b384-f8b98fc5d62d")
+	)
+	(wire
+		(pts
 			(xy 171.45 90.17) (xy 158.75 90.17)
 		)
 		(stroke
@@ -739,7 +759,7 @@
 	)
 	(hierarchical_label "AIN2"
 		(shape input)
-		(at 110.49 107.95 180)
+		(at 99.06 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -761,7 +781,7 @@
 	)
 	(hierarchical_label "AIN1"
 		(shape input)
-		(at 110.49 86.36 180)
+		(at 99.06 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -791,7 +811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07bf1e00-b0e2-4a65-822e-d2347ce7720e")
-		(property "Reference" "C26"
+		(property "Reference" "C32"
 			(at 175.26 96.5199 0)
 			(effects
 				(font
@@ -809,7 +829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
 			(at 172.4152 101.6 0)
 			(effects
 				(font
@@ -845,7 +865,7 @@
 		(instances
 			(project ""
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/9ecf6264-9025-4bb1-83fe-33dd2e243ef3"
-					(reference "C26")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -861,7 +881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "444dd58b-0196-4812-87ec-0f78c3ac5f1f")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR099"
 			(at 158.75 93.98 0)
 			(effects
 				(font
@@ -911,7 +931,7 @@
 		(instances
 			(project ""
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/9ecf6264-9025-4bb1-83fe-33dd2e243ef3"
-					(reference "#PWR023")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -927,7 +947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63b5c3a1-fc90-479a-a505-5388226ce3a4")
-		(property "Reference" "U12"
+		(property "Reference" "U13"
 			(at 118.11 78.74 0)
 			(effects
 				(font
@@ -943,7 +963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
 			(at 118.11 88.9 0)
 			(effects
 				(font
@@ -997,7 +1017,139 @@
 		(instances
 			(project ""
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/9ecf6264-9025-4bb1-83fe-33dd2e243ef3"
-					(reference "U12")
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68c71858-75b9-41b7-9be5-3828b0c813cf")
+		(property "Reference" "#PWR097"
+			(at 99.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b09b566-3ff5-455e-a035-df3bf789045b")
+		)
+		(instances
+			(project "VCU V3.2"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/9ecf6264-9025-4bb1-83fe-33dd2e243ef3"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d70904f-ce75-4c2e-9894-30839ae6604e")
+		(property "Reference" "#PWR098"
+			(at 99.06 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9249b14-c472-4655-b450-f8182d7b8120")
+		)
+		(instances
+			(project "VCU V3.2"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/9ecf6264-9025-4bb1-83fe-33dd2e243ef3"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -1013,7 +1165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bab5231-09b5-4256-9a86-9fe9891debce")
-		(property "Reference" "U12"
+		(property "Reference" "U13"
 			(at 160.02 96.5199 0)
 			(effects
 				(font
@@ -1031,7 +1183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
 			(at 161.29 97.79 0)
 			(effects
 				(font
@@ -1085,7 +1237,7 @@
 		(instances
 			(project ""
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/9ecf6264-9025-4bb1-83fe-33dd2e243ef3"
-					(reference "U12")
+					(reference "U13")
 					(unit 3)
 				)
 			)
@@ -1101,7 +1253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ef3afaf-b0fd-43fd-8bcd-886143322b51")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR0100"
 			(at 158.75 111.76 0)
 			(effects
 				(font
@@ -1151,7 +1303,7 @@
 		(instances
 			(project ""
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/9ecf6264-9025-4bb1-83fe-33dd2e243ef3"
-					(reference "#PWR024")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -1167,7 +1319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c073656d-5789-464e-a78f-be404780d8a5")
-		(property "Reference" "U12"
+		(property "Reference" "U13"
 			(at 118.11 100.33 0)
 			(effects
 				(font
@@ -1183,7 +1335,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
 			(at 118.11 110.49 0)
 			(effects
 				(font
@@ -1237,8 +1389,148 @@
 		(instances
 			(project ""
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/9ecf6264-9025-4bb1-83fe-33dd2e243ef3"
-					(reference "U12")
+					(reference "U13")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 99.06 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9594e24-13e7-438a-a6a3-b53c59cca526")
+		(property "Reference" "C31"
+			(at 102.87 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 102.87 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
+			(at 100.0252 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 99.06 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "386f0b46-59b9-42c0-a847-97f5daa378e7")
+		)
+		(pin "1"
+			(uuid "4973f451-c0dc-451f-83ef-75c77c88b254")
+		)
+		(instances
+			(project "VCU V3.2"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/9ecf6264-9025-4bb1-83fe-33dd2e243ef3"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 99.06 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb61cb4b-dd0f-4bfc-897e-0fe6fd4b4f01")
+		(property "Reference" "C30"
+			(at 102.87 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 102.87 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
+			(at 100.0252 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76cf8f50-7b9c-4dc8-93ed-52665019095e")
+		)
+		(pin "1"
+			(uuid "f7f26238-3b5c-486e-ab83-83e7fc69bfdc")
+		)
+		(instances
+			(project "VCU V3.2"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/9ecf6264-9025-4bb1-83fe-33dd2e243ef3"
+					(reference "C30")
+					(unit 1)
 				)
 			)
 		)

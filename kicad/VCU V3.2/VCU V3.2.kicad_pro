@@ -667,11 +667,23 @@
     ],
     [
       "4f3c75e6-583d-4c3b-bd1a-9a6f89986770",
-      "PDU_P8"
+      "PDU_P4_1"
     ],
     [
       "9ecf6264-9025-4bb1-83fe-33dd2e243ef3",
       "Analog Input"
+    ],
+    [
+      "073866bb-0e91-414f-bb53-ed1edf39e43f",
+      "PDU_5"
+    ],
+    [
+      "826909b1-840f-4b5b-87b7-e55043ae36c6",
+      "PDU_6"
+    ],
+    [
+      "c4d1d952-e0d9-4e21-bcbb-75287079142b",
+      "PDU_7"
     ]
   ],
   "text_variables": {}
