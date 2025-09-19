@@ -1,0 +1,68 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b512c49e-c705-4955-9085-496a1a966337")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "Front sensors:\n2x pots\n2x brake sensor\n2x mpu6050\n1x DS18B20\n1x encoder\n"
+		(exclude_from_sim no)
+		(at 27.94 38.1 0)
+		(size 95.25 49.53)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 5 5)
+			)
+			(justify left top)
+		)
+		(uuid "175f6eac-d234-43e7-9114-b9399270f5f5")
+	)
+	(text_box "Rear sensors:\n2x pots\n2x brake sensor\n1x mpu6050\n1x DS18B20\n1x flow sensor\n1x ntc 50k\n1x pump_pwm output\n"
+		(exclude_from_sim no)
+		(at 157.48 38.1 0)
+		(size 95.25 64.77)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 5 5)
+			)
+			(justify left top)
+		)
+		(uuid "873d5618-cc2a-496b-a8e2-3114d6f8346f")
+	)
+	(text_box "MCU CAN:\nVCU_1, MCU, SSRUF_2\n\nAMS CAN:\nVCU_2, AMS, SSRUR_2\n\nSIGNAL CAN:\nSSRUF_1,SSRUR_1, DASH, FS_logger, VCU_3, LVBMS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+		(exclude_from_sim no)
+		(at 31.75 107.95 0)
+		(size 97.79 72.39)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 4 4)
+			)
+			(justify left top)
+		)
+		(uuid "ee5d741a-49f2-426b-9617-b08094baa6a7")
+	)
+)
