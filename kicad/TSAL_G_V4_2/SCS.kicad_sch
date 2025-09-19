@@ -1,0 +1,4189 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b9887ff0-1258-4808-aebc-de279852300b")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Comparator:LM393"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM393"
+				(at 6.35 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cmp open collector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM393_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM393_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM393_3_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power-symbol-library:GLV-"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GLV-"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GLV-_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GLV-_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "GLV-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "SCS Compliance"
+		(exclude_from_sim no)
+		(at 139.192 39.878 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "75792a7e-07ee-4b99-9d24-ae1b019d3eb9")
+	)
+	(junction
+		(at 116.586 158.242)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bbf2d64-d0d5-4911-8602-fb58c6f723de")
+	)
+	(junction
+		(at 116.586 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34be476d-12af-4672-ad28-77d4acd63f53")
+	)
+	(junction
+		(at 116.586 127.508)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a596be6-c133-4367-ade3-e72116e5fe0f")
+	)
+	(junction
+		(at 116.586 95.504)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53111a73-0004-47fb-b104-5e98c11e363c")
+	)
+	(junction
+		(at 73.406 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b2b5d41-2b96-4187-9d7d-89c3e00cd024")
+	)
+	(junction
+		(at 116.586 77.724)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b9c9853-6084-4047-b149-3de75de81253")
+	)
+	(junction
+		(at 116.586 173.736)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79473e49-3336-4fb2-bcde-5ac60b2c4d52")
+	)
+	(junction
+		(at 116.586 223.774)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7efbefbe-97a4-4606-9e48-1a8d541afebf")
+	)
+	(junction
+		(at 116.586 204.724)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbbe4d9e-dfe2-407f-a920-70eb673ff001")
+	)
+	(junction
+		(at 73.406 103.632)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca81fa78-7c29-4a41-9885-eadcecb44d18")
+	)
+	(junction
+		(at 116.586 143.002)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2c93a47-bea7-4dc2-ad26-2a028c95a8b3")
+	)
+	(junction
+		(at 116.586 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7f180bf-7700-4a42-911c-ebb3d4f8d870")
+	)
+	(wire
+		(pts
+			(xy 73.406 102.108) (xy 73.406 103.632)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1edfe990-5644-446f-908b-e4e460000a6e")
+	)
+	(wire
+		(pts
+			(xy 120.396 158.242) (xy 116.586 158.242)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ff785c2-c865-4bf5-b1a0-e1fbefba975b")
+	)
+	(wire
+		(pts
+			(xy 116.586 204.724) (xy 115.824 204.724)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37774dd1-7013-488d-aef0-62c88f86a70f")
+	)
+	(wire
+		(pts
+			(xy 100.584 145.542) (xy 100.838 145.542)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8a6645-de62-42c7-9523-633c9674bee6")
+	)
+	(wire
+		(pts
+			(xy 116.586 143.002) (xy 117.348 143.002)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406c450e-178a-4843-810c-266965ea3a8f")
+	)
+	(wire
+		(pts
+			(xy 73.406 68.58) (xy 73.406 70.104)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455a8b86-ea65-47ed-aa53-d2959b1d0318")
+	)
+	(wire
+		(pts
+			(xy 116.586 158.242) (xy 114.808 158.242)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4930570f-875c-42ed-b4f1-a89097dbc05f")
+	)
+	(wire
+		(pts
+			(xy 116.586 189.23) (xy 115.57 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629fb3d0-dec0-4693-b05d-595418084ac3")
+	)
+	(wire
+		(pts
+			(xy 116.586 77.724) (xy 116.078 77.724)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66e0b076-4359-4319-acad-15f71c8b482e")
+	)
+	(wire
+		(pts
+			(xy 116.586 77.724) (xy 116.586 95.504)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5c6182-adb4-4eea-ab01-c0d42454ab1d")
+	)
+	(wire
+		(pts
+			(xy 116.586 204.724) (xy 116.586 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "700d6457-f40d-4fe2-98c8-2fcf52180c29")
+	)
+	(wire
+		(pts
+			(xy 116.586 158.242) (xy 116.586 173.736)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "799f98d3-a588-42b4-8ae8-d4bafea730ec")
+	)
+	(wire
+		(pts
+			(xy 116.586 189.23) (xy 116.586 173.736)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b136c4e-d750-4ec3-b5b6-cfe252c20449")
+	)
+	(wire
+		(pts
+			(xy 116.586 223.774) (xy 116.586 204.724)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e650b4d-8fee-4ac3-aee3-45b8d96ed2b6")
+	)
+	(wire
+		(pts
+			(xy 116.586 143.256) (xy 116.586 158.242)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f114466-0cba-4eda-b2b6-34f3e1a0eeee")
+	)
+	(wire
+		(pts
+			(xy 115.062 173.736) (xy 116.586 173.736)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ddb35dd-0614-4d4e-918e-031858ef4491")
+	)
+	(wire
+		(pts
+			(xy 76.708 103.632) (xy 73.406 103.632)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34dabfa-4d25-4d11-ac47-c7d50115396c")
+	)
+	(wire
+		(pts
+			(xy 73.406 103.632) (xy 73.406 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a8f17e-c7dc-469c-b88d-3259eddde180")
+	)
+	(wire
+		(pts
+			(xy 116.078 127.508) (xy 116.586 127.508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c58c5e-5e1f-4f6d-9f65-85d5cd5a9625")
+	)
+	(wire
+		(pts
+			(xy 116.586 110.49) (xy 116.586 127.508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0dbde86-23b1-42ae-9f50-1ee31b8f2ced")
+	)
+	(wire
+		(pts
+			(xy 116.586 143.002) (xy 116.078 143.002)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b79ed6-e22c-4f06-9f14-31eb7efad890")
+	)
+	(wire
+		(pts
+			(xy 116.586 110.49) (xy 116.586 95.504)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9563ec0-3f9c-4749-8f88-983afbfff886")
+	)
+	(wire
+		(pts
+			(xy 115.824 62.23) (xy 116.586 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c01863-6db1-4d40-b4c0-3632af6c713c")
+	)
+	(wire
+		(pts
+			(xy 116.078 110.49) (xy 116.586 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9cb45de-4ce3-49e1-bee4-30a6c9e2fa66")
+	)
+	(wire
+		(pts
+			(xy 116.586 223.774) (xy 116.332 223.774)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca593055-ae67-42e0-b708-cc80da9300c9")
+	)
+	(wire
+		(pts
+			(xy 73.406 68.58) (xy 76.962 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccec7ef6-0d28-40a0-a288-04dae306b971")
+	)
+	(wire
+		(pts
+			(xy 116.586 239.268) (xy 116.586 223.774)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced26be8-b71c-4176-b298-b69712d98071")
+	)
+	(wire
+		(pts
+			(xy 73.406 66.548) (xy 73.406 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d70ed7da-5719-49b7-968e-33e89e06f799")
+	)
+	(wire
+		(pts
+			(xy 116.586 127.508) (xy 116.586 143.002)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc65baa2-e894-4387-b63c-269ad46b42ab")
+	)
+	(wire
+		(pts
+			(xy 116.586 62.23) (xy 116.586 77.724)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "defa829f-4b44-4f9b-8c95-862f1e2c8d32")
+	)
+	(label "raw_input_precharge"
+		(at 99.568 160.782 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a13ceda-e64b-46f5-b6c5-a6e495a1ec05")
+	)
+	(label "raw_input_AIRL"
+		(at 101.092 226.314 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b583945-34e4-4eb3-9070-23fb7a3045b0")
+	)
+	(label "PRECHARGE_AUX"
+		(at 100.838 140.462 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f9fece3-de52-4116-860e-d2970c6742bf")
+	)
+	(label "0.75V"
+		(at 76.708 103.632 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35cfd1fc-c33c-4c86-a4bf-7f3a06a53b22")
+	)
+	(label "0.75V"
+		(at 100.584 145.542 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3dcf3483-c4d8-4c81-90c7-df045a269d7d")
+	)
+	(label "raw_input_AIRL"
+		(at 101.346 236.728 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "469f5b1b-ef55-4d38-82fe-124fa5209432")
+	)
+	(label "AIR_L_AUX"
+		(at 100.584 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b9e3793-6292-433c-96da-c24a853b25eb")
+	)
+	(label "0.75V"
+		(at 99.822 176.276 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4de62063-5a93-44d2-9cd0-7766efcd4310")
+	)
+	(label "4.25V"
+		(at 76.962 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e4037b7-aa52-474a-bd46-8c77e6041761")
+	)
+	(label "AIR_L_AUX"
+		(at 100.838 75.184 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6fac0fff-63d8-4832-a5df-b6ba93fd03b2")
+	)
+	(label "4.25V"
+		(at 99.568 155.702 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89a49525-1b66-489a-b828-527feb2a4634")
+	)
+	(label "0.75V"
+		(at 101.346 241.808 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ab8d508-cee7-4f6e-8b39-ccf0d470bbe9")
+	)
+	(label "0.75V"
+		(at 100.838 80.264 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f684d8a-8ddd-440d-b403-b8c2c3b8a4fc")
+	)
+	(label "0.75V"
+		(at 100.584 207.264 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5aa93a5-59bd-4230-8f8b-90a1bdffc249")
+	)
+	(label "4.25V"
+		(at 100.584 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b78989f2-61aa-441b-bfeb-d06307e8ec98")
+	)
+	(label "4.25V"
+		(at 101.092 221.234 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0db0f8c-14d7-40d0-b22c-ef1425dc4cb8")
+	)
+	(label "raw_input_AIRH"
+		(at 100.584 202.184 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c5f9e8af-ecda-4585-aaf5-89d8700cae0a")
+	)
+	(label "4.25V"
+		(at 100.33 186.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9757bba-d7a0-4dec-833c-228523d11281")
+	)
+	(label "raw_input_precharge"
+		(at 99.822 171.196 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d60f4d17-9969-41e9-9efc-1f560b30f02d")
+	)
+	(label "PRECHARGE_AUX"
+		(at 100.838 130.048 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6102383-d043-45e1-8fed-bb567c966f36")
+	)
+	(label "0.75V"
+		(at 100.838 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d79b32f9-9653-498c-849f-5d695f5204a9")
+	)
+	(label "4.25V"
+		(at 101.346 92.964 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db6f4caa-e4a2-4061-9115-c021b18a5f2b")
+	)
+	(label "raw_input_AIRH"
+		(at 100.33 191.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc04dea0-ca05-4dde-bedb-ce03a1ac9bd9")
+	)
+	(label "AIR_H_AUX"
+		(at 100.838 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3bff9ae-4010-4a50-99ba-63a87c922d5d")
+	)
+	(label "AIR_H_AUX"
+		(at 101.346 98.044 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7f7589a-79d0-45fa-ad2f-d3bc168e370c")
+	)
+	(label "4.25V"
+		(at 100.838 124.968 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3e76c0b-cb67-4619-8641-d43dc44b1586")
+	)
+	(hierarchical_label "RAW_SCS"
+		(shape input)
+		(at 120.396 158.242 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6f58918b-dad2-4554-9842-a2be3adaf23b")
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 108.458 77.724 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00386cb9-b1fa-467c-999e-66e01874716c")
+		(property "Reference" "U6"
+			(at 108.458 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 108.458 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 108.458 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 108.458 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 108.458 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "195980d7-c387-4497-9811-25b0de625af7")
+		)
+		(pin "8"
+			(uuid "e279894a-8877-45c9-91c1-044a58f9bfc7")
+		)
+		(pin "2"
+			(uuid "aa2e84db-ccf3-49ff-a927-a86bd91a7bcb")
+		)
+		(pin "7"
+			(uuid "646dc61d-cbac-41a8-be27-b0f1ffad0d26")
+		)
+		(pin "4"
+			(uuid "0a15dfae-54a4-4d2a-ac54-f0ba5e7d8635")
+		)
+		(pin "1"
+			(uuid "d8637c21-2c1b-4acc-a49a-f1ef216c11f5")
+		)
+		(pin "3"
+			(uuid "7dedf4d1-2d66-4e32-8e99-3476eb44c87d")
+		)
+		(pin "5"
+			(uuid "56487d72-7213-4be4-b14e-68a6d8e4007a")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "U6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 145.542 99.568 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d83cd31-f5fe-44d5-bda2-f4daf2d33991")
+		(property "Reference" "U8"
+			(at 144.78 98.2979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM393"
+			(at 144.78 100.8379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 145.542 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 145.542 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 145.542 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "195980d7-c387-4497-9811-25b0de625b02")
+		)
+		(pin "8"
+			(uuid "eeddc959-b0b2-4b7b-bdce-19def0d258fd")
+		)
+		(pin "2"
+			(uuid "619c5be2-6c28-4e14-9a67-6a56d9ce12b3")
+		)
+		(pin "7"
+			(uuid "646dc61d-cbac-41a8-be27-b0f1ffad0d31")
+		)
+		(pin "4"
+			(uuid "1aac123a-c0d7-42a2-8e00-6b621009c745")
+		)
+		(pin "1"
+			(uuid "5ad36779-00ae-48dd-b4ef-3112c7ee32f9")
+		)
+		(pin "3"
+			(uuid "85a1c760-b448-4fc2-9f27-b4d3023d913d")
+		)
+		(pin "5"
+			(uuid "56487d72-7213-4be4-b14e-68a6d8e40085")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "U8")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power-symbol-library:GLV-")
+		(at 143.764 233.68 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "106cab5f-ab5c-4327-bf19-9a9cfc504177")
+		(property "Reference" "#PWR056"
+			(at 143.764 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GLV-"
+			(at 144.145 238.0742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.764 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.764 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.764 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f13accdf-8d60-49a4-b57c-9894a949b915")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power-symbol-library:GLV-")
+		(at 142.24 75.184 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17cfe055-aa4c-43e5-9322-a925bc4a5af1")
+		(property "Reference" "#PWR046"
+			(at 142.24 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GLV-"
+			(at 142.621 79.5782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37c3c32b-b13d-4e51-9ace-f717975ac95b")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.406 73.914 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a43e502-51da-4543-b69a-11d09af4be8f")
+		(property "Reference" "R21"
+			(at 75.184 72.7456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "82k"
+			(at 75.184 75.057 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+			(at 71.628 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.406 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.406 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "414521b7-c139-41b5-8639-61f9f058e377")
+		)
+		(pin "1"
+			(uuid "71778492-5a88-4a77-8108-aee8c482b7c0")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 143.764 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d49a2bf-892a-4201-8378-188a3e5eb616")
+		(property "Reference" "#PWR055"
+			(at 143.764 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 141.732 214.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.764 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.764 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.764 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5310955c-4b5d-486e-92ec-82302b0d9e83")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power-symbol-library:GLV-")
+		(at 73.406 77.724 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2102ceaa-2831-4b84-a688-120c1aa5bd2d")
+		(property "Reference" "#PWR012"
+			(at 73.406 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GLV-"
+			(at 73.787 82.1182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.406 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.406 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.406 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9a6b156-c6e7-4828-9f70-c02d00abfa67")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 107.442 173.736 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39a32190-95ed-482a-8e64-e0f506cbdeb9")
+		(property "Reference" "U10"
+			(at 107.442 163.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 107.442 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 107.442 173.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 107.442 173.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 107.442 173.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "89bd72c5-ec86-4b40-868a-7e3232480556")
+		)
+		(pin "8"
+			(uuid "e279894a-8877-45c9-91c1-044a58f9bfc8")
+		)
+		(pin "2"
+			(uuid "aa2e84db-ccf3-49ff-a927-a86bd91a7bcc")
+		)
+		(pin "7"
+			(uuid "6e479fae-d092-46d3-966d-280e7e80af8c")
+		)
+		(pin "4"
+			(uuid "0a15dfae-54a4-4d2a-ac54-f0ba5e7d8636")
+		)
+		(pin "1"
+			(uuid "d8637c21-2c1b-4acc-a49a-f1ef216c11f6")
+		)
+		(pin "3"
+			(uuid "7dedf4d1-2d66-4e32-8e99-3476eb44c87e")
+		)
+		(pin "5"
+			(uuid "e7c74c36-87da-4e2b-bec3-5e003eb2123e")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "U10")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power-symbol-library:GLV-")
+		(at 73.406 113.03 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f256bd0-682b-41d9-8a89-bb6d41faed8b")
+		(property "Reference" "#PWR031"
+			(at 73.406 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GLV-"
+			(at 73.787 117.4242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.406 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.406 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.406 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67de24bf-f469-49d1-9bd8-eb89d67714c3")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.406 62.738 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45615a58-abfb-4eb3-b670-6d42e9ac9bf5")
+		(property "Reference" "R20"
+			(at 75.184 61.5696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12k"
+			(at 75.184 63.881 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+			(at 71.628 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.406 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.406 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9a8b0e0-e7ea-4e02-8930-db6ca528a7fb")
+		)
+		(pin "1"
+			(uuid "ebad3388-8311-4617-b1ed-d4d66fffdbfa")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 108.458 110.49 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49016354-8c21-4dac-a68d-d7d44719c3d9")
+		(property "Reference" "U8"
+			(at 108.458 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 108.458 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 108.458 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 108.458 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 108.458 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "64559c2f-8444-4155-a274-27d25f802815")
+		)
+		(pin "8"
+			(uuid "e279894a-8877-45c9-91c1-044a58f9bfce")
+		)
+		(pin "2"
+			(uuid "5740a8f7-a9f5-4f7b-81a7-4adbdf34391c")
+		)
+		(pin "7"
+			(uuid "d109b692-ae8a-4e7a-8a97-59a95b75cfd4")
+		)
+		(pin "4"
+			(uuid "0a15dfae-54a4-4d2a-ac54-f0ba5e7d863c")
+		)
+		(pin "1"
+			(uuid "3b8469e2-ce75-43ba-82c7-c21330ccb274")
+		)
+		(pin "3"
+			(uuid "399cef1d-9100-40b3-8e4e-9be678d05b3c")
+		)
+		(pin "5"
+			(uuid "f22430a7-f944-48da-b883-37233dd288c1")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "U8")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 107.188 158.242 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ccbdd68-b4ed-4a11-a4bb-b3907db87fda")
+		(property "Reference" "U10"
+			(at 107.188 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 107.188 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 107.188 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 107.188 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 107.188 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "195980d7-c387-4497-9811-25b0de625afd")
+		)
+		(pin "8"
+			(uuid "e279894a-8877-45c9-91c1-044a58f9bfcc")
+		)
+		(pin "2"
+			(uuid "c24fdab8-a34b-428b-a22b-835dfefe4720")
+		)
+		(pin "7"
+			(uuid "646dc61d-cbac-41a8-be27-b0f1ffad0d2c")
+		)
+		(pin "4"
+			(uuid "0a15dfae-54a4-4d2a-ac54-f0ba5e7d863a")
+		)
+		(pin "1"
+			(uuid "f083ea54-d248-4148-acae-e97b640ede8a")
+		)
+		(pin "3"
+			(uuid "73b8e785-5a66-433f-a075-d485ac590c74")
+		)
+		(pin "5"
+			(uuid "56487d72-7213-4be4-b14e-68a6d8e40080")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 146.304 162.814 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5844fea3-39a8-4970-9319-c7a9976ebfd1")
+		(property "Reference" "U10"
+			(at 145.288 161.5439 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM393"
+			(at 145.288 164.0839 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 146.304 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 146.304 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 146.304 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "195980d7-c387-4497-9811-25b0de625afa")
+		)
+		(pin "8"
+			(uuid "4d84e84a-b618-4ea3-bbd7-adc953c2474c")
+		)
+		(pin "2"
+			(uuid "6088fe46-276f-4f40-9ea9-b7a366fe7c8f")
+		)
+		(pin "7"
+			(uuid "646dc61d-cbac-41a8-be27-b0f1ffad0d29")
+		)
+		(pin "4"
+			(uuid "1fa26948-1817-4db3-a53c-7af36c3d6813")
+		)
+		(pin "1"
+			(uuid "3bfc4c9e-38a5-475e-af5c-b63bda5de054")
+		)
+		(pin "3"
+			(uuid "3dfe18e8-66e3-4865-931e-8dcb3eba4391")
+		)
+		(pin "5"
+			(uuid "56487d72-7213-4be4-b14e-68a6d8e4007d")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "U10")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power-symbol-library:GLV-")
+		(at 143.002 107.188 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6109c644-41f2-4d7c-9bcf-887c97384fb0")
+		(property "Reference" "#PWR047"
+			(at 143.002 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GLV-"
+			(at 143.383 111.5822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.002 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.002 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.002 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a50e2ac-fd2e-45f4-aee1-b998fd9dc74f")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 108.966 239.268 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6da89ef4-d966-4b7f-820e-725022567e59")
+		(property "Reference" "U12"
+			(at 108.966 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 108.966 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 108.966 239.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 108.966 239.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 108.966 239.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "75376a1c-97fa-44d7-94c1-d6cc13b6a56d")
+		)
+		(pin "8"
+			(uuid "e279894a-8877-45c9-91c1-044a58f9bfca")
+		)
+		(pin "2"
+			(uuid "aa2e84db-ccf3-49ff-a927-a86bd91a7bcd")
+		)
+		(pin "7"
+			(uuid "4a9375ff-12ea-4f38-be5f-425db4d8f8db")
+		)
+		(pin "4"
+			(uuid "0a15dfae-54a4-4d2a-ac54-f0ba5e7d8638")
+		)
+		(pin "1"
+			(uuid "d8637c21-2c1b-4acc-a49a-f1ef216c11f7")
+		)
+		(pin "3"
+			(uuid "7dedf4d1-2d66-4e32-8e99-3476eb44c87f")
+		)
+		(pin "5"
+			(uuid "f80b89eb-67c5-4c65-985a-25b9fe8f12b7")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "U12")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 108.458 127.508 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f620cfa-e7a2-40c1-b79d-86b6661c7f5e")
+		(property "Reference" "U9"
+			(at 108.458 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 108.458 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 108.458 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 108.458 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 108.458 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "195980d7-c387-4497-9811-25b0de625af9")
+		)
+		(pin "8"
+			(uuid "e279894a-8877-45c9-91c1-044a58f9bfcb")
+		)
+		(pin "2"
+			(uuid "7f45bfd7-ee03-4476-afb6-f34b19f12049")
+		)
+		(pin "7"
+			(uuid "646dc61d-cbac-41a8-be27-b0f1ffad0d28")
+		)
+		(pin "4"
+			(uuid "0a15dfae-54a4-4d2a-ac54-f0ba5e7d8639")
+		)
+		(pin "1"
+			(uuid "730cf83a-5d14-4db1-94e0-330fde84722f")
+		)
+		(pin "3"
+			(uuid "68fa386d-1c00-4a6b-8675-d14c4ebce46e")
+		)
+		(pin "5"
+			(uuid "56487d72-7213-4be4-b14e-68a6d8e4007c")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 144.78 67.564 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a386bad-b2e6-4be3-80f0-2171e817834c")
+		(property "Reference" "U6"
+			(at 143.764 66.2939 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM393"
+			(at 143.764 68.8339 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 144.78 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 144.78 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 144.78 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "195980d7-c387-4497-9811-25b0de625afb")
+		)
+		(pin "8"
+			(uuid "e279894a-8877-45c9-91c1-044a58f9bfcd")
+		)
+		(pin "2"
+			(uuid "6088fe46-276f-4f40-9ea9-b7a366fe7c90")
+		)
+		(pin "7"
+			(uuid "646dc61d-cbac-41a8-be27-b0f1ffad0d2a")
+		)
+		(pin "4"
+			(uuid "0a15dfae-54a4-4d2a-ac54-f0ba5e7d863b")
+		)
+		(pin "1"
+			(uuid "3bfc4c9e-38a5-475e-af5c-b63bda5de055")
+		)
+		(pin "3"
+			(uuid "3dfe18e8-66e3-4865-931e-8dcb3eba4392")
+		)
+		(pin "5"
+			(uuid "56487d72-7213-4be4-b14e-68a6d8e4007e")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "U6")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 143.002 91.948 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e349fbb-43f3-4913-bdad-c6ecae6a06af")
+		(property "Reference" "#PWR049"
+			(at 143.002 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 141.478 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.002 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.002 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.002 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7f99c41-b56f-4b58-ad17-c0a88f03e815")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power-symbol-library:GLV-")
+		(at 143.764 170.434 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f441bba-e55d-4d1a-ace6-d729bd19303d")
+		(property "Reference" "#PWR052"
+			(at 143.764 166.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GLV-"
+			(at 144.145 174.8282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.764 170.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.764 170.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.764 170.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40575d03-6af8-4d55-b5dd-c09c1ed95e59")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 146.304 226.06 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8953fe20-bb2a-4d6a-a01d-4f51a027cd50")
+		(property "Reference" "U12"
+			(at 145.542 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM393"
+			(at 145.542 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 146.304 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 146.304 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 146.304 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "195980d7-c387-4497-9811-25b0de625afe")
+		)
+		(pin "8"
+			(uuid "9da88d70-6cb6-403e-978e-a1e1856a9e66")
+		)
+		(pin "2"
+			(uuid "619c5be2-6c28-4e14-9a67-6a56d9ce12b2")
+		)
+		(pin "7"
+			(uuid "646dc61d-cbac-41a8-be27-b0f1ffad0d2d")
+		)
+		(pin "4"
+			(uuid "5c35efc1-596a-4b2f-a7fe-739b38c76dd3")
+		)
+		(pin "1"
+			(uuid "5ad36779-00ae-48dd-b4ef-3112c7ee32f8")
+		)
+		(pin "3"
+			(uuid "85a1c760-b448-4fc2-9f27-b4d3023d913c")
+		)
+		(pin "5"
+			(uuid "56487d72-7213-4be4-b14e-68a6d8e40081")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "U12")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power-symbol-library:GLV-")
+		(at 143.764 201.422 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8953ff93-dd89-4cb8-ba2b-fd951cb490d6")
+		(property "Reference" "#PWR054"
+			(at 143.764 197.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GLV-"
+			(at 144.145 205.8162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.764 201.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.764 201.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.764 201.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d944e37a-bda4-4e9b-889d-c79a4d0ce487")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power-symbol-library:GLV-")
+		(at 142.748 138.176 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c182e74-d823-48c7-87bd-ae3dc02d7015")
+		(property "Reference" "#PWR048"
+			(at 142.748 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GLV-"
+			(at 143.129 142.5702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.748 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.748 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.748 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e60049fd-94f7-4826-80dc-a232573c0bf3")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.406 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ca99475-c29e-4f9f-a4ef-a581c837f85d")
+		(property "Reference" "R23"
+			(at 75.184 108.0516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12k"
+			(at 75.184 110.363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+			(at 71.628 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.406 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.406 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b9d1f52-6718-4902-897f-58d155147631")
+		)
+		(pin "1"
+			(uuid "26af7946-411c-4271-b675-b52dacdb0aa5")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 73.406 58.928 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d7cd97a-05fc-4697-b2b7-45fa68a0ce74")
+		(property "Reference" "#PWR034"
+			(at 73.406 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 71.628 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.406 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.406 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.406 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35b435f6-5889-465e-8292-5e4dba27736f")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 108.966 95.504 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9270141f-f6f1-4e0a-b80a-38f0eb4209b1")
+		(property "Reference" "U8"
+			(at 108.966 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 108.966 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 108.966 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 108.966 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 108.966 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "195980d7-c387-4497-9811-25b0de625af8")
+		)
+		(pin "8"
+			(uuid "e279894a-8877-45c9-91c1-044a58f9bfc9")
+		)
+		(pin "2"
+			(uuid "f7d57b61-30c6-4e81-8d7d-5cd71233ded2")
+		)
+		(pin "7"
+			(uuid "646dc61d-cbac-41a8-be27-b0f1ffad0d27")
+		)
+		(pin "4"
+			(uuid "0a15dfae-54a4-4d2a-ac54-f0ba5e7d8637")
+		)
+		(pin "1"
+			(uuid "52aea249-d710-4ae1-bfa6-55ba70de1316")
+		)
+		(pin "3"
+			(uuid "87f136d3-50af-4a4f-b711-1209dbde60a7")
+		)
+		(pin "5"
+			(uuid "56487d72-7213-4be4-b14e-68a6d8e4007b")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 107.95 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98c958b6-2f93-440e-9a98-830802857790")
+		(property "Reference" "U11"
+			(at 107.95 179.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 107.95 182.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 107.95 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 107.95 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 107.95 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "195980d7-c387-4497-9811-25b0de625aff")
+		)
+		(pin "8"
+			(uuid "e279894a-8877-45c9-91c1-044a58f9bfcf")
+		)
+		(pin "2"
+			(uuid "fb7e4b65-8434-42a9-9528-cce8c90e474b")
+		)
+		(pin "7"
+			(uuid "646dc61d-cbac-41a8-be27-b0f1ffad0d2e")
+		)
+		(pin "4"
+			(uuid "0a15dfae-54a4-4d2a-ac54-f0ba5e7d863d")
+		)
+		(pin "1"
+			(uuid "5d6be858-2aca-4a18-b9c0-8da51c5c9570")
+		)
+		(pin "3"
+			(uuid "c36eb2ea-739f-4c91-8247-338fb8bd3bcb")
+		)
+		(pin "5"
+			(uuid "56487d72-7213-4be4-b14e-68a6d8e40082")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 142.748 122.936 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac6545d1-bc2d-42e3-8a8d-9f86e23172ef")
+		(property "Reference" "#PWR050"
+			(at 142.748 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 140.97 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.748 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.748 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.748 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd4a8b50-e176-4332-8e01-074053e615f8")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.406 98.298 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0bad4ac-9d95-45fe-954c-70eaa18b45dc")
+		(property "Reference" "R22"
+			(at 75.184 97.1296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "82k"
+			(at 75.184 99.441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+			(at 71.628 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.406 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.406 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19fe465a-4138-4290-ae22-68a4e5f9d0c6")
+		)
+		(pin "1"
+			(uuid "8bebbc03-139f-493f-a3e1-89c7af7071f8")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 145.288 130.556 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b539788e-6db0-45ee-bcce-464137f77e0b")
+		(property "Reference" "U9"
+			(at 144.526 129.2859 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM393"
+			(at 144.526 131.8259 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 145.288 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 145.288 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 145.288 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "195980d7-c387-4497-9811-25b0de625b00")
+		)
+		(pin "8"
+			(uuid "cfd97b90-35b4-405f-9a22-3d2b17f5cc64")
+		)
+		(pin "2"
+			(uuid "619c5be2-6c28-4e14-9a67-6a56d9ce12b1")
+		)
+		(pin "7"
+			(uuid "646dc61d-cbac-41a8-be27-b0f1ffad0d2f")
+		)
+		(pin "4"
+			(uuid "fa7ce82f-c0d9-4b24-8a11-bfe50351cc6d")
+		)
+		(pin "1"
+			(uuid "5ad36779-00ae-48dd-b4ef-3112c7ee32f7")
+		)
+		(pin "3"
+			(uuid "85a1c760-b448-4fc2-9f27-b4d3023d913b")
+		)
+		(pin "5"
+			(uuid "56487d72-7213-4be4-b14e-68a6d8e40083")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "U9")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 108.204 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5765807-d650-4822-93f8-6a536ff4077f")
+		(property "Reference" "U6"
+			(at 108.204 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 108.204 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 108.204 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 108.204 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 108.204 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "195980d7-c387-4497-9811-25b0de625b01")
+		)
+		(pin "8"
+			(uuid "e279894a-8877-45c9-91c1-044a58f9bfd0")
+		)
+		(pin "2"
+			(uuid "e02aa919-8a28-44b8-b968-4022fafc33a0")
+		)
+		(pin "7"
+			(uuid "646dc61d-cbac-41a8-be27-b0f1ffad0d30")
+		)
+		(pin "4"
+			(uuid "0a15dfae-54a4-4d2a-ac54-f0ba5e7d863e")
+		)
+		(pin "1"
+			(uuid "b44f8be5-d798-4030-953a-b149294bcc9e")
+		)
+		(pin "3"
+			(uuid "c08524ae-afdc-4525-b13e-dba815dd7227")
+		)
+		(pin "5"
+			(uuid "56487d72-7213-4be4-b14e-68a6d8e40084")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 108.458 143.002 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b58ca70a-b3fd-408f-acbe-a10d1f9698dc")
+		(property "Reference" "U9"
+			(at 109.22 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 109.22 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 108.458 143.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 108.458 143.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 108.458 143.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "d89bf1ab-e99e-4e8a-9cee-2a58c3d411f3")
+		)
+		(pin "8"
+			(uuid "e279894a-8877-45c9-91c1-044a58f9bfd1")
+		)
+		(pin "2"
+			(uuid "5740a8f7-a9f5-4f7b-81a7-4adbdf34391d")
+		)
+		(pin "7"
+			(uuid "acf64bcb-9b16-47ba-acc3-acc62a254468")
+		)
+		(pin "4"
+			(uuid "0a15dfae-54a4-4d2a-ac54-f0ba5e7d863f")
+		)
+		(pin "1"
+			(uuid "3b8469e2-ce75-43ba-82c7-c21330ccb275")
+		)
+		(pin "3"
+			(uuid "399cef1d-9100-40b3-8e4e-9be678d05b3d")
+		)
+		(pin "5"
+			(uuid "ca1868bf-92fc-43b7-bc60-e4d14eeca7bd")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "U9")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 143.764 186.182 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3984d1a-012f-4e80-8489-f97bca0fbe2d")
+		(property "Reference" "#PWR053"
+			(at 143.764 189.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 141.986 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.764 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.764 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.764 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbaa53f3-0a6e-4d5b-beb9-ac1372aa7a08")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 73.406 94.488 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cddddc22-ac13-42b6-b4a9-d5b7413d6bb7")
+		(property "Reference" "#PWR035"
+			(at 73.406 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 73.406 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.406 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.406 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.406 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25383041-afad-44ba-a4d7-d13819828778")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 146.304 193.802 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d12ebfe4-da0e-43f8-ad1a-708f20bcf06c")
+		(property "Reference" "U11"
+			(at 145.542 192.5319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM393"
+			(at 145.542 195.0719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 146.304 193.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 146.304 193.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 146.304 193.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "195980d7-c387-4497-9811-25b0de625b03")
+		)
+		(pin "8"
+			(uuid "4f28ec15-bf18-43a2-9419-3c534f7e3a2e")
+		)
+		(pin "2"
+			(uuid "619c5be2-6c28-4e14-9a67-6a56d9ce12b4")
+		)
+		(pin "7"
+			(uuid "646dc61d-cbac-41a8-be27-b0f1ffad0d32")
+		)
+		(pin "4"
+			(uuid "d9837d21-5a64-4303-9270-49c519b30fe9")
+		)
+		(pin "1"
+			(uuid "5ad36779-00ae-48dd-b4ef-3112c7ee32fa")
+		)
+		(pin "3"
+			(uuid "85a1c760-b448-4fc2-9f27-b4d3023d913e")
+		)
+		(pin "5"
+			(uuid "56487d72-7213-4be4-b14e-68a6d8e40086")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "U11")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 142.24 59.944 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d68c0582-5377-4c65-96b3-6364cd2afa93")
+		(property "Reference" "#PWR045"
+			(at 142.24 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 140.462 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "215d7fb7-b60a-4dba-b5aa-31b5f5ce0f71")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 108.712 223.774 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5b17885-db1c-4fed-b343-72d540ced794")
+		(property "Reference" "U12"
+			(at 108.712 214.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 108.712 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 108.712 223.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 108.712 223.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 108.712 223.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "195980d7-c387-4497-9811-25b0de625b04")
+		)
+		(pin "8"
+			(uuid "e279894a-8877-45c9-91c1-044a58f9bfd3")
+		)
+		(pin "2"
+			(uuid "695c27d7-d73a-4ee8-b278-9a6634a2107f")
+		)
+		(pin "7"
+			(uuid "646dc61d-cbac-41a8-be27-b0f1ffad0d33")
+		)
+		(pin "4"
+			(uuid "0a15dfae-54a4-4d2a-ac54-f0ba5e7d8641")
+		)
+		(pin "1"
+			(uuid "c0636d26-47f5-472d-a404-cc32e6523443")
+		)
+		(pin "3"
+			(uuid "9a9bc1a3-ab31-479f-b025-3eee12e5df7b")
+		)
+		(pin "5"
+			(uuid "56487d72-7213-4be4-b14e-68a6d8e40087")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 108.204 204.724 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed79042b-f033-4edf-8f19-4f6b8ef1f2d3")
+		(property "Reference" "U11"
+			(at 108.204 194.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 108.204 196.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 108.204 204.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 108.204 204.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 108.204 204.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "7c8be218-acbe-44f3-a6bf-05ab1178b6cd")
+		)
+		(pin "8"
+			(uuid "e279894a-8877-45c9-91c1-044a58f9bfd4")
+		)
+		(pin "2"
+			(uuid "aa2e84db-ccf3-49ff-a927-a86bd91a7bce")
+		)
+		(pin "7"
+			(uuid "35175786-98a5-47ad-8044-1d2cc1c6833c")
+		)
+		(pin "4"
+			(uuid "0a15dfae-54a4-4d2a-ac54-f0ba5e7d8642")
+		)
+		(pin "1"
+			(uuid "d8637c21-2c1b-4acc-a49a-f1ef216c11f8")
+		)
+		(pin "3"
+			(uuid "7dedf4d1-2d66-4e32-8e99-3476eb44c880")
+		)
+		(pin "5"
+			(uuid "154bc4ee-8947-4c2a-aa57-0861eebe36aa")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "U11")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 143.764 155.194 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fddd74c2-74c4-45ab-8b92-df22990a3a63")
+		(property "Reference" "#PWR051"
+			(at 143.764 159.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 141.224 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.764 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.764 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.764 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1778319-31b3-4f95-9187-01eb35556905")
+		)
+		(instances
+			(project "TSAL_G_V4_2"
+				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/69ebfae7-19de-4add-88e6-4e22da4e3f13"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
