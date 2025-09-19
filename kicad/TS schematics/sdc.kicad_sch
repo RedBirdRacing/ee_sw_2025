@@ -2053,11 +2053,33 @@
 		)
 		(uuid "66e36dfc-d1e8-4e5b-9980-9aaef7ee2391")
 	)
+	(text "Firewall"
+		(exclude_from_sim no)
+		(at 226.314 58.166 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c6cde0e-4325-4e06-91ab-c7ac25b80e07")
+	)
+	(junction
+		(at 218.44 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43f01adc-5b6c-4e9d-a149-636b831b1a39")
+	)
 	(junction
 		(at 139.7 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73db669d-c740-47e1-83fb-7963a71eaaf9")
+	)
+	(junction
+		(at 213.36 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8540b807-3d3c-46ca-9431-e3e0ab98f090")
 	)
 	(junction
 		(at 121.92 85.09)
@@ -2070,6 +2092,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c19e3810-dfd2-4ec6-a97d-0549c4e9b9e4")
+	)
+	(junction
+		(at 203.2 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c51af3b5-b365-463f-b082-8727b39cb18b")
 	)
 	(junction
 		(at 238.76 26.67)
@@ -2111,6 +2139,36 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 38.1) (xy 203.2 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c9f1ff-23ae-42ff-a7f4-417d7c6a5541")
+	)
+	(polyline
+		(pts
+			(xy 187.96 33.02) (xy 187.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a8d3477-eecd-4e59-b7cf-0349e217c050")
+	)
+	(polyline
+		(pts
+			(xy 236.22 78.74) (xy 236.22 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1020397d-585a-499e-971b-a045413ee563")
+	)
+	(wire
+		(pts
 			(xy 252.73 21.59) (xy 250.19 21.59)
 		)
 		(stroke
@@ -2141,6 +2199,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 74.93) (xy 218.44 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd8fc3d-752a-4307-bfa3-2c31625ee7f9")
+	)
+	(wire
+		(pts
 			(xy 190.5 50.8) (xy 203.2 50.8)
 		)
 		(stroke
@@ -2158,16 +2226,6 @@
 			(type default)
 		)
 		(uuid "2ecf1615-6778-4aaf-8c19-34187c449ad1")
-	)
-	(wire
-		(pts
-			(xy 219.71 71.12) (xy 196.85 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34f966ce-4d9b-477e-a979-690a2968c1ba")
 	)
 	(wire
 		(pts
@@ -2259,6 +2317,16 @@
 		)
 		(uuid "5357d0b6-14d0-48e0-8453-f146d36426b9")
 	)
+	(polyline
+		(pts
+			(xy 195.58 55.88) (xy 218.44 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5712198c-dc93-47c6-8912-51a6341c480a")
+	)
 	(wire
 		(pts
 			(xy 139.7 26.67) (xy 139.7 33.02)
@@ -2269,6 +2337,16 @@
 		)
 		(uuid "5cfc653a-6ee7-42f4-8bf6-5b24c55cb593")
 	)
+	(polyline
+		(pts
+			(xy 236.22 33.02) (xy 187.96 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "642c271a-a2a4-44ff-8d74-2cc2262d3cbb")
+	)
 	(wire
 		(pts
 			(xy 240.03 21.59) (xy 238.76 21.59)
@@ -2278,6 +2356,26 @@
 			(type default)
 		)
 		(uuid "65c9bcfe-b170-4191-8470-fc2506f4063f")
+	)
+	(polyline
+		(pts
+			(xy 187.96 40.64) (xy 195.58 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6698c9eb-cd34-4903-91a8-4caf2c79c5c3")
+	)
+	(wire
+		(pts
+			(xy 218.44 71.12) (xy 219.71 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6856e890-8912-4ab9-8b9c-7bc723915b26")
 	)
 	(wire
 		(pts
@@ -2359,6 +2457,16 @@
 		)
 		(uuid "79c862a0-880f-4021-a7b7-89b68bf33969")
 	)
+	(polyline
+		(pts
+			(xy 195.58 40.64) (xy 195.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b8c8a4-072e-4de1-af51-bf4aa2122c74")
+	)
 	(wire
 		(pts
 			(xy 167.64 50.8) (xy 180.34 50.8)
@@ -2389,6 +2497,16 @@
 		)
 		(uuid "89555b3c-b0fe-4e61-9cb4-b5ddf69c35fc")
 	)
+	(polyline
+		(pts
+			(xy 218.44 78.74) (xy 236.22 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "926f9d02-408d-441d-be4f-08655bae1057")
+	)
 	(wire
 		(pts
 			(xy 252.73 29.21) (xy 252.73 91.44)
@@ -2411,6 +2529,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 71.12) (xy 218.44 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f962ee0-9a55-4ed1-9ff5-5b6907834dc3")
+	)
+	(wire
+		(pts
 			(xy 173.99 115.57) (xy 160.02 115.57)
 		)
 		(stroke
@@ -2418,6 +2546,16 @@
 			(type default)
 		)
 		(uuid "a7d8b2b0-8195-4094-baa9-561de00a1573")
+	)
+	(polyline
+		(pts
+			(xy 218.44 55.88) (xy 218.44 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab17cd9c-b082-47f7-ad29-5c0a065f3813")
 	)
 	(wire
 		(pts
@@ -2468,6 +2606,16 @@
 			(type default)
 		)
 		(uuid "dcda85d0-a095-48e2-97b7-fb7c12aed199")
+	)
+	(wire
+		(pts
+			(xy 204.47 71.12) (xy 196.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de888eb9-b72b-4a30-b038-c513400c9fa1")
 	)
 	(wire
 		(pts
@@ -2529,6 +2677,16 @@
 		)
 		(uuid "f08bef86-1b92-41e5-98bf-f72720ad6380")
 	)
+	(wire
+		(pts
+			(xy 213.36 38.1) (xy 213.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff119cea-6fe2-4a2a-bbb6-2a2c91ff4139")
+	)
 	(global_label "SDC_HVBOX_IN"
 		(shape input)
 		(at 121.92 73.66 0)
@@ -2565,6 +2723,28 @@
 		(uuid "0aa6539c-9958-4f34-ab8f-c9581f72c997")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 34.1473 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDC_BSPD_IN"
+		(shape input)
+		(at 223.52 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ed37646-d583-4105-b6b7-d5aa96bb11ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.8953 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2640,6 +2820,28 @@
 			)
 		)
 	)
+	(global_label "FIREWALL_SDC_OUT"
+		(shape input)
+		(at 218.44 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fbd2ba8-0fc0-40bd-923c-7b9a28e2f8d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.4471 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "interlock"
 		(shape output)
 		(at 209.55 29.21 0)
@@ -2653,6 +2855,28 @@
 		(uuid "42452787-99ce-47b8-948d-509a4494e7bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 220.8204 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DASH_SD_OUT"
+		(shape input)
+		(at 213.36 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54ee6c04-4331-4ce3-87b4-29035de6c0cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.2871 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,6 +3021,28 @@
 			)
 		)
 	)
+	(global_label "DASH_SD_IN"
+		(shape input)
+		(at 203.2 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77040a1e-0c35-44d2-86d6-8e3eb8309779")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.9662 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "AIR_PRE"
 		(shape input)
 		(at 231.14 116.84 180)
@@ -2832,6 +3078,28 @@
 		(uuid "8a8c3ef2-7d95-44c4-881d-7a6098bb6be6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 89.8895 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDC_BSPD_OUT"
+		(shape input)
+		(at 233.68 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93d8fc5f-56db-4b68-aaab-b69ebdd4c746")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.998 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,6 +4537,74 @@
 			(project "TS schematics"
 				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0435e21c-a4e3-4e2d-91c4-53287f9a5fe6"
 					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Open")
+		(at 209.55 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61ee567d-27eb-4ba8-b1ad-a0cb892ea72e")
+		(property "Reference" "SW18"
+			(at 209.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAMOCAR"
+			(at 209.55 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 209.55 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "234b4641-7766-4bd6-8866-352ee838615a")
+		)
+		(pin "1"
+			(uuid "e9991b2a-f3ee-40d7-8d90-f54071da5b54")
+		)
+		(instances
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0435e21c-a4e3-4e2d-91c4-53287f9a5fe6"
+					(reference "SW18")
 					(unit 1)
 				)
 			)

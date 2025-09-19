@@ -1875,6 +1875,17 @@
 		)
 		(uuid "3a02ca0b-281a-4536-bd88-469e5029e414")
 	)
+	(hierarchical_label "TSALight_Green"
+		(shape input)
+		(at 170.18 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e1e9420-a6e0-48bf-882c-4da2224b27bf")
+	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 175.26 66.04 0)
@@ -2282,17 +2293,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 175.26 72.39 0)
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 175.26 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7f3d4d48-db66-4c60-b6b4-3c0da298a172")
-		(property "Reference" "J19"
-			(at 177.8 72.3899 0)
+		(uuid "cb8d08bf-c1da-44e5-adff-e417c282068b")
+		(property "Reference" "J32"
+			(at 177.8 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,8 +2311,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TSAL voltage detection"
-			(at 177.8 74.9299 0)
+		(property "Value" "TSAL"
+			(at 177.8 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2310,7 +2321,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 72.39 0)
+			(at 175.26 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2319,7 +2330,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 72.39 0)
+			(at 175.26 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,25 +2338,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 175.26 72.39 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 175.26 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "35c500c7-5109-46f7-939c-50a7dfca25e5")
 		)
 		(pin "2"
-			(uuid "42a4c7ef-3003-41c7-8205-1f48237bd1e6")
+			(uuid "6d9dffe9-0eda-4a88-9f72-00518604c871")
+		)
+		(pin "1"
+			(uuid "f14be394-f0b2-4c36-842f-33afabb0ae54")
+		)
+		(pin "3"
+			(uuid "d29b2f63-ccc7-4581-bd0c-59fb3533cb7c")
 		)
 		(instances
-			(project ""
+			(project "TS schematics"
 				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/ba531de5-0225-4458-93d2-6539cce2b96a"
-					(reference "J19")
+					(reference "J32")
 					(unit 1)
 				)
 			)

@@ -620,6 +620,14 @@
     [
       "0435e21c-a4e3-4e2d-91c4-53287f9a5fe6",
       "Shutdown Circuit"
+    ],
+    [
+      "0d00eec6-8293-4237-af5c-7114093f30fd",
+      "MCU Scheme"
+    ],
+    [
+      "0b4c92a3-6270-4d50-bbb4-266792a051ef",
+      "VCU connectors"
     ]
   ],
   "text_variables": {}

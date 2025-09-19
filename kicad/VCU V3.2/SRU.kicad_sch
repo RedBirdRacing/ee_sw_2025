@@ -2906,7 +2906,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-847S")
-		(at 157.48 110.49 0)
+		(at 157.48 82.55 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2915,7 +2915,7 @@
 		(fields_autoplaced yes)
 		(uuid "5147847a-1d41-4a18-a631-01da749e94db")
 		(property "Reference" "U11"
-			(at 157.48 102.362 0)
+			(at 157.48 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +2923,7 @@
 			)
 		)
 		(property "Value" "LTV-847S"
-			(at 157.48 104.902 0)
+			(at 157.48 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +2931,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
-			(at 157.48 118.11 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +2940,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 142.24 99.06 0)
+			(at 142.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +2949,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 110.49 0)
+			(at 157.48 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,7 +3978,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-847S")
-		(at 157.48 55.88 0)
+		(at 167.64 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3987,7 +3987,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3828f29-fc37-4488-b459-4860cb99d79b")
 		(property "Reference" "U11"
-			(at 157.48 46.99 0)
+			(at 167.64 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3995,7 +3995,7 @@
 			)
 		)
 		(property "Value" "LTV-847S"
-			(at 157.48 49.53 0)
+			(at 167.64 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +4003,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
-			(at 157.48 63.5 0)
+			(at 167.64 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4012,7 +4012,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 142.24 44.45 0)
+			(at 152.4 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,7 +4021,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 55.88 0)
+			(at 167.64 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4288,7 +4288,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-847S")
-		(at 167.64 138.43 0)
+		(at 157.48 55.88 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4297,7 +4297,7 @@
 		(fields_autoplaced yes)
 		(uuid "c23f11aa-47da-4971-a989-7474903fb3e9")
 		(property "Reference" "U11"
-			(at 167.64 130.302 0)
+			(at 157.48 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,7 +4305,7 @@
 			)
 		)
 		(property "Value" "LTV-847S"
-			(at 167.64 132.842 0)
+			(at 157.48 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,7 +4313,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
-			(at 167.64 146.05 0)
+			(at 157.48 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4322,7 +4322,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 152.4 127 0)
+			(at 142.24 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +4331,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 138.43 0)
+			(at 157.48 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4768,7 +4768,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-847S")
-		(at 157.48 82.55 0)
+		(at 157.48 110.49 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4777,7 +4777,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc804c99-e67c-4756-828b-cdcb0f8028ac")
 		(property "Reference" "U11"
-			(at 157.48 74.422 0)
+			(at 157.48 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4785,7 +4785,7 @@
 			)
 		)
 		(property "Value" "LTV-847S"
-			(at 157.48 76.962 0)
+			(at 157.48 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4793,7 +4793,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
-			(at 157.48 90.17 0)
+			(at 157.48 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4802,7 +4802,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 142.24 71.12 0)
+			(at 142.24 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,7 +4811,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 82.55 0)
+			(at 157.48 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)

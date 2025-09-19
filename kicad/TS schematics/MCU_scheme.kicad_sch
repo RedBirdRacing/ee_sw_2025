@@ -1163,34 +1163,24 @@
 		(uuid "c3b080d2-9a84-4505-a9ba-64768225efeb")
 	)
 	(junction
-		(at 53.34 77.47)
+		(at 64.77 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e574aa4-8d15-489b-8ed5-c3d8e48247c0")
 	)
 	(wire
 		(pts
-			(xy 53.34 77.47) (xy 40.64 77.47)
+			(xy 46.99 57.15) (xy 64.77 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2380bc3b-0319-47be-9898-1893254da8b4")
+		(uuid "27384fb9-2469-4a1d-ad10-5c732cefd8f6")
 	)
 	(wire
 		(pts
-			(xy 40.64 72.39) (xy 53.34 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b797e05-7180-4051-ad84-5641c3b5c149")
-	)
-	(wire
-		(pts
-			(xy 55.88 77.47) (xy 53.34 77.47)
+			(xy 67.31 62.23) (xy 64.77 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1200,13 +1190,23 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 72.39) (xy 53.34 77.47)
+			(xy 64.77 57.15) (xy 64.77 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4ec2c0f5-521a-49d1-97b3-3279e6e904cb")
+	)
+	(wire
+		(pts
+			(xy 46.99 62.23) (xy 64.77 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d66750a-a21b-4a1c-b02d-3d763acfff6e")
 	)
 	(global_label "DOUT1"
 		(shape input)
@@ -1230,9 +1230,9 @@
 			)
 		)
 	)
-	(global_label "CAN_L"
+	(global_label "MCU_CAN_L"
 		(shape input)
-		(at 40.64 82.55 0)
+		(at 46.99 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1242,7 +1242,7 @@
 		)
 		(uuid "2097962c-7d84-4bd2-a1e3-710af6dab266")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.31 82.55 0)
+			(at 60.6795 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,7 +1298,7 @@
 	)
 	(global_label "FE"
 		(shape input)
-		(at 53.34 72.39 0)
+		(at 64.77 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1308,7 +1308,7 @@
 		)
 		(uuid "480f63a1-d924-47c8-9a71-95d8b28f351c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.5628 72.39 0)
+			(at 69.9928 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1320,7 +1320,7 @@
 	)
 	(global_label "CAN_GND"
 		(shape input)
-		(at 55.88 77.47 0)
+		(at 67.31 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1330,7 +1330,7 @@
 		)
 		(uuid "558c31e2-b0e5-4bf0-a9d4-72d690430fb9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.3924 77.47 0)
+			(at 78.8224 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,9 +1384,9 @@
 			)
 		)
 	)
-	(global_label "CAN_H"
+	(global_label "MCU_CAN_H"
 		(shape input)
-		(at 40.64 80.01 0)
+		(at 46.99 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1396,7 +1396,7 @@
 		)
 		(uuid "7a8983a8-5e3b-45d4-9205-9dc51ed2a75b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.6124 80.01 0)
+			(at 60.9819 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,7 +1584,7 @@
 	)
 	(global_label "CAN_V+"
 		(shape input)
-		(at 40.64 74.93 0)
+		(at 46.99 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1594,7 +1594,7 @@
 		)
 		(uuid "d170c535-70cb-475b-8b54-8965521f665f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.9429 74.93 0)
+			(at 57.2929 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,7 +1658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01c40694-c831-4bf3-a121-5ef4fdbcebab")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR03"
 			(at 102.87 38.1 0)
 			(effects
 				(font
@@ -1707,9 +1707,9 @@
 			(uuid "5754fdd4-6765-4a7c-9015-2ecb1d6afb28")
 		)
 		(instances
-			(project "TS schematics"
+			(project ""
 				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0d00eec6-8293-4237-af5c-7114093f30fd"
-					(reference "#PWR?")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1731,7 +1731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ef222c4-f534-494b-b1d7-1ada1403153a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR02"
 			(at 92.71 40.64 0)
 			(effects
 				(font
@@ -1780,9 +1780,9 @@
 			(uuid "5adc8058-ab96-4b53-9ffd-f7958f0303c2")
 		)
 		(instances
-			(project "TS schematics"
+			(project ""
 				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0d00eec6-8293-4237-af5c-7114093f30fd"
-					(reference "#PWR?")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1796,7 +1796,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 77.47 0)
+		(at 64.77 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1804,8 +1804,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f438fde-e95e-43e8-b5b6-a4851d7ebb2f")
-		(property "Reference" "#PWR?"
-			(at 53.34 83.82 0)
+		(property "Reference" "#PWR01"
+			(at 64.77 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +1814,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 82.55 0)
+			(at 64.77 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,7 +1822,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 77.47 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1831,7 +1831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 77.47 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +1840,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 77.47 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1852,9 +1852,9 @@
 			(uuid "fffc05bb-6961-4fd3-bfb7-caaf332f3ff0")
 		)
 		(instances
-			(project "TS schematics"
+			(project ""
 				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0d00eec6-8293-4237-af5c-7114093f30fd"
-					(reference "#PWR?")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1876,7 +1876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47cbb523-a5d7-448e-bc93-9d8667d50809")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR05"
 			(at 92.71 78.74 0)
 			(effects
 				(font
@@ -1925,9 +1925,9 @@
 			(uuid "d59c3a58-77f7-4079-b4f0-394cbfe15f67")
 		)
 		(instances
-			(project "TS schematics"
+			(project ""
 				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0d00eec6-8293-4237-af5c-7114093f30fd"
-					(reference "#PWR?")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -1949,7 +1949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c52cda0-d7aa-4eb2-8539-72e7ab50f095")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR04"
 			(at 102.87 55.88 0)
 			(effects
 				(font
@@ -1998,9 +1998,9 @@
 			(uuid "4abc2384-30b8-40b8-9267-d6cc576a0a10")
 		)
 		(instances
-			(project "TS schematics"
+			(project ""
 				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0d00eec6-8293-4237-af5c-7114093f30fd"
-					(reference "#PWR?")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2014,7 +2014,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 35.56 77.47 0)
+		(at 41.91 62.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2023,8 +2023,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f5508e5-9319-4411-b5b8-e37e3a43f792")
-		(property "Reference" "J?"
-			(at 35.56 66.04 0)
+		(property "Reference" "J2"
+			(at 41.91 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2032,7 +2032,7 @@
 			)
 		)
 		(property "Value" "CAN-BUS"
-			(at 35.56 68.58 0)
+			(at 41.91 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +2040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 77.47 0)
+			(at 41.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,7 +2049,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 77.47 0)
+			(at 41.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,7 +2058,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 77.47 0)
+			(at 41.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2082,9 +2082,9 @@
 			(uuid "1681225c-dd29-4f52-b951-6a80554b4163")
 		)
 		(instances
-			(project "TS schematics"
+			(project ""
 				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0d00eec6-8293-4237-af5c-7114093f30fd"
-					(reference "J?")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2107,7 +2107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af1d3c4b-4bd4-42a3-93cf-6a9ea306a6fa")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 91.44 26.67 0)
 			(effects
 				(font
@@ -2208,9 +2208,9 @@
 			(uuid "17456ce4-4bad-4ba8-b31b-6ae94bf4fe74")
 		)
 		(instances
-			(project "TS schematics"
+			(project ""
 				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0d00eec6-8293-4237-af5c-7114093f30fd"
-					(reference "J?")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2222,10 +2222,4 @@
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
