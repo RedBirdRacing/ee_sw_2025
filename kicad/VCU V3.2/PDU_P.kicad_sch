@@ -1166,16 +1166,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 81.28) (xy 143.51 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26205e4f-2289-48a3-8d12-590ebde8d7f2")
-	)
-	(wire
-		(pts
 			(xy 157.48 86.36) (xy 151.13 86.36)
 		)
 		(stroke
@@ -1193,6 +1183,16 @@
 			(type default)
 		)
 		(uuid "384beb12-3831-43ee-acc2-95c49dc53ff0")
+	)
+	(wire
+		(pts
+			(xy 127 81.28) (xy 132.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4374edcb-3f31-4b07-8371-4fd18efd9151")
 	)
 	(wire
 		(pts
@@ -1226,6 +1226,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 86.36) (xy 124.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a35e3014-5e04-4ff4-98db-cb101a17ff24")
+	)
+	(wire
+		(pts
 			(xy 143.51 66.04) (xy 151.13 66.04)
 		)
 		(stroke
@@ -1233,6 +1243,16 @@
 			(type default)
 		)
 		(uuid "bf5dcf53-0b4b-44ea-9b70-c50f827f308d")
+	)
+	(wire
+		(pts
+			(xy 132.08 81.28) (xy 143.51 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54d003e-013e-454c-aa8f-1a14dda11a3d")
 	)
 	(wire
 		(pts
@@ -1244,9 +1264,19 @@
 		)
 		(uuid "e2b99a8b-f8e9-4dd7-a386-9ed21227d851")
 	)
+	(label "MOS_GATE"
+		(at 127 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "81f48b3e-38c0-435d-96d3-9d8b2c8aa829")
+	)
 	(hierarchical_label "SIGNAL"
 		(shape input)
-		(at 116.84 86.36 180)
+		(at 111.76 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1357,7 +1387,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 86.36 90)
+		(at 115.57 86.36 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1366,7 +1396,7 @@
 		(dnp no)
 		(uuid "4bd8d874-249b-44d4-a591-063474b0483a")
 		(property "Reference" "R5"
-			(at 120.65 84.328 90)
+			(at 115.57 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +1404,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 120.65 86.36 90)
+			(at 115.57 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,7 +1412,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
-			(at 120.65 84.582 90)
+			(at 115.57 84.582 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1391,7 +1421,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 86.36 0)
+			(at 115.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1400,7 +1430,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 86.36 0)
+			(at 115.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,7 +1807,7 @@
 		(dnp no)
 		(uuid "b8f81eb8-52fb-4b22-8f24-e92c5051e24e")
 		(property "Reference" "Q1"
-			(at 119.253 89.154 0)
+			(at 114.173 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)

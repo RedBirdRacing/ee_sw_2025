@@ -1289,7 +1289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "RMC_SOT:SOT-23"
 			(at 154.94 79.375 0)
 			(effects
 				(font

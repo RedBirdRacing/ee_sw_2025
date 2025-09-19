@@ -5064,174 +5064,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D_Zener"
 			(pin_numbers
 				(hide yes)
@@ -9049,6 +8881,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 137.16) (xy 200.66 136.398)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09121afc-9841-4571-8e7b-616271ea5008")
+	)
+	(wire
+		(pts
 			(xy 445.262 232.41) (xy 445.262 233.172)
 		)
 		(stroke
@@ -9076,6 +8918,16 @@
 			(type default)
 		)
 		(uuid "09c717fc-0563-4e2b-9e2b-3d227adaec50")
+	)
+	(wire
+		(pts
+			(xy 208.28 136.398) (xy 209.296 136.398)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a5f68ff-9387-44d1-9605-9004ef60a8f3")
 	)
 	(wire
 		(pts
@@ -9716,6 +9568,16 @@
 			(type default)
 		)
 		(uuid "3d9087ad-d2ad-4509-937e-f39593faea0a")
+	)
+	(wire
+		(pts
+			(xy 200.66 136.398) (xy 195.326 136.398)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb20a34-2e51-4acc-b67e-749a1ec6adbf")
 	)
 	(wire
 		(pts
@@ -10839,6 +10701,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 137.16) (xy 208.28 136.398)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e95ae4-c9c6-4c61-92b0-6ff25146709d")
+	)
+	(wire
+		(pts
 			(xy 269.748 136.144) (xy 284.988 136.144)
 		)
 		(stroke
@@ -11037,6 +10909,16 @@
 		)
 		(uuid "b87f2f26-1482-45b5-b590-1ec9cf07a82b")
 	)
+	(wire
+		(pts
+			(xy 200.66 137.16) (xy 208.28 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b918689a-60ad-48e4-b4fb-5f13331654b5")
+	)
 	(polyline
 		(pts
 			(xy 239.776 150.368) (xy 135.636 150.368)
@@ -11056,16 +10938,6 @@
 			(type default)
 		)
 		(uuid "b9c69e91-2eb2-44c8-8202-542e88da76f0")
-	)
-	(wire
-		(pts
-			(xy 199.136 136.398) (xy 195.326 136.398)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba43c1d3-e869-45c5-8541-d861d2c13138")
 	)
 	(polyline
 		(pts
@@ -11456,16 +11328,6 @@
 			(type default)
 		)
 		(uuid "dd209ba9-c24d-4b29-8b04-e4d0e89cd18c")
-	)
-	(wire
-		(pts
-			(xy 209.296 136.398) (xy 206.756 136.398)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd9a2336-b296-42a3-8202-e5d451250cd8")
 	)
 	(wire
 		(pts
@@ -14501,76 +14363,6 @@
 			(project "TSAL_G_V4_2"
 				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 202.946 136.398 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d6b78f3")
-		(property "Reference" "D2"
-			(at 201.7776 138.4046 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 204.089 138.4046 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 202.946 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 202.946 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 202.946 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2e9fbb8f-8035-44ff-833e-a5cc56ca299b")
-		)
-		(pin "1"
-			(uuid "4569328e-1945-407d-8955-29a5e8703525")
-		)
-		(instances
-			(project "TSAL_G_V4_2"
-				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e"
-					(reference "D2")
 					(unit 1)
 				)
 			)

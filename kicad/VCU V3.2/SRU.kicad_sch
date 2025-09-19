@@ -5753,7 +5753,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ff529718-dbd3-4367-b2de-1a2fa7c8c322")
+		(uuid "ff529718-dbd3-4367-b2de-1a2fa7c8c323")
 		(property "Reference" "U10"
 			(at 257.81 105.4099 0)
 			(effects
@@ -5799,46 +5799,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "562c7189-98c8-4982-89aa-6f8a6ca64a57")
+			(uuid "562c7189-98c8-4982-89aa-6f8a6ca64a58")
 		)
 		(pin "2"
-			(uuid "55727477-4e5d-48f9-83d7-ce50b7f0a63c")
+			(uuid "55727477-4e5d-48f9-83d7-ce50b7f0a63d")
 		)
 		(pin "3"
-			(uuid "8205df7f-5cd8-4be8-8031-c5511aa27d6d")
+			(uuid "8205df7f-5cd8-4be8-8031-c5511aa27d70")
 		)
 		(pin "4"
-			(uuid "7f4afb2c-c812-4dcf-8308-ac9e9428942d")
+			(uuid "7f4afb2c-c812-4dcf-8308-ac9e94289430")
 		)
 		(pin "5"
-			(uuid "ad62fca5-70a4-47cd-8044-6f4c12836a45")
+			(uuid "ad62fca5-70a4-47cd-8044-6f4c12836a46")
 		)
 		(pin "6"
-			(uuid "947f8dfb-c1a8-4d0f-a9bb-4e682a0d888e")
+			(uuid "947f8dfb-c1a8-4d0f-a9bb-4e682a0d888f")
 		)
 		(pin "8"
-			(uuid "c383c8d4-f850-4434-86de-7246e8081d06")
+			(uuid "c383c8d4-f850-4434-86de-7246e8081d09")
 		)
 		(pin "9"
-			(uuid "9b2fba59-8e2f-4bbd-95a5-58befb99fbc1")
+			(uuid "9b2fba59-8e2f-4bbd-95a5-58befb99fbc4")
 		)
 		(pin "10"
-			(uuid "9cf2e2e9-d2e3-4f68-9937-906cc3f10ec9")
+			(uuid "9cf2e2e9-d2e3-4f68-9937-906cc3f10ecd")
 		)
 		(pin "11"
-			(uuid "2b440fa9-2338-419b-a3b8-da985e74d660")
+			(uuid "2b440fa9-2338-419b-a3b8-da985e74d664")
 		)
 		(pin "12"
-			(uuid "7d20d52b-3252-4028-a7ff-216da1615edc")
+			(uuid "7d20d52b-3252-4028-a7ff-216da1615ee0")
 		)
 		(pin "13"
-			(uuid "a075d297-8981-4129-908b-e2a8aa1748c1")
+			(uuid "a075d297-8981-4129-908b-e2a8aa1748c5")
 		)
 		(pin "14"
-			(uuid "085bbea1-2f7a-4bce-8c77-24b93ba6be0b")
+			(uuid "085bbea1-2f7a-4bce-8c77-24b93ba6be0f")
 		)
 		(pin "7"
-			(uuid "bb3a4e28-531a-4ffd-b2c2-e91993476f34")
+			(uuid "bb3a4e28-531a-4ffd-b2c2-e91993476f38")
 		)
 		(instances
 			(project "VCU V3.2"
@@ -5858,7 +5858,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ff529718-dbd3-4367-b2de-1a2fa7c8c322")
+		(uuid "ff529718-dbd3-4367-b2de-1a2fa7c8c324")
 		(property "Reference" "U10"
 			(at 219.71 80.01 0)
 			(effects
@@ -5902,46 +5902,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "562c7189-98c8-4982-89aa-6f8a6ca64a57")
+			(uuid "562c7189-98c8-4982-89aa-6f8a6ca64a59")
 		)
 		(pin "2"
-			(uuid "55727477-4e5d-48f9-83d7-ce50b7f0a63c")
+			(uuid "55727477-4e5d-48f9-83d7-ce50b7f0a63e")
 		)
 		(pin "3"
-			(uuid "8205df7f-5cd8-4be8-8031-c5511aa27d6d")
+			(uuid "8205df7f-5cd8-4be8-8031-c5511aa27d71")
 		)
 		(pin "4"
-			(uuid "7f4afb2c-c812-4dcf-8308-ac9e9428942d")
+			(uuid "7f4afb2c-c812-4dcf-8308-ac9e94289431")
 		)
 		(pin "5"
-			(uuid "ad62fca5-70a4-47cd-8044-6f4c12836a45")
+			(uuid "ad62fca5-70a4-47cd-8044-6f4c12836a47")
 		)
 		(pin "6"
-			(uuid "947f8dfb-c1a8-4d0f-a9bb-4e682a0d888e")
+			(uuid "947f8dfb-c1a8-4d0f-a9bb-4e682a0d8890")
 		)
 		(pin "8"
-			(uuid "c383c8d4-f850-4434-86de-7246e8081d06")
+			(uuid "c383c8d4-f850-4434-86de-7246e8081d0a")
 		)
 		(pin "9"
-			(uuid "9b2fba59-8e2f-4bbd-95a5-58befb99fbc1")
+			(uuid "9b2fba59-8e2f-4bbd-95a5-58befb99fbc5")
 		)
 		(pin "10"
-			(uuid "9cf2e2e9-d2e3-4f68-9937-906cc3f10ec9")
+			(uuid "9cf2e2e9-d2e3-4f68-9937-906cc3f10ece")
 		)
 		(pin "11"
-			(uuid "2b440fa9-2338-419b-a3b8-da985e74d660")
+			(uuid "2b440fa9-2338-419b-a3b8-da985e74d665")
 		)
 		(pin "12"
-			(uuid "7d20d52b-3252-4028-a7ff-216da1615edc")
+			(uuid "7d20d52b-3252-4028-a7ff-216da1615ee1")
 		)
 		(pin "13"
-			(uuid "a075d297-8981-4129-908b-e2a8aa1748c1")
+			(uuid "a075d297-8981-4129-908b-e2a8aa1748c6")
 		)
 		(pin "14"
-			(uuid "085bbea1-2f7a-4bce-8c77-24b93ba6be0b")
+			(uuid "085bbea1-2f7a-4bce-8c77-24b93ba6be10")
 		)
 		(pin "7"
-			(uuid "bb3a4e28-531a-4ffd-b2c2-e91993476f34")
+			(uuid "bb3a4e28-531a-4ffd-b2c2-e91993476f39")
 		)
 		(instances
 			(project "VCU V3.2"
@@ -5961,7 +5961,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ff529718-dbd3-4367-b2de-1a2fa7c8c322")
+		(uuid "ff529718-dbd3-4367-b2de-1a2fa7c8c325")
 		(property "Reference" "U10"
 			(at 222.25 99.06 0)
 			(effects
@@ -6005,46 +6005,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "562c7189-98c8-4982-89aa-6f8a6ca64a57")
+			(uuid "562c7189-98c8-4982-89aa-6f8a6ca64a5a")
 		)
 		(pin "2"
-			(uuid "55727477-4e5d-48f9-83d7-ce50b7f0a63c")
+			(uuid "55727477-4e5d-48f9-83d7-ce50b7f0a63f")
 		)
 		(pin "3"
-			(uuid "8205df7f-5cd8-4be8-8031-c5511aa27d6d")
+			(uuid "8205df7f-5cd8-4be8-8031-c5511aa27d72")
 		)
 		(pin "4"
-			(uuid "7f4afb2c-c812-4dcf-8308-ac9e9428942d")
+			(uuid "7f4afb2c-c812-4dcf-8308-ac9e94289432")
 		)
 		(pin "5"
-			(uuid "ad62fca5-70a4-47cd-8044-6f4c12836a45")
+			(uuid "ad62fca5-70a4-47cd-8044-6f4c12836a48")
 		)
 		(pin "6"
-			(uuid "947f8dfb-c1a8-4d0f-a9bb-4e682a0d888e")
+			(uuid "947f8dfb-c1a8-4d0f-a9bb-4e682a0d8891")
 		)
 		(pin "8"
-			(uuid "c383c8d4-f850-4434-86de-7246e8081d06")
+			(uuid "c383c8d4-f850-4434-86de-7246e8081d0b")
 		)
 		(pin "9"
-			(uuid "9b2fba59-8e2f-4bbd-95a5-58befb99fbc1")
+			(uuid "9b2fba59-8e2f-4bbd-95a5-58befb99fbc6")
 		)
 		(pin "10"
-			(uuid "9cf2e2e9-d2e3-4f68-9937-906cc3f10ec9")
+			(uuid "9cf2e2e9-d2e3-4f68-9937-906cc3f10ecf")
 		)
 		(pin "11"
-			(uuid "2b440fa9-2338-419b-a3b8-da985e74d660")
+			(uuid "2b440fa9-2338-419b-a3b8-da985e74d666")
 		)
 		(pin "12"
-			(uuid "7d20d52b-3252-4028-a7ff-216da1615edc")
+			(uuid "7d20d52b-3252-4028-a7ff-216da1615ee2")
 		)
 		(pin "13"
-			(uuid "a075d297-8981-4129-908b-e2a8aa1748c1")
+			(uuid "a075d297-8981-4129-908b-e2a8aa1748c7")
 		)
 		(pin "14"
-			(uuid "085bbea1-2f7a-4bce-8c77-24b93ba6be0b")
+			(uuid "085bbea1-2f7a-4bce-8c77-24b93ba6be11")
 		)
 		(pin "7"
-			(uuid "bb3a4e28-531a-4ffd-b2c2-e91993476f34")
+			(uuid "bb3a4e28-531a-4ffd-b2c2-e91993476f3a")
 		)
 		(instances
 			(project "VCU V3.2"

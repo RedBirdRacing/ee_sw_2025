@@ -1171,7 +1171,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-847S")
-		(at 113.03 87.63 0)
+		(at 113.03 109.22 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1180,7 +1180,7 @@
 		(fields_autoplaced yes)
 		(uuid "269917e7-629d-4011-9b9c-d7841d943502")
 		(property "Reference" "U12"
-			(at 113.03 78.74 0)
+			(at 113.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,7 +1188,7 @@
 			)
 		)
 		(property "Value" "LTV-847S"
-			(at 113.03 81.28 0)
+			(at 113.03 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1196,7 +1196,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
-			(at 113.03 95.25 0)
+			(at 113.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,7 +1205,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 97.79 76.2 0)
+			(at 97.79 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +1214,7 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
-			(at 113.03 87.63 0)
+			(at 113.03 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,7 +1412,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-847S")
-		(at 113.03 109.22 0)
+		(at 113.03 87.63 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1420,7 +1420,7 @@
 		(dnp no)
 		(uuid "3ad55717-ba55-4c16-bbbf-b4143b03437b")
 		(property "Reference" "U12"
-			(at 113.03 100.33 0)
+			(at 113.03 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,7 +1428,7 @@
 			)
 		)
 		(property "Value" "LTV-847S"
-			(at 113.03 102.87 0)
+			(at 113.03 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,7 +1436,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
-			(at 113.03 116.84 0)
+			(at 113.03 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1445,7 +1445,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 97.79 97.79 0)
+			(at 97.79 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1454,7 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
-			(at 113.03 109.22 0)
+			(at 113.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,7 +1717,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-847S")
-		(at 113.03 135.89 0)
+		(at 113.03 64.77 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1726,7 +1726,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6704300-044f-473f-99f8-971f0329221c")
 		(property "Reference" "U12"
-			(at 113.03 127 0)
+			(at 113.03 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,7 +1734,7 @@
 			)
 		)
 		(property "Value" "LTV-847S"
-			(at 113.03 129.54 0)
+			(at 113.03 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1742,7 +1742,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
-			(at 113.03 143.51 0)
+			(at 113.03 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,7 +1751,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 97.79 124.46 0)
+			(at 97.79 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,7 +1760,7 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
-			(at 113.03 135.89 0)
+			(at 113.03 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +1827,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-847S")
-		(at 113.03 64.77 0)
+		(at 113.03 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1836,7 +1836,7 @@
 		(fields_autoplaced yes)
 		(uuid "aebf59cd-bbe8-4e69-a023-e05ca9f296cc")
 		(property "Reference" "U12"
-			(at 113.03 55.88 0)
+			(at 113.03 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,7 +1844,7 @@
 			)
 		)
 		(property "Value" "LTV-847S"
-			(at 113.03 58.42 0)
+			(at 113.03 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1852,7 +1852,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
-			(at 113.03 72.39 0)
+			(at 113.03 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1861,7 +1861,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 97.79 53.34 0)
+			(at 97.79 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,7 +1870,7 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16"
-			(at 113.03 64.77 0)
+			(at 113.03 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
