@@ -1711,7 +1711,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 135.89) (xy 129.54 135.89)
+			(xy 120.65 135.89) (xy 137.16 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1798,16 +1798,6 @@
 			(type default)
 		)
 		(uuid "25b1578b-eb77-4eab-bd6a-46126527e1bd")
-	)
-	(wire
-		(pts
-			(xy 96.647 135.89) (xy 104.14 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "359639ed-c53f-48fa-bb11-5a8d5d28d9c0")
 	)
 	(wire
 		(pts
@@ -2151,7 +2141,7 @@
 	)
 	(hierarchical_label "INPUT_4"
 		(shape input)
-		(at 96.647 135.89 180)
+		(at 96.52 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3582,7 +3572,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 135.89 90)
+		(at 100.33 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3590,7 +3580,7 @@
 		(dnp no)
 		(uuid "8f904e9b-30ee-4c70-9e20-9b59f5636196")
 		(property "Reference" "R40"
-			(at 133.35 133.35 90)
+			(at 100.33 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,7 +3588,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 133.35 135.89 90)
+			(at 100.33 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,7 +3596,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
-			(at 133.35 137.668 90)
+			(at 100.33 137.668 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,7 +3605,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 135.89 0)
+			(at 100.33 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,7 +3614,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 135.89 0)
+			(at 100.33 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)

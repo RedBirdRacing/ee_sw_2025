@@ -1795,6 +1795,12 @@
 			(uuid "86917c61-c063-4bc8-98a4-e4a369bf055e")
 		)
 		(instances
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0b4c92a3-6270-4d50-bbb4-266792a051ef"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/c8eb25e3-5a0d-480a-af8f-3867545194ba"
 					(reference "#PWR04")
@@ -1861,6 +1867,12 @@
 			(uuid "6f87ebc3-9a48-47b6-8da0-6b96806a2f39")
 		)
 		(instances
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0b4c92a3-6270-4d50-bbb4-266792a051ef"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/c8eb25e3-5a0d-480a-af8f-3867545194ba"
 					(reference "#PWR015")
@@ -1927,6 +1939,12 @@
 			(uuid "d1e9c989-15a4-4af6-8fa8-90efd4e8bf0f")
 		)
 		(instances
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0b4c92a3-6270-4d50-bbb4-266792a051ef"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/c8eb25e3-5a0d-480a-af8f-3867545194ba"
 					(reference "#PWR08")
@@ -1993,6 +2011,12 @@
 			(uuid "3bf616e5-a6ad-44a8-9b43-9219dae930df")
 		)
 		(instances
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0b4c92a3-6270-4d50-bbb4-266792a051ef"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/c8eb25e3-5a0d-480a-af8f-3867545194ba"
 					(reference "#PWR010")
@@ -2126,6 +2150,12 @@
 			(uuid "8e818998-1c85-4567-a195-7d93945c5098")
 		)
 		(instances
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0b4c92a3-6270-4d50-bbb4-266792a051ef"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/c8eb25e3-5a0d-480a-af8f-3867545194ba"
 					(reference "J2")
@@ -2259,6 +2289,12 @@
 			(uuid "8e818998-1c85-4567-a195-7d93945c5096")
 		)
 		(instances
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0b4c92a3-6270-4d50-bbb4-266792a051ef"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/c8eb25e3-5a0d-480a-af8f-3867545194ba"
 					(reference "J2")
@@ -2325,6 +2361,12 @@
 			(uuid "216f8a09-6329-4128-b573-a74caea7b8c4")
 		)
 		(instances
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0b4c92a3-6270-4d50-bbb4-266792a051ef"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/c8eb25e3-5a0d-480a-af8f-3867545194ba"
 					(reference "#PWR05")
@@ -2458,6 +2500,12 @@
 			(uuid "db453956-5274-4d5d-a935-2279ba059af4")
 		)
 		(instances
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0b4c92a3-6270-4d50-bbb4-266792a051ef"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/c8eb25e3-5a0d-480a-af8f-3867545194ba"
 					(reference "J1")
@@ -2524,6 +2572,12 @@
 			(uuid "821dbf0e-8372-4b6c-a859-e9d36b1c412b")
 		)
 		(instances
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0b4c92a3-6270-4d50-bbb4-266792a051ef"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/c8eb25e3-5a0d-480a-af8f-3867545194ba"
 					(reference "#PWR018")
@@ -2657,6 +2711,12 @@
 			(uuid "8e818998-1c85-4567-a195-7d93945c5097")
 		)
 		(instances
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0b4c92a3-6270-4d50-bbb4-266792a051ef"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/c8eb25e3-5a0d-480a-af8f-3867545194ba"
 					(reference "J1")
@@ -2790,6 +2850,12 @@
 			(uuid "8e818998-1c85-4567-a195-7d93945c5099")
 		)
 		(instances
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0b4c92a3-6270-4d50-bbb4-266792a051ef"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/c8eb25e3-5a0d-480a-af8f-3867545194ba"
 					(reference "J1")
@@ -2856,6 +2922,12 @@
 			(uuid "725abbfa-564c-44fb-8695-f5211a831fa0")
 		)
 		(instances
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0b4c92a3-6270-4d50-bbb4-266792a051ef"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/c8eb25e3-5a0d-480a-af8f-3867545194ba"
 					(reference "#PWR016")
@@ -2922,6 +2994,12 @@
 			(uuid "7e5482d2-3c86-46a0-a061-d47a89492861")
 		)
 		(instances
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0b4c92a3-6270-4d50-bbb4-266792a051ef"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/c8eb25e3-5a0d-480a-af8f-3867545194ba"
 					(reference "#PWR013")
@@ -3055,6 +3133,12 @@
 			(uuid "643974b8-5e67-4b8f-909a-b6905621ef7d")
 		)
 		(instances
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0b4c92a3-6270-4d50-bbb4-266792a051ef"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/c8eb25e3-5a0d-480a-af8f-3867545194ba"
 					(reference "J2")
@@ -3121,6 +3205,12 @@
 			(uuid "5cb84b0d-7214-4967-aada-40fa987d88a1")
 		)
 		(instances
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/0b4c92a3-6270-4d50-bbb4-266792a051ef"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/c8eb25e3-5a0d-480a-af8f-3867545194ba"
 					(reference "#PWR014")

@@ -1600,50 +1600,6 @@
 			)
 		)
 	)
-	(global_label "XTAL2"
-		(shape input)
-		(at 91.44 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "49545bc9-5409-4b99-9b75-257b84e90564")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9515 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "XTAL1"
-		(shape input)
-		(at 64.77 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "833e0fe5-eccb-4517-84a6-2ca1839fde5d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.2585 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOSI"
 		(shape input)
 		(at 91.44 63.5 180)
@@ -1657,50 +1613,6 @@
 		(uuid "8bfa59de-59f7-452e-b0c1-fccb3d525d53")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.8586 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "XTAL2"
-		(shape input)
-		(at 64.77 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aff82b76-d69a-48f2-8f47-dbe102d6a409")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.2585 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "XTAL1"
-		(shape input)
-		(at 91.44 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dea53e5f-a126-4018-b53b-641796a20b69")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9515 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,6 +1644,17 @@
 		)
 		(uuid "4e5475d4-3565-435d-b58a-71d414d9ea04")
 	)
+	(hierarchical_label "XTAL1"
+		(shape input)
+		(at 91.44 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58e623ed-97cf-4ba7-80a5-909827ecf577")
+	)
 	(hierarchical_label "CANL"
 		(shape input)
 		(at 162.56 73.66 0)
@@ -1742,6 +1665,17 @@
 			(justify left)
 		)
 		(uuid "7859c206-983c-4a43-a197-d388a7373c90")
+	)
+	(hierarchical_label "XTAL2"
+		(shape input)
+		(at 91.44 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0225a63-583d-4f3a-91a5-2d1073d6b964")
 	)
 	(hierarchical_label "CS"
 		(shape input)
@@ -1764,6 +1698,28 @@
 			(justify right)
 		)
 		(uuid "d1c3b57c-5f51-4030-bf33-68692b79e85a")
+	)
+	(hierarchical_label "XTAL1"
+		(shape input)
+		(at 64.77 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e513b940-ad5c-4347-8d71-29ada2193159")
+	)
+	(hierarchical_label "XTAL2"
+		(shape input)
+		(at 64.77 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3fd8c22-9fa1-44ec-9c6f-ceec78c085bc")
 	)
 	(symbol
 		(lib_id "power:+5V")

@@ -632,10 +632,22 @@
 		(uuid "4f8770ce-acb2-4142-b411-ce8e82a17fb5")
 	)
 	(junction
+		(at 127 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fe36748-1518-4d28-a586-f506de5cfc46")
+	)
+	(junction
 		(at 158.75 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e825d009-e7af-4651-a9a3-b5b97330b19d")
+	)
+	(junction
+		(at 127 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f461c5f2-9269-4213-8819-39a1195729bd")
 	)
 	(wire
 		(pts
@@ -649,7 +661,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 119.38) (xy 125.73 110.49)
+			(xy 127 119.38) (xy 127 110.49)
 		)
 		(stroke
 			(width 0)
@@ -689,7 +701,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 97.79) (xy 125.73 97.79)
+			(xy 127 88.9) (xy 133.35 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "747ebfea-5a89-4e16-9fea-769131edbee0")
+	)
+	(wire
+		(pts
+			(xy 110.49 97.79) (xy 127 97.79)
 		)
 		(stroke
 			(width 0)
@@ -709,13 +731,23 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 119.38) (xy 125.73 119.38)
+			(xy 110.49 119.38) (xy 127 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a9b55517-ae49-4d17-b002-5579d3211a70")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 125.73 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abee77f0-1b32-47f7-9e73-6f678c521d10")
 	)
 	(wire
 		(pts
@@ -749,13 +781,33 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 88.9) (xy 125.73 97.79)
+			(xy 127 88.9) (xy 127 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "df60132b-2442-40ce-98ad-bff8eb097915")
+	)
+	(wire
+		(pts
+			(xy 127 110.49) (xy 125.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eff0c438-471a-418d-80e1-324a07d79ecf")
+	)
+	(wire
+		(pts
+			(xy 127 110.49) (xy 134.62 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef1be6d-a533-443e-83db-080babd71d67")
 	)
 	(hierarchical_label "AIN2"
 		(shape input)
@@ -768,16 +820,27 @@
 		)
 		(uuid "02dc579a-f454-4b9c-9f9c-b0b1911b44c0")
 	)
-	(hierarchical_label "AOUT_2"
+	(hierarchical_label "AOUT_1"
 		(shape input)
-		(at 125.73 110.49 0)
+		(at 133.35 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "15409e56-f913-4411-8166-4f7cf7e88b06")
+		(uuid "1135d2fc-39b1-4e58-9b3f-eac96bfe57cc")
+	)
+	(hierarchical_label "AOUT_2"
+		(shape input)
+		(at 134.62 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11e61944-10ec-4b77-a456-b6fc9cecd154")
 	)
 	(hierarchical_label "AIN1"
 		(shape input)
@@ -789,17 +852,6 @@
 			(justify right)
 		)
 		(uuid "b1185dc5-9a7f-4d4c-9504-a5d5471f4b83")
-	)
-	(hierarchical_label "AOUT_1"
-		(shape input)
-		(at 125.73 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c926be02-205a-48ec-9e6c-f13a97426f3f")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -938,6 +990,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 134.62 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "516bf6bf-f567-4e04-af1e-82fcc4b12bdb")
+		(property "Reference" "#PWR0112"
+			(at 134.62 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4d18d64-16b3-4de7-89b9-e83310fe210e")
+		)
+		(instances
+			(project "VCU V3.2"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/9ecf6264-9025-4bb1-83fe-33dd2e243ef3"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LM358")
 		(at 118.11 88.9 0)
 		(unit 1)
@@ -955,7 +1073,7 @@
 				)
 			)
 		)
-		(property "Value" "LM358"
+		(property "Value" "SGM722"
 			(at 118.11 81.28 0)
 			(effects
 				(font
@@ -1156,6 +1274,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 134.62 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88c16f0f-f042-49ab-a84b-10989d47951f")
+		(property "Reference" "C37"
+			(at 138.43 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 138.43 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
+			(at 133.6548 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 134.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "afc4a76b-7721-483e-abb7-3d5cc3a9c10d")
+		)
+		(pin "1"
+			(uuid "0ad5fd67-b62d-4218-b1b7-ebd89fa0f941")
+		)
+		(instances
+			(project "VCU V3.2"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/9ecf6264-9025-4bb1-83fe-33dd2e243ef3"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LM358")
 		(at 161.29 97.79 0)
 		(unit 3)
@@ -1174,7 +1362,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LM358"
+		(property "Value" "SGM722"
 			(at 160.02 99.0599 0)
 			(effects
 				(font
@@ -1239,6 +1427,76 @@
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/9ecf6264-9025-4bb1-83fe-33dd2e243ef3"
 					(reference "U13")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 133.35 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e0b0a92-5edb-43f7-904f-c89d6dc5a46d")
+		(property "Reference" "C38"
+			(at 137.16 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 137.16 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
+			(at 132.3848 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 133.35 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15c38a23-7879-4c57-b971-9522f6e3b2e0")
+		)
+		(pin "1"
+			(uuid "386e6b6b-9bd8-4034-9910-7569a8cc6483")
+		)
+		(instances
+			(project "VCU V3.2"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/9ecf6264-9025-4bb1-83fe-33dd2e243ef3"
+					(reference "C38")
+					(unit 1)
 				)
 			)
 		)
@@ -1327,7 +1585,7 @@
 				)
 			)
 		)
-		(property "Value" "LM358"
+		(property "Value" "SGM722"
 			(at 118.11 102.87 0)
 			(effects
 				(font
@@ -1460,6 +1718,72 @@
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/9ecf6264-9025-4bb1-83fe-33dd2e243ef3"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1960faa-397c-46fb-aa95-eeaae1f8885a")
+		(property "Reference" "#PWR0113"
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff885885-1bf5-410d-b14a-4fb64b67fcf8")
+		)
+		(instances
+			(project "VCU V3.2"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/9ecf6264-9025-4bb1-83fe-33dd2e243ef3"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
