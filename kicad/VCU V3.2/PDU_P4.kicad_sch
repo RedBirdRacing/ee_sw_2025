@@ -1195,7 +1195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
+		(property "Footprint" "to be sorted:SMDIP-16_W9.53mm"
 			(at 113.03 116.84 0)
 			(effects
 				(font
@@ -1435,7 +1435,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
+		(property "Footprint" "to be sorted:SMDIP-16_W9.53mm"
 			(at 113.03 95.25 0)
 			(effects
 				(font
@@ -1741,7 +1741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
+		(property "Footprint" "to be sorted:SMDIP-16_W9.53mm"
 			(at 113.03 72.39 0)
 			(effects
 				(font
@@ -1851,7 +1851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
+		(property "Footprint" "to be sorted:SMDIP-16_W9.53mm"
 			(at 113.03 143.51 0)
 			(effects
 				(font

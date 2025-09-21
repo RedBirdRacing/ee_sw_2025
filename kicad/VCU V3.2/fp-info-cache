@@ -1,4 +1,4 @@
-24887276341768700
+24889034816153645
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -100036,6 +100036,13 @@ SDI4005I
 0
 4
 4
+to be sorted
+SMDIP-16_W9.53mm
+16-lead surface-mounted (SMD) DIP package, row spacing 9.53mm (375 mils)
+SMD DIP DIL PDIP SMDIP 2.54mm 9.53mm 375mil
+0
+16
+16
 to be sorted
 SOIC-16W_5.3x10.2mm_P1.27mm_betterHandSolder
 16-Lead Plastic Small Outline (SO) - Wide, 5.3 mm Body (http://www.ti.com/lit/ml/msop002a/msop002a.pdf)
