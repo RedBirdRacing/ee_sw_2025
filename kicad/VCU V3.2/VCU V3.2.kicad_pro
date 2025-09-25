@@ -527,7 +527,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./VCU Gerbres",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
