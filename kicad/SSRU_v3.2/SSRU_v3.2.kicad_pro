@@ -529,7 +529,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "./SSRU_GERBER",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
