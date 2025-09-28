@@ -4165,293 +4165,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_PMOS_GDS"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_PMOS_GDS"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, gate/drain/source"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_PMOS_GDS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -0.381) (xy 3.683 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_PMOS_GDS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -5174,6 +4887,10 @@
 		(uuid "dcd75882-acf3-43a7-b3a7-faa69e4c1c60")
 	)
 	(no_connect
+		(at 171.45 176.53)
+		(uuid "dd9c2255-1d81-485b-9775-4521bfb20ae9")
+	)
+	(no_connect
 		(at 33.02 73.66)
 		(uuid "df9a3bfb-dac3-47b6-86f7-b28e7feba0d0")
 	)
@@ -5783,6 +5500,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 184.15) (xy 247.65 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b69f33b-a007-43e0-89eb-cf5994c5910d")
+	)
+	(wire
+		(pts
 			(xy 130.81 187.96) (xy 130.81 189.23)
 		)
 		(stroke
@@ -5883,7 +5610,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 27.94) (xy 257.81 27.94)
+			(xy 259.08 22.86) (xy 257.81 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6003,7 +5730,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 25.4) (xy 257.81 25.4)
+			(xy 259.08 20.32) (xy 257.81 20.32)
 		)
 		(stroke
 			(width 0)
@@ -6080,6 +5807,16 @@
 			(type default)
 		)
 		(uuid "b13a7246-27a0-4a8b-899e-f9a23e54a38e")
+	)
+	(wire
+		(pts
+			(xy 254 186.69) (xy 247.65 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b507760c-ba1b-4aae-b568-1983f4a0db36")
 	)
 	(wire
 		(pts
@@ -6373,6 +6110,16 @@
 		)
 		(uuid "1adbd7cb-d0fd-4e23-adaf-77bb181e8e32")
 	)
+	(label "TSMS_input"
+		(at 238.76 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "204564bf-0361-4e1a-9468-2a097c08b755")
+	)
 	(label "OKHs_logic"
 		(at 36.83 35.56 180)
 		(effects
@@ -6382,6 +6129,16 @@
 			(justify right bottom)
 		)
 		(uuid "26a2698f-bd84-44b0-9bdb-7b8b44d9ec4d")
+	)
+	(label "TSMS_output"
+		(at 171.45 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40244810-a12e-4995-bf8b-760ebb3037c6")
 	)
 	(label "SDC_IN"
 		(at 292.1 52.07 0)
@@ -6541,6 +6298,16 @@
 		)
 		(uuid "ad4b63c0-91a8-44be-89e2-622cf9a6465e")
 	)
+	(label "TSMS_input"
+		(at 156.21 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "adb3858f-7b04-4db2-bb45-69b58482aba9")
+	)
 	(label "IMD_MHs"
 		(at 341.63 72.39 0)
 		(effects
@@ -6550,6 +6317,16 @@
 			(justify left bottom)
 		)
 		(uuid "b15e9370-29d5-473d-9201-34839df1e86a")
+	)
+	(label "TSMS_output"
+		(at 238.76 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8136956-a6ae-4cf7-950a-2b342bd318d5")
 	)
 	(label "DISCH"
 		(at 142.24 120.65 0)
@@ -6671,7 +6448,7 @@
 	)
 	(global_label "IMD_RELAY"
 		(shape input)
-		(at 257.81 7.62 0)
+		(at 257.81 5.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6681,7 +6458,7 @@
 		)
 		(uuid "119a7ea5-2780-48a0-b698-3948d9a1fb01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.0069 7.62 0)
+			(at 268.5361 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6737,7 +6514,7 @@
 	)
 	(global_label "IMD_LED"
 		(shape input)
-		(at 257.81 5.08 0)
+		(at 257.81 7.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6747,7 +6524,7 @@
 		)
 		(uuid "7ac24568-1399-47ae-ad83-f64b4961aa81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.5361 5.08 0)
+			(at 275.0069 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6825,7 +6602,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 27.94 0)
+		(at 259.08 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6834,7 +6611,7 @@
 		(fields_autoplaced yes)
 		(uuid "026cb6e7-bdc0-4040-80c7-f0b798d1d229")
 		(property "Reference" "#PWR052"
-			(at 259.08 34.29 0)
+			(at 259.08 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6843,7 +6620,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 33.02 0)
+			(at 259.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6852,7 +6629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 27.94 0)
+			(at 259.08 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,7 +6638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 27.94 0)
+			(at 259.08 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,7 +6647,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 27.94 0)
+			(at 259.08 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,6 +7928,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 127 80.01 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b203d61-90da-494f-98ae-f8fdf103af75")
+		(property "Reference" "H11"
+			(at 129.54 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 129.54 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "IMD_TSMS_latch_logic"
+				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
+					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 330.2 72.39 90)
 		(unit 1)
@@ -8305,6 +8146,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 171.45 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f43e6df-f75c-46af-8568-29f9d7bb53f9")
+		(property "Reference" "#PWR058"
+			(at 171.45 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "125bd8ff-b94b-4665-b1ff-76e842d6ac77")
+		)
+		(instances
+			(project "IMD_TSMS_latch_logic"
+				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 287.02 66.04 0)
 		(mirror y)
@@ -8313,7 +8220,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "223c7a8b-63de-449a-8999-039f110351cf")
 		(property "Reference" "J4"
 			(at 287.02 59.69 0)
@@ -8401,7 +8307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "RMC_SOT:SOT-23"
 			(at 267.97 43.815 0)
 			(effects
 				(font
@@ -8444,6 +8350,70 @@
 			(project ""
 				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 127 54.61 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "247c17a4-c53e-4f69-95dd-4dc742d33c28")
+		(property "Reference" "H7"
+			(at 129.54 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 129.54 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "IMD_TSMS_latch_logic"
+				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -8905,6 +8875,70 @@
 			(project "IMD_TSMS_latch_logic"
 				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 127 86.36 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "337d32cd-7819-4d04-aac4-a663e1eb96b6")
+		(property "Reference" "H12"
+			(at 129.54 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 129.54 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "IMD_TSMS_latch_logic"
+				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
+					(reference "H12")
 					(unit 1)
 				)
 			)
@@ -9746,17 +9780,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 252.73 25.4 0)
+		(at 252.73 20.32 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "452db63d-4abf-4f90-b7e5-422dde9eea80")
 		(property "Reference" "J5"
-			(at 252.73 19.05 0)
+			(at 252.73 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9764,7 +9797,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 252.73 21.59 0)
+			(at 252.73 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9772,7 +9805,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
-			(at 252.73 25.4 0)
+			(at 252.73 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9781,7 +9814,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 25.4 0)
+			(at 252.73 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9790,7 +9823,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 252.73 25.4 0)
+			(at 252.73 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10746,6 +10779,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 242.57 184.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bba53ad-116d-485d-b19f-bfa50b615ccb")
+		(property "Reference" "J8"
+			(at 242.57 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 242.57 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 242.57 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 242.57 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f27de66d-0da0-43b9-92eb-d4fd594f485a")
+		)
+		(pin "2"
+			(uuid "13511ef0-af88-4de4-aa5c-2ac1e1d75b16")
+		)
+		(instances
+			(project "IMD_TSMS_latch_logic"
+				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Relay:SANYOU_SRD_Form_C")
 		(at 242.57 67.31 270)
 		(mirror x)
@@ -10824,6 +10925,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 254 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d65f75d-6965-4b76-86ad-90da3a9e707b")
+		(property "Reference" "#PWR054"
+			(at 254 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 254 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 254 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7f69758-5fef-4515-8fa6-2e07eb9bf27f")
+		)
+		(instances
+			(project "IMD_TSMS_latch_logic"
+				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 207.01 177.8 0)
 		(unit 1)
@@ -10885,6 +11052,82 @@
 			(project "IMD_TSMS_latch_logic"
 				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 241.3 34.29 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fc2dfa6-b53b-455e-a38b-51c509a4210b")
+		(property "Reference" "Q6"
+			(at 247.65 35.5601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 247.65 33.0201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_SOT:SOT-23"
+			(at 246.38 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 246.38 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 241.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "57234917-4d21-427b-a4e1-98327c91ae4b")
+		)
+		(pin "1"
+			(uuid "44573bc7-47e1-44e6-89ba-53aad0a081d7")
+		)
+		(pin "2"
+			(uuid "8f55b96e-ee07-438e-9132-172e8b42358c")
+		)
+		(instances
+			(project "IMD_TSMS_latch_logic"
+				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -12028,7 +12271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMC_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 106.68 203.2 0)
 			(effects
 				(font
@@ -12964,6 +13207,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 127 73.66 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f985b1e-844a-403e-b45b-29ad14ba1da8")
+		(property "Reference" "H10"
+			(at 129.54 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 129.54 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 127 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 127 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "IMD_TSMS_latch_logic"
+				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 304.8 80.01 90)
 		(unit 1)
@@ -13035,6 +13342,70 @@
 			(project "IMD_TSMS_latch_logic"
 				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 127 41.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "817c4858-a6be-47e3-9781-385389f4c3de")
+		(property "Reference" "H5"
+			(at 129.54 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 129.54 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 127 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 127 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "IMD_TSMS_latch_logic"
+				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -13566,7 +13937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMC_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 101.6 229.87 0)
 			(effects
 				(font
@@ -14344,6 +14715,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 127 48.26 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91fc38fb-21f8-423f-8150-17489db4eb0f")
+		(property "Reference" "H6"
+			(at 129.54 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 129.54 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 127 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 127 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "IMD_TSMS_latch_logic"
+				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 326.39 60.96 0)
 		(unit 1)
@@ -14695,6 +15130,73 @@
 			(project "IMD_TSMS_latch_logic"
 				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a96307fb-33a0-4480-a0ce-827b7f8c4ea5")
+		(property "Reference" "#PWR057"
+			(at 254 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eae85153-5af9-4eaf-9ee1-50ee3ede88e2")
+		)
+		(instances
+			(project "IMD_TSMS_latch_logic"
+				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -15198,6 +15700,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 233.68 203.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b69bb57c-40a8-4786-9276-929d0dd977cd")
+		(property "Reference" "J9"
+			(at 233.68 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 233.68 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 233.68 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 233.68 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a83e6175-7494-4b4f-a32f-05dc86840073")
+		)
+		(pin "2"
+			(uuid "599f3b3b-6096-4cb2-9622-411541c9275e")
+		)
+		(instances
+			(project "IMD_TSMS_latch_logic"
+				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4xxx:4001")
 		(at 60.96 33.02 0)
 		(unit 3)
@@ -15447,6 +16017,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 127 67.31 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd922639-3599-4905-861d-f5e1727d82c7")
+		(property "Reference" "H9"
+			(at 129.54 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 129.54 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "IMD_TSMS_latch_logic"
+				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 330.2 60.96 90)
 		(unit 1)
@@ -15585,6 +16219,70 @@
 			(project "IMD_TSMS_latch_logic"
 				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 127 60.96 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2a9def5-a391-4a77-a041-cb60e4356d94")
+		(property "Reference" "H8"
+			(at 129.54 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 129.54 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 127 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 127 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "IMD_TSMS_latch_logic"
+				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -15811,7 +16509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMC_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 72.39 187.96 0)
 			(effects
 				(font
@@ -16080,7 +16778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
+		(property "Footprint" "RMC_Capacitor:CP_Radial_D6.3mm_P2.50mm_extended"
 			(at 252.7808 259.08 0)
 			(effects
 				(font
@@ -16159,7 +16857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RMC_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 69.85 226.06 0)
 			(effects
 				(font
@@ -18066,88 +18764,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_PMOS_GDS")
-		(at 241.3 34.29 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8297ac7-8a5d-46da-b356-fb1f58b2e9db")
-		(property "Reference" "Q1"
-			(at 230.886 30.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_PMOS_GDS"
-			(at 230.886 28.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RMC_TO:TO-252-2"
-			(at 246.38 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, gate/drain/source"
-			(at 241.3 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 241.3 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79ad58c5-acc9-453b-8cc8-8710e9e800d3")
-		)
-		(pin "2"
-			(uuid "f962cdd9-0f20-40a6-80d6-8af25002c059")
-		)
-		(pin "3"
-			(uuid "5a6609a2-c7c1-447c-abee-2e72a6d42342")
-		)
-		(instances
-			(project "IMD_TSMS_latch_logic"
-				(path "/d87fb7c4-12ac-4f6c-9c24-1644c69b1329"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 62.23 123.19 90)
 		(unit 1)
@@ -18292,7 +18908,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 259.08 25.4 0)
+		(at 259.08 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18301,7 +18917,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd5644d1-9fe9-4acb-997b-31ef1e526452")
 		(property "Reference" "#PWR051"
-			(at 259.08 29.21 0)
+			(at 259.08 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18310,7 +18926,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 259.08 20.32 0)
+			(at 259.08 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18318,7 +18934,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 25.4 0)
+			(at 259.08 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18327,7 +18943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 25.4 0)
+			(at 259.08 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18336,7 +18952,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 259.08 25.4 0)
+			(at 259.08 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18382,7 +18998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMC_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 106.68 190.5 0)
 			(effects
 				(font
