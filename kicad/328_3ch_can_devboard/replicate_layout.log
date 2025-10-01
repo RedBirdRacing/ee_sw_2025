@@ -1,0 +1,62 @@
+09-04 18:59:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+09-04 18:59:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.16 (main, Oct 13 2023, 05:50:11) [MSC v.1936 64 bit (AMD64)]'
+09-04 18:59:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.11-rc3
+09-04 18:59:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+09-04 18:59:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x0000016F2885CEE0>
+09-04 18:59:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with U3 as a reference
+09-04 18:59:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+09-04 18:59:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 136:Footprint G0 does not have Sheetfile property, it will not be replicated. Most likely it is only in layout
+09-04 18:59:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'U3'
+Located on: ['CAN1']
+With filenames: ['can_controller.kicad_sch']
+With sheet_id:['CAN1']
+09-04 18:59:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('U9', ['CAN0']), ('U5', ['CAN2']), ('U3', ['CAN1'])]
+09-04 18:59:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+09-04 18:59:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'CAN1', file:'can_controller.kicad_sch'
+09-04 18:59:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['CAN0'], ['CAN2']]
+09-04 18:59:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['CAN1']
+09-04 18:59:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+09-04 18:59:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1878, -995)
+09-04 18:59:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1439, -995)
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'CAN1', file:'can_controller.kicad_sch'
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['CAN0'], ['CAN2']]
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['CAN0'], ['CAN2']]
+on level: ['CAN1']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+09-04 18:59:28 root 332:updating GUI message: 'Preparing for replication'
+09-04 18:59:28 root 337:updating GUI with: 0
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+09-04 18:59:28 root 332:updating GUI message: 'Replicating footprints'
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['CAN0']
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['CAN2']
+09-04 18:59:28 root 332:updating GUI message: 'Replicating tracks'
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['CAN0']
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['CAN0'] :[('unconnected-(U3-~{RX1BF}-Pad11)', 'unconnected-(U9-~{RX1BF}-Pad11)'), ('/CAN1/CAN_RX', '/CAN0/CAN_RX'), ('unconnected-(U3-CLKOUT{slash}SOF-Pad3)', 'unconnected-(U9-CLKOUT{slash}SOF-Pad3)'), ('Net-(U3-OSC1)', 'Net-(U9-OSC1)'), ('unconnected-(U3-NC-Pad6)', 'unconnected-(U9-NC-Pad6)'), ('Net-(U3-OSC2)', 'Net-(U9-OSC2)'), ('GND', 'GND'), ('/CAN1/CAN_TX', '/CAN0/CAN_TX'), ('MISO', 'MISO'), ('+5V', '+5V'), ('unconnected-(U2-VREF-Pad5)', 'unconnected-(U8-VREF-Pad5)'), ('CAN1L', 'CAN0L'), ('CAN1H', 'CAN0H'), ('unconnected-(U3-~{INT}-Pad13)', 'unconnected-(U9-~{INT}-Pad13)'), ('CAN1_CS', 'CAN0_CS'), ('unconnected-(U3-~{RX0BF}-Pad12)', 'unconnected-(U9-~{RX0BF}-Pad12)'), ('SCK', 'SCK'), ('unconnected-(U3-NC-Pad15)', 'unconnected-(U9-NC-Pad15)'), ('unconnected-(U3-~{TX0RTS}-Pad4)', 'unconnected-(U9-~{TX0RTS}-Pad4)'), ('unconnected-(U3-~{TX2RTS}-Pad7)', 'unconnected-(U9-~{TX2RTS}-Pad7)'), ('Net-(U3-~{RESET})', 'Net-(U9-~{RESET})'), ('MOSI', 'MOSI'), ('unconnected-(U3-~{TX1RTS}-Pad5)', 'unconnected-(U9-~{TX1RTS}-Pad5)')]
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['CAN2']
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['CAN2'] :[('unconnected-(U2-VREF-Pad5)', 'unconnected-(U4-VREF-Pad5)'), ('unconnected-(U3-~{RX1BF}-Pad11)', 'unconnected-(U5-~{RX1BF}-Pad11)'), ('unconnected-(U3-~{TX0RTS}-Pad4)', 'unconnected-(U5-~{TX0RTS}-Pad4)'), ('GND', 'GND'), ('unconnected-(U3-CLKOUT{slash}SOF-Pad3)', 'unconnected-(U5-CLKOUT{slash}SOF-Pad3)'), ('CAN1L', 'CAN2L'), ('MISO', 'MISO'), ('Net-(U3-OSC2)', 'Net-(U5-OSC2)'), ('/CAN1/CAN_TX', '/CAN2/CAN_TX'), ('CAN1_CS', 'CAN2_CS'), ('+5V', '+5V'), ('Net-(U3-~{RESET})', 'Net-(U5-~{RESET})'), ('unconnected-(U3-~{INT}-Pad13)', 'unconnected-(U5-~{INT}-Pad13)'), ('Net-(U3-OSC1)', 'Net-(U5-OSC1)'), ('unconnected-(U3-NC-Pad15)', 'unconnected-(U5-NC-Pad15)'), ('unconnected-(U3-NC-Pad6)', 'unconnected-(U5-NC-Pad6)'), ('SCK', 'SCK'), ('unconnected-(U3-~{RX0BF}-Pad12)', 'unconnected-(U5-~{RX0BF}-Pad12)'), ('/CAN1/CAN_RX', '/CAN2/CAN_RX'), ('unconnected-(U3-~{TX1RTS}-Pad5)', 'unconnected-(U5-~{TX1RTS}-Pad5)'), ('unconnected-(U3-~{TX2RTS}-Pad7)', 'unconnected-(U5-~{TX2RTS}-Pad7)'), ('MOSI', 'MOSI'), ('CAN1H', 'CAN2H')]
+09-04 18:59:28 root 337:updating GUI with: 53
+09-04 18:59:28 root 332:updating GUI message: 'Replicating zones'
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['CAN0']
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['CAN0'] :[('unconnected-(U3-~{RX1BF}-Pad11)', 'unconnected-(U9-~{RX1BF}-Pad11)'), ('/CAN1/CAN_RX', '/CAN0/CAN_RX'), ('unconnected-(U3-CLKOUT{slash}SOF-Pad3)', 'unconnected-(U9-CLKOUT{slash}SOF-Pad3)'), ('Net-(U3-OSC1)', 'Net-(U9-OSC1)'), ('unconnected-(U3-NC-Pad6)', 'unconnected-(U9-NC-Pad6)'), ('Net-(U3-OSC2)', 'Net-(U9-OSC2)'), ('GND', 'GND'), ('/CAN1/CAN_TX', '/CAN0/CAN_TX'), ('MISO', 'MISO'), ('+5V', '+5V'), ('unconnected-(U2-VREF-Pad5)', 'unconnected-(U8-VREF-Pad5)'), ('CAN1L', 'CAN0L'), ('CAN1H', 'CAN0H'), ('unconnected-(U3-~{INT}-Pad13)', 'unconnected-(U9-~{INT}-Pad13)'), ('CAN1_CS', 'CAN0_CS'), ('unconnected-(U3-~{RX0BF}-Pad12)', 'unconnected-(U9-~{RX0BF}-Pad12)'), ('SCK', 'SCK'), ('unconnected-(U3-NC-Pad15)', 'unconnected-(U9-NC-Pad15)'), ('unconnected-(U3-~{TX0RTS}-Pad4)', 'unconnected-(U9-~{TX0RTS}-Pad4)'), ('unconnected-(U3-~{TX2RTS}-Pad7)', 'unconnected-(U9-~{TX2RTS}-Pad7)'), ('Net-(U3-~{RESET})', 'Net-(U9-~{RESET})'), ('MOSI', 'MOSI'), ('unconnected-(U3-~{TX1RTS}-Pad5)', 'unconnected-(U9-~{TX1RTS}-Pad5)')]
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['CAN2']
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['CAN2'] :[('unconnected-(U2-VREF-Pad5)', 'unconnected-(U4-VREF-Pad5)'), ('unconnected-(U3-~{RX1BF}-Pad11)', 'unconnected-(U5-~{RX1BF}-Pad11)'), ('unconnected-(U3-~{TX0RTS}-Pad4)', 'unconnected-(U5-~{TX0RTS}-Pad4)'), ('GND', 'GND'), ('unconnected-(U3-CLKOUT{slash}SOF-Pad3)', 'unconnected-(U5-CLKOUT{slash}SOF-Pad3)'), ('CAN1L', 'CAN2L'), ('MISO', 'MISO'), ('Net-(U3-OSC2)', 'Net-(U5-OSC2)'), ('/CAN1/CAN_TX', '/CAN2/CAN_TX'), ('CAN1_CS', 'CAN2_CS'), ('+5V', '+5V'), ('Net-(U3-~{RESET})', 'Net-(U5-~{RESET})'), ('unconnected-(U3-~{INT}-Pad13)', 'unconnected-(U5-~{INT}-Pad13)'), ('Net-(U3-OSC1)', 'Net-(U5-OSC1)'), ('unconnected-(U3-NC-Pad15)', 'unconnected-(U5-NC-Pad15)'), ('unconnected-(U3-NC-Pad6)', 'unconnected-(U5-NC-Pad6)'), ('SCK', 'SCK'), ('unconnected-(U3-~{RX0BF}-Pad12)', 'unconnected-(U5-~{RX0BF}-Pad12)'), ('/CAN1/CAN_RX', '/CAN2/CAN_RX'), ('unconnected-(U3-~{TX1RTS}-Pad5)', 'unconnected-(U5-~{TX1RTS}-Pad5)'), ('unconnected-(U3-~{TX2RTS}-Pad7)', 'unconnected-(U5-~{TX2RTS}-Pad7)'), ('MOSI', 'MOSI'), ('CAN1H', 'CAN2H')]
+09-04 18:59:28 root 332:updating GUI message: 'Replicating text'
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['CAN0']
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['CAN2']
+09-04 18:59:28 root 332:updating GUI message: 'Replicating drawings'
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['CAN0']
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['CAN2']
+09-04 18:59:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete

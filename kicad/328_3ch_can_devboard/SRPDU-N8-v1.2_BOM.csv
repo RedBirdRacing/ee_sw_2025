@@ -1,0 +1,33 @@
+"null","Sourced","Placed","References","Value","Footprint","Quantity"
+1,"","","C4, C6, C7, C8, C13, C15","100nF","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L",6
+2,"","","C2, C3, C10, C11","22pF","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L",4
+3,"","","C9, C12","10uF","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L",2
+4,"","","C16","330uF","CP_Radial_D10.0mm_P5.00mm_F",1
+5,"","","R1, R9, R10, R11, R12, R17, R18, R19, R20, R21, R22, R24, R25, R26, R28, R29, R30, R32, R33, R34, R36, R37, R38, R40, R41, R42, R44, R45, R46, R48, R49, R50, R52, R57, R58, R59, R60, R61, R62, R63, R64, R73, R74, R75, R76, R77, R78, R79, R80","1k","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L",49
+6,"","","R3, R5, R6, R7, R8, R13, R14, R15, R16, R65, R66, R67, R68, R81, R82, R83, R84","4.7k","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L",17
+7,"","","R2, R53, R54, R55, R56, R69, R70, R71, R72","10k","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L",9
+8,"","","R23, R27, R31, R35, R39, R43, R47, R51","100k","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L",8
+9,"","","R85, R87",0,"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L",2
+10,"","","R86, R88","10M","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L",2
+11,"","","R4",120,"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L",1
+12,"","","L1","330uH","L_10.4x10.4_H4.8",1
+13,"","","D3, D4, D5, D6, D7, D8, D9, D10","LED","LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder",8
+14,"","","D1","LED","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L",1
+15,"","","D2","1N5819","D_SMA_Handsoldering",1
+16,"","","U4, U6, U8, U10","LTV-847S","SMDIP-16_W9.53mm",4
+17,"","","U7, U9",40106,"SOIC127P600X175-14N",2
+18,"","","U1","ATmega328-A","TQFP-32_7x7mm_P0.8mm",1
+19,"","","U2","MCP2515-xST","TSSOP-20_4.4x6.5mm_P0.65mm",1
+20,"","","U3","TJA1050T_CM_118","SOIC127P600X175-8N",1
+21,"","","U5","LM2575-5.0BU","TO-263-5_TabPin3",1
+22,"","","Y1, Y2","20MHz","Crystal_HC49-U_Vertical_W_SMD",2
+23,"","","F1","Fuse","Fuse_1210_3225Metric_Pad1.42x2.65mm_HandSolder",1
+24,"","","SW1","SW_Push","SW_SPST_CK_RS282G05A3",1
+25,"","","CA1, CA2, CA3, CA4, CA5, CA6, CA7, CA8, CA9, CA10","C","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L",10
+26,"","","AVR-ISP1, JP1, JP2, JP3, JP4, JP5, JP6, JP7, JP8","Conn_02x03_Odd_Even","PinHeader_2x03_P2.54mm_Vertical",9
+27,"","","Q1, Q3, Q5, Q7, Q9, Q11, Q13, Q15","MMBT3906","SOT-23",8
+28,"","","Q2, Q4, Q6, Q8, Q10, Q12, Q14, Q16","MTD24N06","TO-252-2",8
+29,"","","H1, H2, H3, H4","MountingHole","MountingHole_3.2mmx5mm_M3_ISO7380",4
+30,"","","J3, J4","Conn_01x02_Pin","PinHeader_1x02_P2.54mm_Vertical",2
+31,"","","J1","~","HD241_GF30",1
+32,"","","J2","~","HD241_24pin",1

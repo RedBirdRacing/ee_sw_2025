@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Better_Handsolder")(type "KiCad")(uri "${KIPRJMOD}/Better_Handsolder.pretty")(options "")(descr ""))
+  (lib (name "logos")(type "KiCad")(uri "${KIPRJMOD}/logos.pretty")(options "")(descr ""))
+  (lib (name "TJA1050T_CM_118")(type "KiCad")(uri "${KIPRJMOD}/TJA1050T_CM_118")(options "")(descr ""))
+  (lib (name "conn_03x13")(type "KiCad")(uri "${KIPRJMOD}/conn_03x13.pretty")(options "")(descr ""))
+  (lib (name "CD40106BMT")(type "KiCad")(uri "${KIPRJMOD}/CD40106BMT")(options "")(descr ""))
+  (lib (name "3362P-1-103")(type "KiCad")(uri "${KIPRJMOD}/3362P-1-103")(options "")(descr ""))
+)
