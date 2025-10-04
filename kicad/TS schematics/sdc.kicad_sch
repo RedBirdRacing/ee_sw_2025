@@ -2064,10 +2064,10 @@
 		(uuid "6c6cde0e-4325-4e06-91ab-c7ac25b80e07")
 	)
 	(junction
-		(at 118.11 71.12)
+		(at 121.92 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2d79afe4-dee3-4662-af69-1d3c6b3c6f2a")
+		(uuid "07e18c6f-9561-4f8c-bd97-7613bee6a37d")
 	)
 	(junction
 		(at 218.44 71.12)
@@ -2116,6 +2116,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8a82475-e2e9-4128-8b3e-ab155b6d2ff0")
+	)
+	(no_connect
+		(at 151.13 60.96)
+		(uuid "22d642e5-5eb9-47d0-8d84-8fd3b584cbee")
+	)
+	(no_connect
+		(at 140.97 60.96)
+		(uuid "ac0e4b34-4d3c-4070-b8ee-bd592bbb05ee")
 	)
 	(wire
 		(pts
@@ -2189,7 +2197,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 71.12) (xy 140.97 71.12)
+			(xy 133.35 71.12) (xy 162.56 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2219,7 +2227,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 71.12) (xy 118.11 71.12)
+			(xy 110.49 71.12) (xy 121.92 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2256,16 +2264,6 @@
 			(type default)
 		)
 		(uuid "3d469159-9c7c-4bf8-9c86-c03053a04040")
-	)
-	(wire
-		(pts
-			(xy 151.13 71.12) (xy 162.56 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42f090ef-f78b-4955-9a74-00c4e17555b3")
 	)
 	(wire
 		(pts
@@ -2379,7 +2377,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 77.47) (xy 118.11 71.12)
+			(xy 121.92 77.47) (xy 121.92 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2487,6 +2485,16 @@
 		)
 		(uuid "89555b3c-b0fe-4e61-9cb4-b5ddf69c35fc")
 	)
+	(wire
+		(pts
+			(xy 121.92 71.12) (xy 123.19 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a6a6ec-a298-4345-995e-0a1c3fbdacd6")
+	)
 	(polyline
 		(pts
 			(xy 218.44 78.74) (xy 236.22 78.74)
@@ -2546,16 +2554,6 @@
 			(type default)
 		)
 		(uuid "ab17cd9c-b082-47f7-ad29-5c0a065f3813")
-	)
-	(wire
-		(pts
-			(xy 118.11 71.12) (xy 123.19 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad80a2b7-a80b-4bf7-b1d7-05dfd61ca0a9")
 	)
 	(wire
 		(pts
@@ -2689,7 +2687,7 @@
 	)
 	(global_label "SDC_HVBOX_IN"
 		(shape input)
-		(at 118.11 77.47 0)
+		(at 121.92 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2699,7 +2697,7 @@
 		)
 		(uuid "00c3ba1d-1186-4ee3-90c7-eafd116673d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.9443 77.47 0)
+			(at 138.7543 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,16 +5080,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 146.05 71.12 0)
+		(at 146.05 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cddcf65b-cc5b-4879-b9a3-bba0e393d23c")
 		(property "Reference" "SW3"
-			(at 146.05 64.77 0)
+			(at 146.05 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,7 +5097,7 @@
 			)
 		)
 		(property "Value" "AMS"
-			(at 146.05 67.31 0)
+			(at 146.05 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5107,7 +5105,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 71.12 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5116,7 +5114,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 71.12 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5125,7 +5123,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 146.05 71.12 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)

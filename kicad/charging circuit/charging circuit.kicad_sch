@@ -3809,7 +3809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "113e0cb6-669c-4b0d-97eb-eeb6359649ad")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR?"
 			(at 132.08 165.1 0)
 			(effects
 				(font
@@ -3863,6 +3863,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3875,7 +3881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "115cbf06-8b6f-46e5-8773-b4d5df388e6d")
-		(property "Reference" "OBCrelay"
+		(property "Reference" "OBCrelay?"
 			(at 82.55 52.07 90)
 			(effects
 				(font
@@ -3944,6 +3950,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "OBCrelay?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3956,7 +3968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12a6e1a7-a833-468a-945d-0afc7c2faaeb")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR?"
 			(at 146.05 154.94 0)
 			(effects
 				(font
@@ -4011,6 +4023,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4023,7 +4041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "146464bd-ddcb-4621-b95f-549d85c9eb88")
-		(property "Reference" "R2"
+		(property "Reference" "R?"
 			(at 72.39 99.06 90)
 			(effects
 				(font
@@ -4079,6 +4097,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4090,7 +4114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1600a720-fc2d-4f19-8c4e-9e28b93f32e1")
-		(property "Reference" "J16"
+		(property "Reference" "J?"
 			(at 174.498 130.81 0)
 			(effects
 				(font
@@ -4143,6 +4167,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4155,7 +4185,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25b76589-8a58-4b9d-afc2-a6fed8dfdbaa")
-		(property "Reference" "D1"
+		(property "Reference" "D?"
 			(at 153.9875 162.56 0)
 			(effects
 				(font
@@ -4220,6 +4250,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4232,7 +4268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c1bfb56-b6bd-4913-9879-07c279db931f")
-		(property "Reference" "IMD"
+		(property "Reference" "IMD?"
 			(at 167.64 82.5499 0)
 			(effects
 				(font
@@ -4290,6 +4326,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "IMD?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4302,7 +4344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34304522-9558-4ec0-a737-36e197f90e7d")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR?"
 			(at 132.08 160.02 0)
 			(effects
 				(font
@@ -4356,6 +4398,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4368,7 +4416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41ad34ce-04f2-410b-a645-12a367949bc3")
-		(property "Reference" "D2"
+		(property "Reference" "D?"
 			(at 148.9075 165.1 0)
 			(effects
 				(font
@@ -4433,6 +4481,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4445,7 +4499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4239af2f-19e7-4a8e-8ebd-701248277c8e")
-		(property "Reference" "F1"
+		(property "Reference" "F?"
 			(at 195.58 58.42 0)
 			(effects
 				(font
@@ -4501,6 +4555,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "F?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4513,7 +4573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a25dd58-ed46-4ed3-8ff8-d69113c80aa8")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR?"
 			(at 96.52 62.23 0)
 			(effects
 				(font
@@ -4568,6 +4628,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4580,7 +4646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e37829b-d87c-4c41-8487-de0dafed4654")
-		(property "Reference" "J10"
+		(property "Reference" "J?"
 			(at 107.442 133.604 0)
 			(effects
 				(font
@@ -4633,6 +4699,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4645,7 +4717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60d4c2aa-2328-4a3b-9259-5a1cdf9d6ee3")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR?"
 			(at 173.99 144.78 0)
 			(effects
 				(font
@@ -4700,6 +4772,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4712,7 +4790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "662aa896-0ef2-4a54-8bdf-1be4478d1dc6")
-		(property "Reference" "AIR_H"
+		(property "Reference" "AIR_H?"
 			(at 207.01 45.72 90)
 			(effects
 				(font
@@ -4781,6 +4859,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "AIR_H?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4793,7 +4877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "878c7b51-86c7-4605-8499-843c3cd49e1b")
-		(property "Reference" "Precharge"
+		(property "Reference" "Precharge?"
 			(at 114.3 99.06 90)
 			(effects
 				(font
@@ -4856,6 +4940,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "Precharge?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4869,7 +4959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "975dd3b8-b76d-4460-b5c2-06a3bc45912e")
-		(property "Reference" "J2"
+		(property "Reference" "J?"
 			(at 109.22 142.24 0)
 			(effects
 				(font
@@ -4937,6 +5027,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4949,7 +5045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bdcf0fe-3c43-483d-b54f-f09dc7ea1555")
-		(property "Reference" "R1"
+		(property "Reference" "R?"
 			(at 102.87 125.73 90)
 			(effects
 				(font
@@ -5005,6 +5101,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5017,7 +5119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a20cbdb8-e886-48c0-97ea-7f2339aec9b4")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR?"
 			(at 173.99 152.4 0)
 			(effects
 				(font
@@ -5072,6 +5174,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5084,7 +5192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2b11b2d-b457-4e0b-b93b-b1727d89219b")
-		(property "Reference" "AIR_L"
+		(property "Reference" "AIR_L?"
 			(at 207.01 88.9 90)
 			(effects
 				(font
@@ -5153,6 +5261,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "AIR_L?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5165,7 +5279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af2b1b17-e42f-4b13-8975-97b3d20c0e9a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR?"
 			(at 106.68 115.57 0)
 			(effects
 				(font
@@ -5219,6 +5333,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5231,7 +5351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0f87d72-08a0-4ad6-96be-2ace727ae52d")
-		(property "Reference" "J3"
+		(property "Reference" "J?"
 			(at 187.96 152.3999 0)
 			(effects
 				(font
@@ -5307,6 +5427,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5319,7 +5445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd304635-56c1-4bb9-9162-4bf4ee7afb5a")
-		(property "Reference" "SW2"
+		(property "Reference" "SW?"
 			(at 113.03 76.2 0)
 			(effects
 				(font
@@ -5375,6 +5501,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5386,7 +5518,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d47be111-1b5b-4d47-9636-3e6d28eeaba1")
-		(property "Reference" "pl00xinterlock"
+		(property "Reference" "pl00xinterlock?"
 			(at 124.46 86.3599 90)
 			(effects
 				(font
@@ -5444,6 +5576,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "pl00xinterlock?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5455,7 +5593,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d86333e1-f8de-4eb6-b4ae-d2bbb4f92cc2")
-		(property "Reference" "J17"
+		(property "Reference" "J?"
 			(at 174.498 135.128 0)
 			(effects
 				(font
@@ -5508,6 +5646,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5520,7 +5664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd522fd8-4933-4aa0-9af8-3933a50a57f1")
-		(property "Reference" "BMS"
+		(property "Reference" "BMS?"
 			(at 167.64 92.7099 0)
 			(effects
 				(font
@@ -5578,6 +5722,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "BMS?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5590,7 +5740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5521f68-0e02-42f4-b008-e9baf5b3c14f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR?"
 			(at 85.09 107.95 0)
 			(effects
 				(font
@@ -5645,6 +5795,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5657,7 +5813,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed9755e8-b570-4b4c-8c92-1978fc40a7cc")
-		(property "Reference" "J12"
+		(property "Reference" "J?"
 			(at 107.442 129.54 0)
 			(effects
 				(font
@@ -5710,6 +5866,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5721,7 +5883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f10dfb2f-cb60-4d31-bd33-bf0435667f1a")
-		(property "Reference" "J1"
+		(property "Reference" "J?"
 			(at 83.82 100.33 0)
 			(effects
 				(font
@@ -5783,6 +5945,12 @@
 					(unit 1)
 				)
 			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5795,7 +5963,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2430d95-b61e-4148-bba3-9065b7ef81ce")
-		(property "Reference" "R3"
+		(property "Reference" "R?"
 			(at 72.39 83.82 90)
 			(effects
 				(font
@@ -5848,6 +6016,12 @@
 			(project "charging circuit"
 				(path "/3be6bc6a-149a-4182-aeea-983f7e00c2a9"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "TS schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "R?")
 					(unit 1)
 				)
 			)

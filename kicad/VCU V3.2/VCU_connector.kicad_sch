@@ -1747,7 +1747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bcdf115-493b-4dc3-ae73-269ca1a0df6f")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR?"
 			(at 90.17 76.2 0)
 			(effects
 				(font
@@ -1819,7 +1819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d87e719-f7d2-408c-ab74-9970b1aa506e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR?"
 			(at 143.51 76.2 0)
 			(effects
 				(font
@@ -1891,7 +1891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "454c70c7-ab6b-42a4-b72f-d4037ca9a080")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR?"
 			(at 99.06 81.28 0)
 			(effects
 				(font
@@ -1963,7 +1963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f91420d-5c6b-4706-b71f-85ab74c8dc4f")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR?"
 			(at 102.87 116.84 0)
 			(effects
 				(font
@@ -2028,14 +2028,14 @@
 	(symbol
 		(lib_id "HD241:HD241")
 		(at 105.41 102.87 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d54005b-f2ac-47ad-ab0c-cd3edd93d053")
-		(property "Reference" "J2"
+		(property "Reference" "J?"
 			(at 109.855 100.203 0)
 			(effects
 				(font
@@ -2174,7 +2174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95c2d031-e14e-4def-82b6-41db59c0f748")
-		(property "Reference" "J2"
+		(property "Reference" "J?"
 			(at 136.525 100.33 0)
 			(effects
 				(font
@@ -2313,7 +2313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aace769e-ca55-4b22-a7d2-2c7e3ca92c32")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR?"
 			(at 90.17 96.52 0)
 			(effects
 				(font
@@ -2378,14 +2378,14 @@
 	(symbol
 		(lib_id "HD241:HD241")
 		(at 78.74 69.85 0)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3aca073-c4ac-4a57-9d05-fbb74d062cd0")
-		(property "Reference" "J1"
+		(property "Reference" "J?"
 			(at 83.185 67.691 0)
 			(effects
 				(font
@@ -2524,7 +2524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5a5bb6b-4c1c-4fa7-a935-dbdcf39c3eab")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR?"
 			(at 160.02 116.84 0)
 			(effects
 				(font
@@ -2589,14 +2589,14 @@
 	(symbol
 		(lib_id "HD241:HD241")
 		(at 105.41 69.85 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb50c274-d4ac-45d6-9642-19096c26e4c4")
-		(property "Reference" "J1"
+		(property "Reference" "J?"
 			(at 109.855 67.183 0)
 			(effects
 				(font
@@ -2735,7 +2735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb6fbae1-c3d2-4364-9064-d5618929c3ba")
-		(property "Reference" "J1"
+		(property "Reference" "J?"
 			(at 136.525 67.31 0)
 			(effects
 				(font
@@ -2874,7 +2874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cece59fc-d35b-45e2-a62c-259f12c637f6")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR?"
 			(at 143.51 96.52 0)
 			(effects
 				(font
@@ -2946,7 +2946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4dbf291-26ce-425d-adf4-d78e18d153a8")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR?"
 			(at 116.84 76.2 0)
 			(effects
 				(font
@@ -3011,14 +3011,14 @@
 	(symbol
 		(lib_id "HD241:HD241")
 		(at 78.74 102.87 0)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f69bb66e-9b36-4c05-96fe-54e1139ef163")
-		(property "Reference" "J2"
+		(property "Reference" "J?"
 			(at 83.185 100.711 0)
 			(effects
 				(font
@@ -3157,7 +3157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff2667b5-67f6-4a51-8a44-1d0d59655b21")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR?"
 			(at 116.84 96.52 0)
 			(effects
 				(font
