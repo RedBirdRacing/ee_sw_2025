@@ -6266,7 +6266,7 @@
 			)
 		)
 	)
-	(global_label "AMS_CANH_1"
+	(global_label "AMS_CANH_3"
 		(shape input)
 		(at 171.45 256.54 180)
 		(fields_autoplaced yes)
@@ -6395,28 +6395,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AMS_CANH_2"
-		(shape input)
-		(at 171.45 264.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "53b4d3ec-240b-417a-a1f6-2b2d0cf0f578")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.5467 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6991,28 +6969,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AMS_CANL_2"
-		(shape input)
-		(at 171.45 266.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa2d9263-b5c6-4218-98f7-2de553027de4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.97 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7747,7 +7703,7 @@
 			)
 		)
 	)
-	(global_label "AMS_CANL_1"
+	(global_label "AMS_CANL_3"
 		(shape input)
 		(at 171.45 259.08 180)
 		(fields_autoplaced yes)
