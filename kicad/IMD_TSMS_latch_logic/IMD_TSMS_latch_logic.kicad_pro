@@ -527,7 +527,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./gerber_latch",
+      "plot": "gerber_output/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
