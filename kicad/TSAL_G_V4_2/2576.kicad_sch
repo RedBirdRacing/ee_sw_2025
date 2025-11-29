@@ -678,7 +678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0fe2e432-1574-46d7-9aba-25e21826c6f0")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR078"
 			(at 143.51 99.568 0)
 			(effects
 				(font
@@ -728,7 +728,7 @@
 		(instances
 			(project "TSAL_G_V4_2"
 				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/db8961bd-328e-467f-863e-9cb426b1ad53"
-					(reference "#PWR094")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -744,7 +744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c73bcfe-7ba2-4bd8-b40c-0485301ea975")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR079"
 			(at 154.178 102.616 0)
 			(effects
 				(font
@@ -794,7 +794,7 @@
 		(instances
 			(project "TSAL_G_V4_2"
 				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/db8961bd-328e-467f-863e-9cb426b1ad53"
-					(reference "#PWR095")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -809,7 +809,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91d1d532-614e-49fe-85a8-d12c0af33df5")
-		(property "Reference" "U18"
+		(property "Reference" "U16"
 			(at 154.178 88.9 0)
 			(effects
 				(font
@@ -866,7 +866,7 @@
 		(instances
 			(project ""
 				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/db8961bd-328e-467f-863e-9cb426b1ad53"
-					(reference "U18")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -881,7 +881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0c76eac-2c56-4f4f-9bb5-70fb9ee99202")
-		(property "Reference" "C25"
+		(property "Reference" "C21"
 			(at 134.874 96.52 0)
 			(effects
 				(font
@@ -890,7 +890,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.22uF"
+		(property "Value" "0.33uF"
 			(at 133.858 99.314 0)
 			(effects
 				(font
@@ -899,7 +899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:CP_Radial_D10.0mm_P5.00mm_F"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 144.4752 103.378 0)
 			(effects
 				(font
@@ -943,7 +943,7 @@
 		(instances
 			(project "TSAL_G_V4_2"
 				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/db8961bd-328e-467f-863e-9cb426b1ad53"
-					(reference "C25")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -958,7 +958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d519b972-a3f7-4c5a-a3df-c68e08c3a5f3")
-		(property "Reference" "C26"
+		(property "Reference" "C22"
 			(at 166.497 98.933 0)
 			(effects
 				(font
@@ -976,7 +976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:CP_Radial_D10.0mm_P5.00mm_F"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 164.2872 103.378 0)
 			(effects
 				(font
@@ -1020,7 +1020,7 @@
 		(instances
 			(project "TSAL_G_V4_2"
 				(path "/85dd7182-b71e-445a-95f4-dedd1af3b46e/db8961bd-328e-467f-863e-9cb426b1ad53"
-					(reference "C26")
+					(reference "C22")
 					(unit 1)
 				)
 			)
