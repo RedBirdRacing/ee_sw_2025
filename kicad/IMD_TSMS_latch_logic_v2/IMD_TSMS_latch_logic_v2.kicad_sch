@@ -3224,15 +3224,55 @@
 		)
 		(uuid f91289e8-ff8a-4998-b51a-abd4cc6c2c3b)
 	)
-	(text "12V LVB-> TSMS switch -> TSMS INPUT"
+	(text "reset only if button is pressed then released"
 		(exclude_from_sim no)
-		(at 304.038 40.64 0)
+		(at 294.64 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "0736b2ba-3be3-4eca-805d-861263e66493")
+		(uuid "290866af-13ec-43ae-b6e1-3a2bb3e0b42a")
+	)
+	(text "gives short pulse of high, if transition from High to Low"
+		(exclude_from_sim no)
+		(at 65.532 128.524 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "61c506f8-8db3-4716-8d9a-a17aa0f66bcc")
+	)
+	(text "gives short pulse of high, if transition from High to Low"
+		(exclude_from_sim no)
+		(at 319.278 168.148 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6a0690cb-8358-4ce9-b132-3caf8dccd336")
+	)
+	(text "latch if input is high"
+		(exclude_from_sim no)
+		(at 45.466 195.326 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8fb8af90-9ac2-42b6-9168-747a484c8375")
+	)
+	(text "latch if input is high"
+		(exclude_from_sim no)
+		(at 284.226 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "972ad5c5-7c45-4133-812a-a9561a621b3c")
 	)
 	(text "IMD OKHS low when error"
 		(exclude_from_sim no)
@@ -3253,6 +3293,36 @@
 			)
 		)
 		(uuid "b68b32a5-6cba-4375-8293-17f0b4f75b06")
+	)
+	(text "TSMS Latch"
+		(exclude_from_sim no)
+		(at 22.352 20.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bc5b91d2-6436-43b5-926b-c55784f13272")
+	)
+	(text "IMD Latch"
+		(exclude_from_sim no)
+		(at 223.52 20.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c97cc35a-fc1b-441c-8f15-c0a9e5d7d584")
+	)
+	(text "Reset by power cycle"
+		(exclude_from_sim no)
+		(at 54.61 223.266 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d682edc5-6be5-4719-8768-3698ea52bcf7")
 	)
 	(text "12V LVB-> TSMS switch -> TSMS INPUT"
 		(exclude_from_sim no)
