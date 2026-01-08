@@ -3532,6 +3532,26 @@
 		)
 		(uuid "290866af-13ec-43ae-b6e1-3a2bb3e0b42a")
 	)
+	(text "NC"
+		(exclude_from_sim no)
+		(at 240.284 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2e1401eb-dd5b-49c2-95ad-d71a6b406cec")
+	)
+	(text "NC"
+		(exclude_from_sim no)
+		(at 40.386 40.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "344cbaa3-b532-4605-b336-ff8a57ed4360")
+	)
 	(text "gives short pulse of high, if transition from High to Low"
 		(exclude_from_sim no)
 		(at 65.532 128.524 0)
@@ -3551,6 +3571,26 @@
 			)
 		)
 		(uuid "6a0690cb-8358-4ce9-b132-3caf8dccd336")
+	)
+	(text "NO"
+		(exclude_from_sim no)
+		(at 40.386 46.482 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70bd4cbc-15f5-404b-827c-25454ebb1152")
+	)
+	(text "NO"
+		(exclude_from_sim no)
+		(at 240.284 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7280b515-e9d8-4d9d-abde-982341d0b05d")
 	)
 	(text "latch if input is high"
 		(exclude_from_sim no)
