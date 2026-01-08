@@ -2860,6 +2860,304 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:AO3401A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3401A"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3401A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3401A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -3365,16 +3663,16 @@
 		(uuid "3afd5450-46ba-455b-8e61-704ff0b3ff25")
 	)
 	(junction
-		(at 356.87 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c11bdfa-ca26-473d-b5df-623779f7d581")
-	)
-	(junction
 		(at 101.6 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cfa7e3a-e62d-4922-bb73-cfd80f964b15")
+	)
+	(junction
+		(at 364.49 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ed8756a-da91-4c07-a5be-0f132f26ac0d")
 	)
 	(junction
 		(at 25.4 238.76)
@@ -3398,19 +3696,7 @@
 		(at 139.7 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "77185014-3d2e-4ce5-85d4-f6019de90d88")
-	)
-	(junction
-		(at 364.49 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "783aeb72-0071-4cd5-aeed-8e4edf6d1260")
-	)
-	(junction
-		(at 132.08 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b4c448c-36e8-4aad-b0ec-761c2e2172f9")
+		(uuid "8df0b225-fcde-4f98-a865-c92dfcf31bb6")
 	)
 	(junction
 		(at 304.8 191.77)
@@ -3449,6 +3735,12 @@
 		(uuid "affacd2d-2ba1-4b57-90ba-5f643ca55341")
 	)
 	(junction
+		(at 132.08 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b83bb91a-9a5f-48a4-8320-580544beb827")
+	)
+	(junction
 		(at 266.7 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3479,6 +3771,12 @@
 		(uuid "ef1274c7-80cb-4bfd-969d-08fd4d7b29fb")
 	)
 	(junction
+		(at 356.87 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0afa8f0-1cff-4d09-9d8e-ce1bff776e7d")
+	)
+	(junction
 		(at 360.68 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3497,12 +3795,12 @@
 		(uuid "f5df1189-3695-4536-8832-e97b652e01db")
 	)
 	(no_connect
-		(at 43.18 45.72)
-		(uuid "6a312b97-1096-46f5-ad39-1385544d8fc7")
+		(at 243.84 43.18)
+		(uuid "332d949f-87b6-4c9b-9635-7ed8f3ecbcf2")
 	)
 	(no_connect
-		(at 243.84 48.26)
-		(uuid "d81b64db-f6a1-461f-8291-7dd178131390")
+		(at 43.18 40.64)
+		(uuid "5aed9e49-654d-45a4-8468-8b07e27b0956")
 	)
 	(wire
 		(pts
@@ -3516,7 +3814,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 38.1) (xy 139.7 41.91)
+			(xy 156.21 71.12) (xy 156.21 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3646,6 +3944,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 72.39) (xy 156.21 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f016ad-8a93-4094-9b8f-c8439858e5dd")
+	)
+	(wire
+		(pts
 			(xy 66.04 67.31) (xy 69.85 67.31)
 		)
 		(stroke
@@ -3653,6 +3961,16 @@
 			(type default)
 		)
 		(uuid "294811b6-7bfe-4281-bff7-0b56db83522b")
+	)
+	(wire
+		(pts
+			(xy 364.49 64.77) (xy 382.27 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b646288-a72c-4315-8f1b-2e3522c99ffb")
 	)
 	(wire
 		(pts
@@ -3916,7 +4234,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 31.75) (xy 364.49 35.56)
+			(xy 382.27 60.96) (xy 382.27 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4166,6 +4484,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 60.96) (xy 139.7 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d03155-5774-4daa-93d4-7e62b008cc41")
+	)
+	(wire
+		(pts
 			(xy 248.92 138.43) (xy 248.92 142.24)
 		)
 		(stroke
@@ -4313,16 +4641,6 @@
 			(type default)
 		)
 		(uuid "d90e8bef-ea0d-4214-8e74-368825e7dbd4")
-	)
-	(wire
-		(pts
-			(xy 139.7 60.96) (xy 139.7 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daefbf8b-0ae4-49da-bd4f-a542e9edd7d5")
 	)
 	(wire
 		(pts
@@ -4476,7 +4794,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 53.34) (xy 364.49 52.07)
+			(xy 364.49 50.8) (xy 364.49 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4524,25 +4842,25 @@
 		)
 		(uuid "0119f0df-2d98-46ce-83bc-a4350ec35a4c")
 	)
-	(label "TSMS_output"
-		(at 43.18 40.64 0)
+	(label "TSMS_relay+"
+		(at 139.7 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "03988608-1537-4e90-bd55-aba4ac492e81")
+		(uuid "039b6ce7-106b-4888-8eac-33ad04d47707")
 	)
 	(label "SDC_out"
-		(at 223.52 33.02 0)
+		(at 223.52 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "1b52a054-cc60-403e-bdf5-2082f1c40ed2")
+		(uuid "083d690d-e690-4f73-92e9-b54bdc65e69d")
 	)
 	(label "IMD_relay+"
 		(at 285.75 55.88 0)
@@ -4553,6 +4871,26 @@
 			(justify left bottom)
 		)
 		(uuid "2242e241-cdd3-4f4b-ae46-2bf8fb19ee46")
+	)
+	(label "SDC_out"
+		(at 243.84 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2565f8a9-09a7-4275-8584-ca40e2e22661")
+	)
+	(label "TSMS_input"
+		(at 21.59 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2715daf6-9145-4978-9310-2d9ce9c2e0ad")
 	)
 	(label "IMD_KL15_PWR"
 		(at 283.21 97.79 0)
@@ -4596,16 +4934,6 @@
 		)
 		(uuid "676da969-8521-4147-9613-01f83be554d8")
 	)
-	(label "IMD_relay-"
-		(at 254 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "69ff4f86-2ff7-4d6c-a40d-e8b8f671f593")
-	)
 	(label "IMD_reset"
 		(at 311.15 210.82 0)
 		(effects
@@ -4626,6 +4954,26 @@
 		)
 		(uuid "7693b818-6cdf-4e1a-8f20-241a94bab022")
 	)
+	(label "IMD_relay+"
+		(at 364.49 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7af75152-bb7d-4cb3-b02c-cd7f1dd06c94")
+	)
+	(label "TSMS_output"
+		(at 21.59 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d308d1d-7ace-41c1-bbd9-b678c60599a6")
+	)
 	(label "IMD_KL15_PWR"
 		(at 246.38 100.33 0)
 		(effects
@@ -4635,6 +4983,16 @@
 			(justify left bottom)
 		)
 		(uuid "82b001cb-9780-4bab-bed2-f77f3993ce58")
+	)
+	(label "TSMS_output"
+		(at 43.18 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87975a9d-f987-4e73-a055-6394ca68b06a")
 	)
 	(label "TSMS_fall_edge_out"
 		(at 92.71 105.41 0)
@@ -4658,26 +5016,6 @@
 		)
 		(uuid "8bab3f7a-7f71-40ec-9510-c77416c98389")
 	)
-	(label "SDC_out"
-		(at 243.84 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d7cbd28-2d69-4a4c-9856-0f2008a99152")
-	)
-	(label "SDC_in"
-		(at 223.52 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "92cd6830-d65d-4979-a0ce-07e9472199ae")
-	)
 	(label "TSMS_input"
 		(at 21.59 105.41 0)
 		(effects
@@ -4688,25 +5026,15 @@
 		)
 		(uuid "94230bb9-bf82-4ad6-94ff-93c135558bbb")
 	)
-	(label "TSMS_relay+"
-		(at 85.09 53.34 0)
+	(label "SDC_in"
+		(at 223.52 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a13103ae-7170-4cc6-b3c4-ab84db3be6f1")
-	)
-	(label "TSMS_relay+"
-		(at 139.7 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a42f22b4-d184-48df-8a4b-4caadd6d1118")
+		(uuid "9dd79edf-9993-4b54-b93d-35035703a1ef")
 	)
 	(label "SDC_in"
 		(at 284.48 45.72 0)
@@ -4758,46 +5086,6 @@
 		)
 		(uuid "b2d8ac42-7fb7-45d6-8ea8-158de7ecadec")
 	)
-	(label "TSMS_relay-"
-		(at 139.7 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b429335b-3fd9-438e-ba20-f13ca6d301c2")
-	)
-	(label "IMD_relay+"
-		(at 364.49 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b6ba9dc4-63e5-4b12-911d-4cbc58e4d260")
-	)
-	(label "IMD_relay-"
-		(at 364.49 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b83151d2-6963-485c-b5e6-c1451d173793")
-	)
-	(label "TSMS_output"
-		(at 21.59 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "be6a9047-5162-4363-808d-525052af7b6b")
-	)
 	(label "TSMS_fall_edge_out"
 		(at 19.05 191.77 0)
 		(effects
@@ -4830,6 +5118,16 @@
 		)
 		(uuid "c66009ac-f586-41ff-8768-c7fc88e4681d")
 	)
+	(label "TSMS_relay+"
+		(at 53.34 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c74b9d0c-1111-45a6-8441-d2e127d35887")
+	)
 	(label "IMD_reset_btn_input"
 		(at 228.6 152.4 0)
 		(effects
@@ -4849,16 +5147,6 @@
 			(justify left bottom)
 		)
 		(uuid "dc1d529b-014b-453d-b151-919f3eb8adc8")
-	)
-	(label "TSMS_input"
-		(at 21.59 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dde354dc-4482-4d27-afc0-758d9fa58cd4")
 	)
 	(label "TSMS_input"
 		(at 83.82 43.18 0)
@@ -4889,16 +5177,6 @@
 			(justify left bottom)
 		)
 		(uuid "f980d162-fb88-475b-baa2-b9fffe9a5c8d")
-	)
-	(label "TSMS_relay-"
-		(at 53.34 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fbefa4be-0459-4d07-b4c7-f110817f1b70")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4981,7 +5259,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 364.49 64.77 0)
+		(at 254 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4990,7 +5268,7 @@
 		(fields_autoplaced yes)
 		(uuid "01f17e4c-5299-4a17-af24-fc06c7143bd5")
 		(property "Reference" "#PWR049"
-			(at 364.49 71.12 0)
+			(at 254 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4999,7 +5277,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 364.49 69.85 0)
+			(at 254 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5008,7 +5286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 364.49 64.77 0)
+			(at 254 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,7 +5295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 364.49 64.77 0)
+			(at 254 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,7 +5304,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 364.49 64.77 0)
+			(at 254 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6184,7 +6462,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 73.66 67.31 180)
+		(at 73.66 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6481,7 +6759,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 139.7 38.1 0)
+		(at 156.21 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6490,7 +6768,7 @@
 		(fields_autoplaced yes)
 		(uuid "3aae158a-b242-4974-8e4f-9c9594add63c")
 		(property "Reference" "#PWR046"
-			(at 139.7 41.91 0)
+			(at 156.21 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6499,7 +6777,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 139.7 33.02 0)
+			(at 156.21 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6507,7 +6785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 38.1 0)
+			(at 156.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6516,7 +6794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 38.1 0)
+			(at 156.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6525,7 +6803,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 139.7 38.1 0)
+			(at 156.21 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,7 +7533,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 72.39 0)
+		(at 85.09 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7264,7 +7542,7 @@
 		(fields_autoplaced yes)
 		(uuid "516ab345-5512-455a-8c05-c8c5d8f3c05a")
 		(property "Reference" "#PWR047"
-			(at 139.7 78.74 0)
+			(at 85.09 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7273,7 +7551,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 77.47 0)
+			(at 85.09 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7282,7 +7560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 72.39 0)
+			(at 85.09 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7291,7 +7569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 72.39 0)
+			(at 85.09 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7300,7 +7578,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 72.39 0)
+			(at 85.09 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,82 +7663,6 @@
 			(project ""
 				(path "/84afc6ea-ec4a-4369-9b74-38ac3b8aa9ce"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 361.95 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54a1268f-396a-4769-8b73-3093db3ad1f2")
-		(property "Reference" "Q8"
-			(at 368.3 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 368.3 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 367.03 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 367.03 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 361.95 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1cbc8046-67ea-4295-9f9e-d10cfff2e1ee")
-		)
-		(pin "1"
-			(uuid "112e9654-fff4-4f62-a2e0-ade0a25c7d2c")
-		)
-		(pin "3"
-			(uuid "a50d821b-4112-41bd-9279-d92dd18f600a")
-		)
-		(instances
-			(project "IMD_TSMS_latch_logic_v2"
-				(path "/84afc6ea-ec4a-4369-9b74-38ac3b8aa9ce"
-					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -8888,7 +9090,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 364.49 31.75 0)
+		(at 382.27 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8897,7 +9099,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d31704c-9c07-43d7-b617-b083c980fed9")
 		(property "Reference" "#PWR048"
-			(at 364.49 35.56 0)
+			(at 382.27 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8906,7 +9108,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 364.49 26.67 0)
+			(at 382.27 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8914,7 +9116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 364.49 31.75 0)
+			(at 382.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8923,7 +9125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 364.49 31.75 0)
+			(at 382.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8932,7 +9134,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 364.49 31.75 0)
+			(at 382.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9474,6 +9676,82 @@
 			(project ""
 				(path "/84afc6ea-ec4a-4369-9b74-38ac3b8aa9ce"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 137.16 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9cbb9b4-a8d8-449e-af39-ce18fa7691c6")
+		(property "Reference" "Q4"
+			(at 143.51 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 143.51 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 142.24 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 137.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f31938a-a0b7-4cf0-9d08-67b6c04624b7")
+		)
+		(pin "1"
+			(uuid "556a5e57-a277-4af7-ada4-1659b0bf16f4")
+		)
+		(pin "3"
+			(uuid "ab87165d-2314-4915-83f9-556105ac2144")
+		)
+		(instances
+			(project ""
+				(path "/84afc6ea-ec4a-4369-9b74-38ac3b8aa9ce"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -10193,82 +10471,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 137.16 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6497b1f-bbf7-4511-bb0d-7804265a4524")
-		(property "Reference" "Q7"
-			(at 143.51 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 143.51 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 142.24 66.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 142.24 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 137.16 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "01b33b23-2401-4c7d-a160-37263e1c30c9")
-		)
-		(pin "1"
-			(uuid "fd0df8fa-8568-4898-a983-8fd27beb2b5b")
-		)
-		(pin "3"
-			(uuid "657ed864-2a34-449c-8bb4-08dcd0a750ff")
-		)
-		(instances
-			(project "IMD_TSMS_latch_logic_v2"
-				(path "/84afc6ea-ec4a-4369-9b74-38ac3b8aa9ce"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 260.35 100.33 0)
 		(unit 1)
@@ -10333,6 +10535,82 @@
 			(project ""
 				(path "/84afc6ea-ec4a-4369-9b74-38ac3b8aa9ce"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 361.95 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8edb292-91b3-4803-91f7-4f32f446b955")
+		(property "Reference" "Q7"
+			(at 368.3 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 368.3 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 367.03 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 367.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 361.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8efa32e0-520a-4bc2-a021-e13cb1388a65")
+		)
+		(pin "1"
+			(uuid "e394388b-093f-476e-a03f-15af779bff38")
+		)
+		(pin "3"
+			(uuid "bdd2e699-4931-4591-9d55-0ea4eb7021ad")
+		)
+		(instances
+			(project ""
+				(path "/84afc6ea-ec4a-4369-9b74-38ac3b8aa9ce"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
