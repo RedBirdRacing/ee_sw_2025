@@ -5812,7 +5812,7 @@
 		(descr "Molex Micro-Fit 3.0 Connector System, 43650-0215 (compatible alternatives: 43650-0216, 43650-0217), 2 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Micro-Fit_3.0 vertical")
 		(property "Reference" "J2"
-			(at 1.5 -3.67 90)
+			(at 1.5 2.7518 90)
 			(layer "F.SilkS")
 			(uuid "36b044b6-9468-41d8-8e54-04cdc4120c0e")
 			(effects
@@ -16434,6 +16434,78 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "0ba87222-a20a-48e9-afc7-4b3212987ac4")
+	)
+	(gr_text "GND"
+		(at 180.467 71.5518 90)
+		(layer "B.SilkS")
+		(uuid "02d14857-2dd4-4492-a79d-ac0f7162d725")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SIG1"
+		(at 180.4162 83.4898 90)
+		(layer "B.SilkS")
+		(uuid "205ae26b-ed3a-48f7-a1d2-775c7d0289db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "12V"
+		(at 180.4924 75.3872 90)
+		(layer "B.SilkS")
+		(uuid "7c6b288f-ed31-4935-a931-79c1ea1ac0dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SC1"
+		(at 180.6194 96.6216 90)
+		(layer "B.SilkS")
+		(uuid "a09d4d58-46c8-4451-830d-36689c16d5c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SIG2"
+		(at 180.4162 87.5538 90)
+		(layer "B.SilkS")
+		(uuid "da769089-5712-4624-a05e-9794480becc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SC2"
+		(at 180.6448 100.0252 90)
+		(layer "B.SilkS")
+		(uuid "e5d21dad-f7d8-4600-a6d0-d3c217e91ea8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(via
 		(at 177.419 43.9166)
